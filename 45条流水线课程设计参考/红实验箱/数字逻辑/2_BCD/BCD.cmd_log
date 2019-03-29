@@ -1,0 +1,23 @@
+xst -intstyle ise -ifn "D:/Users/BCD/BCD.xst" -ofn "D:/Users/BCD/BCD.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BCD.ucf -p xc6slx150-fgg484-3 BCD.ngc BCD.ngd  
+map -intstyle ise -p xc6slx150-fgg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o BCD_map.ncd BCD.ngd BCD.pcf 
+par -w -intstyle ise -ol high -mt off BCD_map.ncd BCD.ncd BCD.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml BCD.twx BCD.ncd -o BCD.twr BCD.pcf -ucf BCD.ucf 
+xst -intstyle ise -ifn "D:/Users/BCD/BCD.xst" -ofn "D:/Users/BCD/BCD.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BCD.ucf -p xc6slx150-fgg484-3 BCD.ngc BCD.ngd  
+map -intstyle ise -p xc6slx150-fgg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o BCD_map.ncd BCD.ngd BCD.pcf 
+par -w -intstyle ise -ol high -mt off BCD_map.ncd BCD.ncd BCD.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml BCD.twx BCD.ncd -o BCD.twr BCD.pcf -ucf BCD.ucf 
+bitgen -intstyle ise -f BCD.ut BCD.ncd 
+xst -intstyle ise -ifn "D:/Users/BCD/BCD.xst" -ofn "D:/Users/BCD/BCD.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BCD.ucf -p xc6slx150-fgg484-3 BCD.ngc BCD.ngd  
+map -intstyle ise -p xc6slx150-fgg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o BCD_map.ncd BCD.ngd BCD.pcf 
+par -w -intstyle ise -ol high -mt off BCD_map.ncd BCD.ncd BCD.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml BCD.twx BCD.ncd -o BCD.twr BCD.pcf -ucf BCD.ucf 
+bitgen -intstyle ise -f BCD.ut BCD.ncd 
+xst -intstyle ise -ifn "D:/Users/BCD/BCD.xst" -ofn "D:/Users/BCD/BCD.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BCD.ucf -p xc6slx150-fgg484-3 BCD.ngc BCD.ngd  
+map -intstyle ise -p xc6slx150-fgg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o BCD_map.ncd BCD.ngd BCD.pcf 
+par -w -intstyle ise -ol high -mt off BCD_map.ncd BCD.ncd BCD.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml BCD.twx BCD.ncd -o BCD.twr BCD.pcf -ucf BCD.ucf 
+bitgen -intstyle ise -f BCD.ut BCD.ncd 

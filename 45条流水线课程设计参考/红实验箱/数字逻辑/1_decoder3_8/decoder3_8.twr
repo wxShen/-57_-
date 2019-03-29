@@ -1,0 +1,76 @@
+--------------------------------------------------------------------------------
+Release 14.3 Trace  (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+f:\Xilinx\14.3\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 3
+-n 3 -fastpaths -xml decoder3_8.twx decoder3_8.ncd -o decoder3_8.twr
+decoder3_8.pcf -ucf decoder3_8.ucf
+
+Design file:              decoder3_8.ncd
+Physical constraint file: decoder3_8.pcf
+Device,package,speed:     xc6slx150,fgg484,C,-3 (PRODUCTION 1.23 2012-10-12)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+Sw1_A0         |LED1_Y2        |   13.659|
+Sw1_A0         |LED2_Y1        |   14.482|
+Sw1_A0         |LED3_Y0        |   14.082|
+Sw1_A0         |LED9_Y7        |   13.733|
+Sw1_A0         |LED10_Y6       |   13.786|
+Sw1_A0         |LED11_Y5       |   15.823|
+Sw1_A0         |LED12_Y4       |   15.595|
+Sw1_A0         |LED13_Y3       |   15.685|
+Sw2_A1         |LED1_Y2        |   13.500|
+Sw2_A1         |LED2_Y1        |   14.356|
+Sw2_A1         |LED3_Y0        |   13.632|
+Sw2_A1         |LED9_Y7        |   13.283|
+Sw2_A1         |LED10_Y6       |   13.627|
+Sw2_A1         |LED11_Y5       |   15.662|
+Sw2_A1         |LED12_Y4       |   15.434|
+Sw2_A1         |LED13_Y3       |   15.559|
+Sw3_A2         |LED1_Y2        |   13.139|
+Sw3_A2         |LED2_Y1        |   14.440|
+Sw3_A2         |LED3_Y0        |   13.488|
+Sw3_A2         |LED9_Y7        |   13.139|
+Sw3_A2         |LED10_Y6       |   13.266|
+Sw3_A2         |LED11_Y5       |   15.664|
+Sw3_A2         |LED12_Y4       |   15.436|
+Sw3_A2         |LED13_Y3       |   15.643|
+---------------+---------------+---------+
+
+
+Analysis completed Tue Jan 12 21:26:45 2016 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 396 MB
+
+
+

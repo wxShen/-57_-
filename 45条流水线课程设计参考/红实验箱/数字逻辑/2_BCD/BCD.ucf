@@ -1,0 +1,17 @@
+//U9
+NET "bcd_num<3>" LOC = "P2";//FPGA_SW3
+NET "bcd_num<2>" LOC = "R1";//FPGA_SW2
+NET "bcd_num<1>" LOC = "T1";//FPGA_SW1
+NET "bcd_num<0>" LOC = "T2";//FPGA_SW0
+//U20选择FPGA_NUM1 7段数码管的扫描位
+NET "num1_scan_select<1>" LOC = "F5";//FPGA_NUM_CSn4
+NET "num1_scan_select<0>" LOC = "C4";//FPGA_NUM_CSn5
+
+NET "num1_seg7<7>" LOC = "E3"; # FPGA_NUM1_DP
+NET "num1_seg7<6>" LOC = "D3"; # FPGA_NUM1_A
+NET "num1_seg7<5>" LOC = "E4"; # FPGA_NUM1_B
+NET "num1_seg7<4>" LOC = "E5"; # FPGA_NUM1_C
+NET "num1_seg7<3>" LOC = "D5"; # FPGA_NUM1_D
+NET "num1_seg7<2>" LOC = "E6"; # FPGA_NUM1_E
+NET "num1_seg7<1>" LOC = "C3"; # FPGA_NUM1_F
+NET "num1_seg7<0>" LOC = "F3"; # FPGA_NUM1_G

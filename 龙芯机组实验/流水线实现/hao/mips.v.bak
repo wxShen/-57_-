@@ -1,0 +1,48 @@
+module mips(clk,rst);
+
+input clk,rst;
+wire[31:0] din,dout,dout2,dout3;
+wire [31:0] instr,instr2,busA,busB,busW,result,result1,result2;
+wire [31:0] busA2,busB2,busB3,outResult1,outResult2;
+wire [5:0] opcode,func,opcode2,func2;
+wire [15:0] immi,immi2;
+wire [4:0] rs,rt,rd,rs2,rt2,rd2,rw,rw2,rw3,Di;
+wire [2:0] ALUc,ALUc2;
+wire [1:0] ForwardA,ForwardB;
+wire RegWr,RegDst,jump,extop,ALUSrc,MemWr,MemtoReg,zero,ctr_branch,ctr_bubble;
+wire RegWr2,RegDst2,extop2,ALUSrc2,MemWr2,MemtoReg2,zero2;
+wire RegWr3,MemWr3,MemtoReg3;
+wire RegWr4,MemtoReg4,ENwr,IF_ID_rst;
+wire[31:0] instr_jump,instr_branch;
+
+PC pc(clk,rst,ENwr,din,dout);
+
+IF ifetch(clk,rst,ENwr,dout,instr_branch,instr_jump,ctr_branch,jump,dout2,instr,din);
+
+IF_ID if_id(dout2,instr,dout3,instr2,clk,IF_ID_rst,ENwr);
+
+ID id(clk,IF_ID_rst,dout3,
+		instr2,busW,Di,busA,busB,opcode,func,immi,rs,rt,rd,ALUc,RegWr,RegDst,extop,ALUSrc,MemWr,MemtoReg,
+		instr_jump,instr_branch,ctr_branch,jump,RegWr4,
+		MemtoReg2,MemtoReg3,rt2,result,rw,rw2,ENwr,ctr_bubble);
+
+ID_EX id_ex(clk,rst,ctr_bubble,
+		busA,busB,opcode,func,immi,rs,rt,rd,ALUc,RegDst,extop,ALUSrc,MemWr,MemtoReg,RegWr,
+		busA2,busB2,opcode2,func2,immi2,rs2,rt2,rd2,ALUc2,RegDst2,extop2,ALUSrc2,MemWr2,MemtoReg2,RegWr2);
+
+EX ex(clk,rst,busA2,busB2,opcode2,func2,immi2,rs2,rt2,rd2,ALUc2,RegDst2,extop2,ALUSrc2,MemWr2,MemtoReg2,
+	result1,busW,ForwardA,ForwardB,zero,result,rw);
+
+ForwardUnit forwardunit(rs2,rt2,rw2,rw3,RegWr3,RegWr4,ForwardA,ForwardB,ALUSrc2);
+
+EX_MEM ex_mem(clk,rst,
+		busB2,RegWr2,MemWr2,MemtoReg2,zero,rw,result,
+		busB3,RegWr3,MemWr3,MemtoReg3,zero2,rw2,result1);
+
+MEM mem(clk,rst,busB3,MemWr3,MemtoReg3,zero2,rw2,result1,result2,rw3,busW);
+
+MEM_WR mem_wr(clk,rst,result1,result2,RegWr3,RegWr4,outResult1,outResult2,MemtoReg3,MemtoReg4,rw2,rw3);
+
+WR wr(clk,rst,outResult1,outResult2,MemtoReg4,rw3,Di,busW);
+
+endmodule

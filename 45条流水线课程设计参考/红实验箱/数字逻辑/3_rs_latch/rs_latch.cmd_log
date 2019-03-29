@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "D:/Users/rs_latch/rs_latch.xst" -ofn "D:/Users/rs_latch/rs_latch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc rs_latch.ucf -p xc6slx150-fgg484-3 rs_latch.ngc rs_latch.ngd  
+map -intstyle ise -p xc6slx150-fgg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o rs_latch_map.ncd rs_latch.ngd rs_latch.pcf 
+par -w -intstyle ise -ol high -mt off rs_latch_map.ncd rs_latch.ncd rs_latch.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml rs_latch.twx rs_latch.ncd -o rs_latch.twr rs_latch.pcf -ucf rs_latch.ucf 
+bitgen -intstyle ise -f rs_latch.ut rs_latch.ncd 

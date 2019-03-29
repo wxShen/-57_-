@@ -1,0 +1,15 @@
+`include "mux2.v"
+module NPC(instr,immi,branch,jump,zero,pc,npc);
+	input[15:0] immi;
+	input[31:0] instr;
+	input branch, jump, zero;
+	input [31:0] pc; 
+	output [31:0] npc;
+	wire [31:0] pc_plus_4, pc_branch,pc_jump,pc_temp;		
+	assign pc_plus_4 = pc + 4;
+	assign pc_branch = pc_plus_4 + 
+				{{14{immi[15]}}, immi, 2'b00};
+  	assign pc_jump = {pc[31:28],instr[25:0],2'b00};
+	mux2 MUX_branch (.d0(pc_plus_4), .d1(pc_branch), .s(zero & branch), .y(pc_temp) );		
+	mux2 MUX_jump(.d0(pc_temp), .d1(pc_jump), .s(jump), .y(npc));
+endmodule

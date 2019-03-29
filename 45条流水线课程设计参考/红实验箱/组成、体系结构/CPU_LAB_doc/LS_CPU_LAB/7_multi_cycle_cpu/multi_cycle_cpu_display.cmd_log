@@ -1,0 +1,43 @@
+xst -intstyle ise -ifn "F:/LS_CPU_LAB/7_multi_cycle_cpu/multi_cycle_cpu_display.xst" -ofn "F:/LS_CPU_LAB/7_multi_cycle_cpu/multi_cycle_cpu_display.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc multi_cycle_cpu.ucf -p xc6slx150-fgg484-3 multi_cycle_cpu_display.ngc multi_cycle_cpu_display.ngd  
+map -intstyle ise -p xc6slx150-fgg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o multi_cycle_cpu_display_map.ncd multi_cycle_cpu_display.ngd multi_cycle_cpu_display.pcf 
+par -w -intstyle ise -ol high -mt off multi_cycle_cpu_display_map.ncd multi_cycle_cpu_display.ncd multi_cycle_cpu_display.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml multi_cycle_cpu_display.twx multi_cycle_cpu_display.ncd -o multi_cycle_cpu_display.twr multi_cycle_cpu_display.pcf -ucf multi_cycle_cpu.ucf 
+bitgen -intstyle ise -f multi_cycle_cpu_display.ut multi_cycle_cpu_display.ncd 
+xst -intstyle ise -ifn "F:/LS_CPU_LAB/7_multi_cycle_cpu/multi_cycle_cpu_display.xst" -ofn "F:/LS_CPU_LAB/7_multi_cycle_cpu/multi_cycle_cpu_display.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc multi_cycle_cpu.ucf -p xc6slx150-fgg484-3 multi_cycle_cpu_display.ngc multi_cycle_cpu_display.ngd  
+map -intstyle ise -p xc6slx150-fgg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o multi_cycle_cpu_display_map.ncd multi_cycle_cpu_display.ngd multi_cycle_cpu_display.pcf 
+par -w -intstyle ise -ol high -mt off multi_cycle_cpu_display_map.ncd multi_cycle_cpu_display.ncd multi_cycle_cpu_display.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml multi_cycle_cpu_display.twx multi_cycle_cpu_display.ncd -o multi_cycle_cpu_display.twr multi_cycle_cpu_display.pcf -ucf multi_cycle_cpu.ucf 
+bitgen -intstyle ise -f multi_cycle_cpu_display.ut multi_cycle_cpu_display.ncd 
+xst -intstyle ise -ifn "F:/LS_CPU_LAB/7_multi_cycle_cpu/multi_cycle_cpu_display.xst" -ofn "F:/LS_CPU_LAB/7_multi_cycle_cpu/multi_cycle_cpu_display.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc multi_cycle_cpu.ucf -p xc6slx150-fgg484-3 multi_cycle_cpu_display.ngc multi_cycle_cpu_display.ngd  
+map -intstyle ise -p xc6slx150-fgg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o multi_cycle_cpu_display_map.ncd multi_cycle_cpu_display.ngd multi_cycle_cpu_display.pcf 
+par -w -intstyle ise -ol high -mt off multi_cycle_cpu_display_map.ncd multi_cycle_cpu_display.ncd multi_cycle_cpu_display.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml multi_cycle_cpu_display.twx multi_cycle_cpu_display.ncd -o multi_cycle_cpu_display.twr multi_cycle_cpu_display.pcf -ucf multi_cycle_cpu.ucf 
+bitgen -intstyle ise -f multi_cycle_cpu_display.ut multi_cycle_cpu_display.ncd 
+xst -intstyle ise -ifn "F:/LS_CPU_LAB/7_multi_cycle_cpu/multi_cycle_cpu_display.xst" -ofn "F:/LS_CPU_LAB/7_multi_cycle_cpu/multi_cycle_cpu_display.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc multi_cycle_cpu.ucf -p xc6slx150-fgg484-3 multi_cycle_cpu_display.ngc multi_cycle_cpu_display.ngd  
+map -intstyle ise -p xc6slx150-fgg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o multi_cycle_cpu_display_map.ncd multi_cycle_cpu_display.ngd multi_cycle_cpu_display.pcf 
+par -w -intstyle ise -ol high -mt off multi_cycle_cpu_display_map.ncd multi_cycle_cpu_display.ncd multi_cycle_cpu_display.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml multi_cycle_cpu_display.twx multi_cycle_cpu_display.ncd -o multi_cycle_cpu_display.twr multi_cycle_cpu_display.pcf -ucf multi_cycle_cpu.ucf 
+bitgen -intstyle ise -f multi_cycle_cpu_display.ut multi_cycle_cpu_display.ncd 
+xst -intstyle ise -ifn "F:/LS_CPU_LAB/7_multi_cycle_cpu/multi_cycle_cpu_display.xst" -ofn "F:/LS_CPU_LAB/7_multi_cycle_cpu/multi_cycle_cpu_display.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc multi_cycle_cpu.ucf -p xc6slx150-fgg484-3 multi_cycle_cpu_display.ngc multi_cycle_cpu_display.ngd  
+map -intstyle ise -p xc6slx150-fgg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o multi_cycle_cpu_display_map.ncd multi_cycle_cpu_display.ngd multi_cycle_cpu_display.pcf 
+par -w -intstyle ise -ol high -mt off multi_cycle_cpu_display_map.ncd multi_cycle_cpu_display.ncd multi_cycle_cpu_display.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml multi_cycle_cpu_display.twx multi_cycle_cpu_display.ncd -o multi_cycle_cpu_display.twr multi_cycle_cpu_display.pcf -ucf multi_cycle_cpu.ucf 
+bitgen -intstyle ise -f multi_cycle_cpu_display.ut multi_cycle_cpu_display.ncd 
+xst -intstyle ise -ifn "F:/LS_CPU_LAB/7_multi_cycle_cpu/multi_cycle_cpu_display.xst" -ofn "F:/LS_CPU_LAB/7_multi_cycle_cpu/multi_cycle_cpu_display.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc multi_cycle_cpu.ucf -p xc6slx150-fgg484-3 multi_cycle_cpu_display.ngc multi_cycle_cpu_display.ngd  
+map -intstyle ise -p xc6slx150-fgg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o multi_cycle_cpu_display_map.ncd multi_cycle_cpu_display.ngd multi_cycle_cpu_display.pcf 
+par -w -intstyle ise -ol high -mt off multi_cycle_cpu_display_map.ncd multi_cycle_cpu_display.ncd multi_cycle_cpu_display.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml multi_cycle_cpu_display.twx multi_cycle_cpu_display.ncd -o multi_cycle_cpu_display.twr multi_cycle_cpu_display.pcf -ucf multi_cycle_cpu.ucf 
+bitgen -intstyle ise -f multi_cycle_cpu_display.ut multi_cycle_cpu_display.ncd 
+xst -intstyle ise -ifn "F:/LS_CPU_LAB/7_multi_cycle_cpu/multi_cycle_cpu_display.xst" -ofn "F:/LS_CPU_LAB/7_multi_cycle_cpu/multi_cycle_cpu_display.syr" 
+xst -intstyle ise -ifn "F:/LS_CPU_LAB/7_multi_cycle_cpu/multi_cycle_cpu_display.xst" -ofn "F:/LS_CPU_LAB/7_multi_cycle_cpu/multi_cycle_cpu_display.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc multi_cycle_cpu.ucf -p xc6slx150-fgg484-3 multi_cycle_cpu_display.ngc multi_cycle_cpu_display.ngd  
+map -intstyle ise -p xc6slx150-fgg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o multi_cycle_cpu_display_map.ncd multi_cycle_cpu_display.ngd multi_cycle_cpu_display.pcf 
+par -w -intstyle ise -ol high -mt off multi_cycle_cpu_display_map.ncd multi_cycle_cpu_display.ncd multi_cycle_cpu_display.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml multi_cycle_cpu_display.twx multi_cycle_cpu_display.ncd -o multi_cycle_cpu_display.twr multi_cycle_cpu_display.pcf -ucf multi_cycle_cpu.ucf 
+bitgen -intstyle ise -f multi_cycle_cpu_display.ut multi_cycle_cpu_display.ncd 

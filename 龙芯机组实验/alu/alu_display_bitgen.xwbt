@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\Longxin\alu\alu_display.ncd
+OUTFILE=D:\Longxin\alu\alu_display.bit
+FAMILY=Spartan6
+PART=xc6slx150-3fgg484
+WORKINGDIR=D:\Longxin\alu
+LICENSE=ISE
+USER_INFO=135256_15690819_173552794_661

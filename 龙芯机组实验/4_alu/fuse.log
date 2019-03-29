@@ -1,0 +1,20 @@
+Running: C:\Xilinx\13.2\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Users/CSLab/Desktop/4_alu/testbench_isim_beh.exe -prj C:/Users/CSLab/Desktop/4_alu/testbench_beh.prj work.testbench work.glbl 
+ISim O.61xd (signature 0x1cce1bb2)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file \"C:/Users/CSLab/Desktop/4_alu/adder.v\" into library work
+Analyzing Verilog file \"C:/Users/CSLab/Desktop/4_alu/alu.v\" into library work
+Analyzing Verilog file \"C:/Users/CSLab/Desktop/4_alu/testbench.v\" into library work
+Analyzing Verilog file \"C:/Xilinx/13.2/ISE_DS/ISE//verilog/src/glbl.v\" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module adder
+Compiling module alu
+Compiling module testbench
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Compiled 4 Verilog Units
+Built simulation executable C:/Users/CSLab/Desktop/4_alu/testbench_isim_beh.exe
+Fuse Memory Usage: 18824 KB
+Fuse CPU Usage: 171 ms

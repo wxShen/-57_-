@@ -1,0 +1,606 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/xiaoshen/Desktop/45pipe_line
+vAdder
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 >;HgmQm5`]zk<_dJWi6fQ2
+IQ:GL@BeZM@m`YF;N]H;5C0
+R0
+w1498737592
+8C:/Users/xiaoshen/Desktop/45pipe_line/Adder.v
+FC:/Users/xiaoshen/Desktop/45pipe_line/Adder.v
+L0 2
+Z2 OL;L;10.4;61
+!s108 1499001565.541000
+!s107 C:/Users/xiaoshen/Desktop/45pipe_line/Adder.v|
+!s90 -reportprogress|300|-work|work|C:/Users/xiaoshen/Desktop/45pipe_line/Adder.v|
+!i113 0
+Z3 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+n@adder
+vALU
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 `_T^BmRFD7mdbfgGi=1=A1
+I_UjQED^29CJ[Cl:3O0fIR0
+R0
+w1498969701
+8C:/Users/xiaoshen/Desktop/45pipe_line/ALU.v
+FC:/Users/xiaoshen/Desktop/45pipe_line/ALU.v
+L0 2
+R2
+!s108 1499001565.636000
+!s107 C:/Users/xiaoshen/Desktop/45pipe_line/ALU.v|
+!s90 -reportprogress|300|-work|work|C:/Users/xiaoshen/Desktop/45pipe_line/ALU.v|
+!i113 0
+R3
+n@a@l@u
+vDatapath
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 WAg3Mg1P^R=jZWHHzE88;3
+ImRooF^:En7SNUdV5g]]0f2
+R0
+w1498989101
+8C:/Users/xiaoshen/Desktop/45pipe_line/Datapath.v
+FC:/Users/xiaoshen/Desktop/45pipe_line/Datapath.v
+L0 1
+R2
+!s108 1499001565.711000
+!s107 C:/Users/xiaoshen/Desktop/45pipe_line/Datapath.v|
+!s90 -reportprogress|300|-work|work|C:/Users/xiaoshen/Desktop/45pipe_line/Datapath.v|
+!i113 0
+R3
+n@datapath
+vDecode
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 :kX1T>:@HzWh1YRC4ZzFo3
+IXK9KinbDzkV_XzF2JaI0L1
+R0
+w1498717331
+8C:/Users/xiaoshen/Desktop/45pipe_line/Decode.v
+FC:/Users/xiaoshen/Desktop/45pipe_line/Decode.v
+L0 1
+R2
+!s108 1499001565.790000
+!s107 C:/Users/xiaoshen/Desktop/45pipe_line/Decode.v|
+!s90 -reportprogress|300|-work|work|C:/Users/xiaoshen/Desktop/45pipe_line/Decode.v|
+!i113 0
+R3
+n@decode
+vdm_4k
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 >689mJa8<VHQIARJVQ_>e2
+IaUjTbJG38L2<gkD]<8D_K1
+R0
+w1498891866
+8C:/Users/xiaoshen/Desktop/45pipe_line/dm.v
+FC:/Users/xiaoshen/Desktop/45pipe_line/dm.v
+L0 1
+R2
+!s108 1499001565.861000
+!s107 C:/Users/xiaoshen/Desktop/45pipe_line/dm.v|
+!s90 -reportprogress|300|-work|work|C:/Users/xiaoshen/Desktop/45pipe_line/dm.v|
+!i113 0
+R3
+vEx_Mem_reg
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 RPS8ko9G3i=eeY6G:4cW60
+IDVL[A8lzfNFg2Hf2YS0UX0
+R0
+Z4 w1498892748
+8C:/Users/xiaoshen/Desktop/45pipe_line/Ex_Mem_reg.v
+FC:/Users/xiaoshen/Desktop/45pipe_line/Ex_Mem_reg.v
+L0 1
+R2
+!s108 1499001565.934000
+!s107 C:/Users/xiaoshen/Desktop/45pipe_line/Ex_Mem_reg.v|
+!s90 -reportprogress|300|-work|work|C:/Users/xiaoshen/Desktop/45pipe_line/Ex_Mem_reg.v|
+!i113 0
+R3
+n@ex_@mem_reg
+vExecUnit
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 _4PiF]KeBcE2`3U>7jZB;3
+I:l?i>V=cQL;a:Je>>>I8G3
+R0
+w1498913323
+8C:/Users/xiaoshen/Desktop/45pipe_line/ExecUnit.v
+FC:/Users/xiaoshen/Desktop/45pipe_line/ExecUnit.v
+L0 1
+R2
+!s108 1499001566.008000
+!s107 C:/Users/xiaoshen/Desktop/45pipe_line/ExecUnit.v|
+!s90 -reportprogress|300|-work|work|C:/Users/xiaoshen/Desktop/45pipe_line/ExecUnit.v|
+!i113 0
+R3
+n@exec@unit
+vExt
+Z5 !s110 1499001566
+!i10b 1
+!s100 :P`??EzcgQVnU6<XjzB9m0
+IT`oEUi5K[Wlk^g<6i7Ko:1
+R1
+R0
+Z6 w1496305438
+Z7 8C:/Users/xiaoshen/Desktop/45pipe_line/Ext.v
+Z8 FC:/Users/xiaoshen/Desktop/45pipe_line/Ext.v
+Z9 L0 20
+R2
+r1
+!s85 0
+31
+Z10 !s108 1499001566.088000
+Z11 !s107 C:/Users/xiaoshen/Desktop/45pipe_line/Ext.v|
+Z12 !s90 -reportprogress|300|-work|work|C:/Users/xiaoshen/Desktop/45pipe_line/Ext.v|
+!i113 0
+R3
+n@ext
+vext
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 YUJ<10TG<E82DffS60I_Z0
+I2kL?_2LjGljHZm95]z`F:2
+R0
+R6
+R7
+R8
+L0 52
+R2
+R10
+R11
+R12
+!i113 0
+R3
+vFrowardingUnit
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 6^E5aIZcCg0h<3BdNlTZ]1
+IM75AY?iHbfi_>i@_E>:DD3
+R0
+w1498986003
+8C:/Users/xiaoshen/Desktop/45pipe_line/FrowardingUnit.v
+FC:/Users/xiaoshen/Desktop/45pipe_line/FrowardingUnit.v
+L0 1
+R2
+!s108 1499001566.181000
+!s107 C:/Users/xiaoshen/Desktop/45pipe_line/FrowardingUnit.v|
+!s90 -reportprogress|300|-work|work|C:/Users/xiaoshen/Desktop/45pipe_line/FrowardingUnit.v|
+!i113 0
+R3
+n@frowarding@unit
+vId_ctrl
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 ?S1QVRkoF6KnhcS=O4TKE0
+IcmlMaNd`dZ0IoiDQBB@GH2
+R0
+w1498994950
+8C:/Users/xiaoshen/Desktop/45pipe_line/Id_ctrl.v
+FC:/Users/xiaoshen/Desktop/45pipe_line/Id_ctrl.v
+L0 1
+R2
+!s108 1499001566.269000
+!s107 C:/Users/xiaoshen/Desktop/45pipe_line/Id_ctrl.v|
+!s90 -reportprogress|300|-work|work|C:/Users/xiaoshen/Desktop/45pipe_line/Id_ctrl.v|
+!i113 0
+R3
+n@id_ctrl
+vID_EX_reg
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 jFS;L^HLTDO;olPflQ_BZ0
+I4LaLXK;U5hgnEHI0^7e6F1
+R0
+w1498892286
+8C:/Users/xiaoshen/Desktop/45pipe_line/ID_EX_reg.v
+FC:/Users/xiaoshen/Desktop/45pipe_line/ID_EX_reg.v
+L0 1
+R2
+!s108 1499001566.350000
+!s107 C:/Users/xiaoshen/Desktop/45pipe_line/ID_EX_reg.v|
+!s90 -reportprogress|300|-work|work|C:/Users/xiaoshen/Desktop/45pipe_line/ID_EX_reg.v|
+!i113 0
+R3
+n@i@d_@e@x_reg
+vIF_ID_reg
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 1K5fSani3HMmWbV:HKaL?1
+IL:KW31E:iL4mbDMKHZMIi0
+R0
+w1498999103
+8C:/Users/xiaoshen/Desktop/45pipe_line/IF_ID_reg.v
+FC:/Users/xiaoshen/Desktop/45pipe_line/IF_ID_reg.v
+L0 2
+R2
+!s108 1499001566.426000
+!s107 C:/Users/xiaoshen/Desktop/45pipe_line/IF_ID_reg.v|
+!s90 -reportprogress|300|-work|work|C:/Users/xiaoshen/Desktop/45pipe_line/IF_ID_reg.v|
+!i113 0
+R3
+n@i@f_@i@d_reg
+vim_4k
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 GEPWK897c]o7<^7ECT0Y_2
+I^^P4BEn[g21BRSCK6a]Ei2
+R0
+w1495386654
+8C:/Users/xiaoshen/Desktop/45pipe_line/im.v
+FC:/Users/xiaoshen/Desktop/45pipe_line/im.v
+L0 1
+R2
+!s108 1499001566.499000
+!s107 C:/Users/xiaoshen/Desktop/45pipe_line/im.v|
+!s90 -reportprogress|300|-work|work|C:/Users/xiaoshen/Desktop/45pipe_line/im.v|
+!i113 0
+R3
+vIUnit
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 SGXb9PodUeh]?=dOJ2A`;3
+IQEmBc`DJh=aJJ93ezRzN:1
+R0
+w1498019736
+8C:/Users/xiaoshen/Desktop/45pipe_line/IUnit.v
+FC:/Users/xiaoshen/Desktop/45pipe_line/IUnit.v
+L0 1
+R2
+!s108 1499001566.575000
+!s107 C:/Users/xiaoshen/Desktop/45pipe_line/IUnit.v|
+!s90 -reportprogress|300|-work|work|C:/Users/xiaoshen/Desktop/45pipe_line/IUnit.v|
+!i113 0
+R3
+n@i@unit
+vMem_Wr_reg
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 Loimk`_8QL^V[2:MGi08j3
+IP0]^Q3j^_6ZW=@;3khY6a2
+R0
+R4
+8C:/Users/xiaoshen/Desktop/45pipe_line/Mem_Wr_reg.v
+FC:/Users/xiaoshen/Desktop/45pipe_line/Mem_Wr_reg.v
+L0 1
+R2
+!s108 1499001566.650000
+!s107 C:/Users/xiaoshen/Desktop/45pipe_line/Mem_Wr_reg.v|
+!s90 -reportprogress|300|-work|work|C:/Users/xiaoshen/Desktop/45pipe_line/Mem_Wr_reg.v|
+!i113 0
+R3
+n@mem_@wr_reg
+vmultiply
+R5
+!i10b 1
+!s100 >6<g]BgBIB<bhOh=K5ak43
+I8F]gQoKH2Y:239dWKiXSC3
+R1
+R0
+w1498882711
+8C:/Users/xiaoshen/Desktop/45pipe_line/multiply.v
+FC:/Users/xiaoshen/Desktop/45pipe_line/multiply.v
+L0 8
+R2
+r1
+!s85 0
+31
+!s108 1499001566.726000
+!s107 C:/Users/xiaoshen/Desktop/45pipe_line/multiply.v|
+!s90 -reportprogress|300|-work|work|C:/Users/xiaoshen/Desktop/45pipe_line/multiply.v|
+!i113 0
+R3
+vMux_2_To_1
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 ?V`_z7cLc9f^9O7XQJYRQ3
+IG^F`5kOg?M]jNVdDk3WWV2
+R0
+Z13 w1498558650
+Z14 8C:/Users/xiaoshen/Desktop/45pipe_line/Mux.v
+Z15 FC:/Users/xiaoshen/Desktop/45pipe_line/Mux.v
+L0 1
+R2
+Z16 !s108 1499001566.836000
+Z17 !s107 C:/Users/xiaoshen/Desktop/45pipe_line/Mux.v|
+Z18 !s90 -reportprogress|300|-work|work|C:/Users/xiaoshen/Desktop/45pipe_line/Mux.v|
+!i113 0
+R3
+n@mux_2_@to_1
+vMux_2_To_1_Width
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 QBgdzkeJLPfgPGBJm5jM21
+Iz6CW8Q`9mIXgCo4bFjJIK3
+R0
+R13
+R14
+R15
+L0 10
+R2
+R16
+R17
+R18
+!i113 0
+R3
+n@mux_2_@to_1_@width
+vMux_4_To_1
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 >hn<DWIn]@2e6O=796TYQ1
+ImOMdmE7Y:Z?dlOof^IDX@2
+R0
+R13
+R14
+R15
+R9
+R2
+R16
+R17
+R18
+!i113 0
+R3
+n@mux_4_@to_1
+vNPC
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 01Jg[Tm6LLR4K=BZFST2=1
+IB^9>:QJEikOfDT_LAG1KU3
+R0
+w1499001748
+8C:/Users/xiaoshen/Desktop/45pipe_line/NPC.v
+FC:/Users/xiaoshen/Desktop/45pipe_line/NPC.v
+L0 2
+R2
+!s108 1499001766.117000
+!s107 C:/Users/xiaoshen/Desktop/45pipe_line/NPC.v|
+!s90 -reportprogress|300|-work|work|C:/Users/xiaoshen/Desktop/45pipe_line/NPC.v|
+!i113 0
+R3
+n@n@p@c
+vPC
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 ciE4d7MZ<YRfd7M9Q<LQD0
+IW1PH`9:^K?bOX<Jaf:6aL3
+R0
+w1498985077
+8C:/Users/xiaoshen/Desktop/45pipe_line/PC.v
+FC:/Users/xiaoshen/Desktop/45pipe_line/PC.v
+L0 4
+R2
+!s108 1499001566.977000
+!s107 C:/Users/xiaoshen/Desktop/45pipe_line/PC.v|
+!s90 -reportprogress|300|-work|work|C:/Users/xiaoshen/Desktop/45pipe_line/PC.v|
+!i113 0
+R3
+n@p@c
+vpipctrlHD_Unit
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 2h?NO4KJ2ImdQJFfkmjRO3
+ISG`HmN;OYJQgBDdzEk]j92
+R0
+w1499016384
+8C:/Users/xiaoshen/Desktop/45pipe_line/pipctrlHD_Unit.v
+FC:/Users/xiaoshen/Desktop/45pipe_line/pipctrlHD_Unit.v
+L0 1
+R2
+!s108 1499016406.589000
+!s107 C:/Users/xiaoshen/Desktop/45pipe_line/pipctrlHD_Unit.v|
+!s90 -reportprogress|300|-work|work|C:/Users/xiaoshen/Desktop/45pipe_line/pipctrlHD_Unit.v|
+!i113 0
+R3
+npipctrl@h@d_@unit
+vRegfile
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 95G4Mf9RYdL3z7Q>amR:C2
+I_4I?@fFE]2Z`K16]anUCi3
+R0
+w1498558576
+8C:/Users/xiaoshen/Desktop/45pipe_line/Regfile.v
+FC:/Users/xiaoshen/Desktop/45pipe_line/Regfile.v
+L0 1
+R2
+!s108 1499001567.112000
+!s107 C:/Users/xiaoshen/Desktop/45pipe_line/Regfile.v|
+!s90 -reportprogress|300|-work|work|C:/Users/xiaoshen/Desktop/45pipe_line/Regfile.v|
+!i113 0
+R3
+n@regfile
+vSign_Ext
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 6_4nFDLZ8?916M@4dRVAn1
+ILFUjgKiR_Ibjz<G6M@6[T2
+R0
+R6
+R7
+R8
+L0 2
+R2
+R10
+R11
+R12
+!i113 0
+R3
+n@sign_@ext
+vsign_extend
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 OY^L2W]N>Wl20ji_`zj2X0
+I^OR4>UmHQo1QF[m^`6:zh2
+R0
+R6
+R7
+R8
+L0 36
+R2
+R10
+R11
+R12
+!i113 0
+R3
+vtestbench
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 nWTAMPMo<ncdSQ@7RK>F`2
+IhR78>P`zaScmNO<2O7_QQ1
+R0
+w1497980026
+8C:/Users/xiaoshen/Desktop/45pipe_line/testbench.v
+FC:/Users/xiaoshen/Desktop/45pipe_line/testbench.v
+L0 1
+R2
+!s108 1499001567.191000
+!s107 C:/Users/xiaoshen/Desktop/45pipe_line/testbench.v|
+!s90 -reportprogress|300|-work|work|C:/Users/xiaoshen/Desktop/45pipe_line/testbench.v|
+!i113 0
+R3
+vWr
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 bAi<QD>BgE?]]feBQgEQl0
+IKaKIoX=Joh;]aCeJ2M1`B1
+R0
+w1498984588
+8C:/Users/xiaoshen/Desktop/45pipe_line/Wr.v
+FC:/Users/xiaoshen/Desktop/45pipe_line/Wr.v
+L0 2
+R2
+!s108 1499001567.272000
+!s107 C:/Users/xiaoshen/Desktop/45pipe_line/Wr.v|
+!s90 -reportprogress|300|-work|work|C:/Users/xiaoshen/Desktop/45pipe_line/Wr.v|
+!i113 0
+R3
+n@wr
+vZero_Ext
+R5
+!i10b 1
+!s100 O[d=J?ce>4;EJa@SRF]i;1
+I73@ZIf^nQTOo]>E4jd>6O3
+R1
+R0
+R6
+R7
+R8
+L0 11
+R2
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R3
+n@zero_@ext
+vzero_extend
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 i<`@<`5n?`=z0oQR<n4]n2
+IaeczcSS9BAGm5[Gag=Vn@3
+R0
+R6
+R7
+R8
+L0 44
+R2
+R10
+R11
+R12
+!i113 0
+R3

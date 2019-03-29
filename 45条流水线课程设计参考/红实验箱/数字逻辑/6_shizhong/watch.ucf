@@ -1,0 +1,36 @@
+NET "clk" LOC = "A11";   #FPGA_CLK_IN2, 33MHz
+NET "clk" CLOCK_DEDICATED_ROUTE=FALSE;
+# Connected to sp6 onBoard 7seg display
+NET "num0_seg7<6>" LOC = "J6"; # FPGA_NUM0_A
+NET "num0_seg7<5>" LOC = "K6"; # FPGA_NUM0_B
+NET "num0_seg7<4>" LOC = "H4"; # FPGA_NUM0_C
+NET "num0_seg7<3>" LOC = "G4"; # FPGA_NUM0_D
+NET "num0_seg7<2>" LOC = "G6"; # FPGA_NUM0_E
+NET "num0_seg7<1>" LOC = "H3"; # FPGA_NUM0_F
+NET "num0_seg7<0>" LOC = "M8"; # FPGA_NUM0_G
+
+NET "num1_seg7<6>" LOC = "D3"; # FPGA_NUM1_A
+NET "num1_seg7<5>" LOC = "E4"; # FPGA_NUM1_B
+NET "num1_seg7<4>" LOC = "E5"; # FPGA_NUM1_C
+NET "num1_seg7<3>" LOC = "D5"; # FPGA_NUM1_D
+NET "num1_seg7<2>" LOC = "E6"; # FPGA_NUM1_E
+NET "num1_seg7<1>" LOC = "C3"; # FPGA_NUM1_F
+NET "num1_seg7<0>" LOC = "F3"; # FPGA_NUM1_G
+
+NET "num0_scan_select<3>" LOC = "M5"; # FPGA_NUM_CSN0
+NET "num0_scan_select<2>" LOC = "M6"; # FPGA_NUM_CSN1
+NET "num0_scan_select<1>" LOC = "L4"; # FPGA_NUM_CSN2
+NET "num0_scan_select<0>" LOC = "G3"; # FPGA_NUM_CSN3
+NET "num1_scan_select<1>" LOC = "F5"; # FPGA_NUM_CSN4
+NET "num1_scan_select<0>" LOC = "C4"; # FPGA_NUM_CSN5
+
+# Pin assignment for SWs
+NET "reset" LOC = "U3";  # FPGA_RSTN_IN
+NET "reset" CLOCK_DEDICATED_ROUTE=FALSE;
+
+NET "set" LOC = "T2";  # FPGA_SW0
+NET "key_col1" LOC = "T4";  # FPGA_KEY_COL1
+NET "key_col2" LOC = "V3";  # FPGA_KEY_COL2
+NET "key_row2" LOC = "Y1";  # FPGA_KEY_ROW2
+NET "key_row3" LOC = "V2";  # FPGA_KEY_ROW3
+NET "key_row4" LOC = "W1";  # FPGA_KEY_ROW4

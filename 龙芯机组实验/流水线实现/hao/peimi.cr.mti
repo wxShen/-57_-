@@ -1,0 +1,7 @@
+C:/modeltech64_10.4/examples/alu.v {1 {vlog -work work -vopt -stats=none C:/modeltech64_10.4/examples/alu.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+
+} {} {}} C:/modeltech64_10.4/examples/testbench.v {1 {vlog -work work -vopt -stats=none C:/modeltech64_10.4/examples/testbench.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+
+} {} {}}

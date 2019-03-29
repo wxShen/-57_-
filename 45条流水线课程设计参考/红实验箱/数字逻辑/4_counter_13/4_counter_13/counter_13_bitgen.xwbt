@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=F:\4_counter_13\counter_13.ncd
+OUTFILE=F:\4_counter_13\counter_13.bit
+FAMILY=Spartan6
+PART=xc6slx150-3fgg484
+WORKINGDIR=F:\4_counter_13
+LICENSE=ISE
+USER_INFO=__0_0_0

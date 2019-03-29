@@ -1,0 +1,19 @@
+#ChipScope Pro Analyzer Project File, Version 3.0
+#Wed Jan 13 10:03:19 CST 2016
+device.0.configFileDir=D\:\\Users\\BCD
+device.0.configFilename=bcd.bit
+device.0.inserterCDCFileDir=D\:\\Users\\BCD
+device.0.inserterCDCFilename=
+deviceChain.deviceName0=XC6SLX150
+deviceChain.iRLength0=6
+deviceChain.name0=MyDevice0
+deviceIds=3401d093
+mdiAreaHeight=0.6989247311827957
+mdiAreaHeightLast=0.6989247311827957
+mdiCount=0
+navigatorHeight=0.17876344086021506
+navigatorHeightLast=0.17876344086021506
+navigatorWidth=0.1794871794871795
+navigatorWidthLast=0.1794871794871795
+signalDisplayPath=0
+unit.-1.-1.username=

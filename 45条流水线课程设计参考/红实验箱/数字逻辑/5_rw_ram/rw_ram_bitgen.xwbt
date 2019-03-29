@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\Users\rw_ram\rw_ram.ncd
+OUTFILE=D:\Users\rw_ram\rw_ram.bit
+FAMILY=Spartan6
+PART=xc6slx150-3fgg484
+WORKINGDIR=D:\Users\rw_ram
+LICENSE=ISE
+USER_INFO=__0_0_0

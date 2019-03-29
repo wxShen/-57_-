@@ -1,0 +1,95 @@
+C:/Users/clive/Desktop/Clive/alu.v {1 {vlog -work work -vopt -stats=none C:/Users/clive/Desktop/Clive/alu.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module mux2
+-- Compiling module ALU
+-- Compiling module signext
+-- Compiling module addu
+-- Compiling module ori
+-- Compiling module slt
+
+Top level modules:
+	ALU
+
+} {} {}} C:/Users/clive/Desktop/Clive/pc.v {1 {vlog -work work -vopt -stats=none C:/Users/clive/Desktop/Clive/pc.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module PC
+
+Top level modules:
+	PC
+
+} {} {}} C:/Users/clive/Desktop/Clive/mux2.v {1 {vlog -work work -vopt -stats=none C:/Users/clive/Desktop/Clive/mux2.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module mux2
+
+Top level modules:
+	mux2
+
+} {} {}} C:/Users/clive/Desktop/Clive/regfile.v {1 {vlog -work work -vopt -stats=none C:/Users/clive/Desktop/Clive/regfile.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module regfile
+
+Top level modules:
+	regfile
+
+} {} {}} C:/Users/clive/Desktop/Clive/datapath.v {1 {vlog -work work -vopt -stats=none C:/Users/clive/Desktop/Clive/datapath.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module datapath
+
+Top level modules:
+	datapath
+
+} {} {}} C:/Users/clive/Desktop/Clive/testbench.v {1 {vlog -work work -vopt -stats=none C:/Users/clive/Desktop/Clive/testbench.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module testbench
+
+Top level modules:
+	testbench
+
+} {} {}} C:/Users/clive/Desktop/Clive/extop.v {1 {vlog -work work -vopt -stats=none C:/Users/clive/Desktop/Clive/extop.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module SignExt
+
+Top level modules:
+	SignExt
+
+} {} {}} C:/Users/clive/Desktop/Clive/ALUctr.v {1 {vlog -work work -vopt -stats=none C:/Users/clive/Desktop/Clive/ALUctr.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module mux2
+-- Compiling module ALUctr
+
+Top level modules:
+	ALUctr
+
+} {} {}} C:/Users/clive/Desktop/Clive/ctrl.v {1 {vlog -work work -vopt -stats=none C:/Users/clive/Desktop/Clive/ctrl.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module ctrl
+
+Top level modules:
+	ctrl
+
+} {} {}} C:/Users/clive/Desktop/Clive/im.v {1 {vlog -work work -vopt -stats=none C:/Users/clive/Desktop/Clive/im.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module im_4k
+
+Top level modules:
+	im_4k
+
+} {} {}} C:/Users/clive/Desktop/Clive/dm.v {1 {vlog -work work -vopt -stats=none C:/Users/clive/Desktop/Clive/dm.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module dm_4k
+
+Top level modules:
+	dm_4k
+
+} {} {}} C:/Users/clive/Desktop/Clive/mips.v {1 {vlog -work work -vopt -stats=none C:/Users/clive/Desktop/Clive/mips.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+
+} {} {}} C:/Users/clive/Desktop/Clive/NPC.v {1 {vlog -work work -vopt -stats=none C:/Users/clive/Desktop/Clive/NPC.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module mux2
+-- Compiling module NPC
+
+Top level modules:
+	NPC
+
+} {} {}}

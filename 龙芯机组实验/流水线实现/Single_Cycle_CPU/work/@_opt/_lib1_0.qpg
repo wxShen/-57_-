@@ -1,0 +1,408 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/xiaoshen/Desktop/homework/tutorial1/Single_Cycle_CPU
+T_opt
+!s110 1497167186
+VJFDzCz?T6ZJ4n4G[JL6DT3
+04 7 4 work Ctrl_tb fast 0
+=1-f0761c27bd41-593cf550-1b8-2750
+o-quiet -auto_acc_if_foreign -work work
+n@_opt
+OL;O;10.4;61
+vAdder
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 Yz8fd8_UZ1iGNR_?JM03M3
+ImM0AaNohlT5fP?i?5P_jI1
+R0
+w1496372644
+8C:/Users/xiaoshen/Desktop/homework/tutorial1/Single_Cycle_CPU/Adder.v
+FC:/Users/xiaoshen/Desktop/homework/tutorial1/Single_Cycle_CPU/Adder.v
+L0 2
+Z2 OL;L;10.4;61
+!s108 1497166257.435000
+!s107 C:/Users/xiaoshen/Desktop/homework/tutorial1/Single_Cycle_CPU/Adder.v|
+!s90 -reportprogress|300|-work|work|C:/Users/xiaoshen/Desktop/homework/tutorial1/Single_Cycle_CPU/Adder.v|
+!i113 0
+Z3 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+n@adder
+vAdder_tb
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 ;3[9CAMcd?L;FQJRFHn_:0
+I_Ym`i;a[jVJ;1h:]imX301
+R0
+w1497166967
+8C:/Users/xiaoshen/Desktop/homework/tutorial1/Single_Cycle_CPU/Adder_tb.v
+FC:/Users/xiaoshen/Desktop/homework/tutorial1/Single_Cycle_CPU/Adder_tb.v
+L0 2
+R2
+!s108 1497167002.425000
+!s107 C:/Users/xiaoshen/Desktop/homework/tutorial1/Single_Cycle_CPU/Adder_tb.v|
+!s90 -reportprogress|300|-work|work|C:/Users/xiaoshen/Desktop/homework/tutorial1/Single_Cycle_CPU/Adder_tb.v|
+!i113 0
+R3
+n@adder_tb
+vALU
+!s110 1497166257
+!i10b 1
+!s100 QSc@05[a=f2D2RGU4bM`A0
+I@P[fAolTnJ7MYPjUz8cRN3
+R1
+R0
+w1496374702
+8C:/Users/xiaoshen/Desktop/homework/tutorial1/Single_Cycle_CPU/ALU.v
+FC:/Users/xiaoshen/Desktop/homework/tutorial1/Single_Cycle_CPU/ALU.v
+L0 2
+R2
+r1
+!s85 0
+31
+!s108 1497166257.762000
+!s107 C:/Users/xiaoshen/Desktop/homework/tutorial1/Single_Cycle_CPU/ALU.v|
+!s90 -reportprogress|300|-work|work|C:/Users/xiaoshen/Desktop/homework/tutorial1/Single_Cycle_CPU/ALU.v|
+!i113 0
+R3
+n@a@l@u
+vCtrl
+Z4 !s110 1497166258
+!i10b 1
+!s100 3iFdi=BOlROOLzC:O77D23
+IUmB]2EGW163WQ>YEF]9BP1
+R1
+R0
+w1496451164
+8C:/Users/xiaoshen/Desktop/homework/tutorial1/Single_Cycle_CPU/Ctrl.v
+FC:/Users/xiaoshen/Desktop/homework/tutorial1/Single_Cycle_CPU/Ctrl.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1497166258.052000
+!s107 C:/Users/xiaoshen/Desktop/homework/tutorial1/Single_Cycle_CPU/Ctrl.v|
+!s90 -reportprogress|300|-work|work|C:/Users/xiaoshen/Desktop/homework/tutorial1/Single_Cycle_CPU/Ctrl.v|
+!i113 0
+R3
+n@ctrl
+vCtrl_tb
+R4
+!i10b 1
+!s100 oXT6>:godZJX3dWL_jMc03
+IfOZEcDda:YaMfdkmZ]J2j3
+R1
+R0
+w1497165938
+8C:/Users/xiaoshen/Desktop/homework/tutorial1/Single_Cycle_CPU/Ctrl_tb.v
+FC:/Users/xiaoshen/Desktop/homework/tutorial1/Single_Cycle_CPU/Ctrl_tb.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1497166258.210000
+!s107 C:/Users/xiaoshen/Desktop/homework/tutorial1/Single_Cycle_CPU/Ctrl_tb.v|
+!s90 -reportprogress|300|-work|work|C:/Users/xiaoshen/Desktop/homework/tutorial1/Single_Cycle_CPU/Ctrl_tb.v|
+!i113 0
+R3
+n@ctrl_tb
+vDatapath
+R4
+!i10b 1
+!s100 cO[L5eL4I5fRSYHBTS8NZ1
+IPkmR8`S8UP82kz9Qk?Q]a0
+R1
+R0
+w1496375072
+8C:/Users/xiaoshen/Desktop/homework/tutorial1/Single_Cycle_CPU/Datapath.v
+FC:/Users/xiaoshen/Desktop/homework/tutorial1/Single_Cycle_CPU/Datapath.v
+L0 2
+R2
+r1
+!s85 0
+31
+!s108 1497166258.382000
+!s107 C:/Users/xiaoshen/Desktop/homework/tutorial1/Single_Cycle_CPU/Datapath.v|
+!s90 -reportprogress|300|-work|work|C:/Users/xiaoshen/Desktop/homework/tutorial1/Single_Cycle_CPU/Datapath.v|
+!i113 0
+R3
+n@datapath
+vDecode
+R4
+!i10b 1
+!s100 9fHW57LDgO9m6j6jO06XK0
+IgSU[>CHSD4APJJAo0DgCJ3
+R1
+R0
+w1495373808
+8C:/Users/xiaoshen/Desktop/homework/tutorial1/Single_Cycle_CPU/Decode.v
+FC:/Users/xiaoshen/Desktop/homework/tutorial1/Single_Cycle_CPU/Decode.v
+L0 2
+R2
+r1
+!s85 0
+31
+!s108 1497166258.547000
+!s107 C:/Users/xiaoshen/Desktop/homework/tutorial1/Single_Cycle_CPU/Decode.v|
+!s90 -reportprogress|300|-work|work|C:/Users/xiaoshen/Desktop/homework/tutorial1/Single_Cycle_CPU/Decode.v|
+!i113 0
+R3
+n@decode
+vdm_4k
+R4
+!i10b 1
+!s100 0d43l07G_X3kDzi4A3J4X2
+I7RX9Q[YQ8NKhRloolY6P81
+R1
+R0
+w1496305670
+8C:/Users/xiaoshen/Desktop/homework/tutorial1/Single_Cycle_CPU/dm.v
+FC:/Users/xiaoshen/Desktop/homework/tutorial1/Single_Cycle_CPU/dm.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1497166258.710000
+!s107 C:/Users/xiaoshen/Desktop/homework/tutorial1/Single_Cycle_CPU/dm.v|
+!s90 -reportprogress|300|-work|work|C:/Users/xiaoshen/Desktop/homework/tutorial1/Single_Cycle_CPU/dm.v|
+!i113 0
+R3
+vExt
+Z5 !s110 1497166259
+!i10b 1
+!s100 :P`??EzcgQVnU6<XjzB9m0
+I_bE4;MIRW[=6@?Y?1SVO?1
+R1
+R0
+Z6 w1496305438
+Z7 8C:/Users/xiaoshen/Desktop/homework/tutorial1/Single_Cycle_CPU/Ext.v
+Z8 FC:/Users/xiaoshen/Desktop/homework/tutorial1/Single_Cycle_CPU/Ext.v
+Z9 L0 20
+R2
+r1
+!s85 0
+31
+Z10 !s108 1497166258.903000
+Z11 !s107 C:/Users/xiaoshen/Desktop/homework/tutorial1/Single_Cycle_CPU/Ext.v|
+Z12 !s90 -reportprogress|300|-work|work|C:/Users/xiaoshen/Desktop/homework/tutorial1/Single_Cycle_CPU/Ext.v|
+!i113 0
+R3
+n@ext
+vext
+R5
+!i10b 1
+!s100 YUJ<10TG<E82DffS60I_Z0
+IA80RF5B>E_e3>SVD1D5880
+R1
+R0
+R6
+R7
+R8
+Z13 L0 52
+R2
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R3
+vEXT1
+!s110 1495389543
+!i10b 1
+!s100 Tgmgi3zIFKX1@GekdoBN90
+IaOF=<Mj0mUOWP@=][N8<72
+R1
+R0
+w1495389532
+R7
+R8
+R13
+R2
+r1
+!s85 0
+31
+!s108 1495389543.452000
+R11
+R12
+!i113 0
+R3
+n@e@x@t1
+vim_4k
+R5
+!i10b 1
+!s100 GEPWK897c]o7<^7ECT0Y_2
+IU4?QoiVQef;m71HF27`2=2
+R1
+R0
+w1495386654
+8C:/Users/xiaoshen/Desktop/homework/tutorial1/Single_Cycle_CPU/im.v
+FC:/Users/xiaoshen/Desktop/homework/tutorial1/Single_Cycle_CPU/im.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1497166259.227000
+!s107 C:/Users/xiaoshen/Desktop/homework/tutorial1/Single_Cycle_CPU/im.v|
+!s90 -reportprogress|300|-work|work|C:/Users/xiaoshen/Desktop/homework/tutorial1/Single_Cycle_CPU/im.v|
+!i113 0
+R3
+vmips
+R5
+!i10b 1
+!s100 gh9OP3=S;fQFkfc<<dbZe1
+I9TMd3FIef^IDBSVlcX1Fb3
+R1
+R0
+w1496374912
+8C:/Users/xiaoshen/Desktop/homework/tutorial1/Single_Cycle_CPU/mips.v
+FC:/Users/xiaoshen/Desktop/homework/tutorial1/Single_Cycle_CPU/mips.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1497166259.386000
+!s107 C:/Users/xiaoshen/Desktop/homework/tutorial1/Single_Cycle_CPU/mips.v|
+!s90 -reportprogress|300|-work|work|C:/Users/xiaoshen/Desktop/homework/tutorial1/Single_Cycle_CPU/mips.v|
+!i113 0
+R3
+vMux_2_To_1
+R5
+!i10b 1
+!s100 ?V`_z7cLc9f^9O7XQJYRQ3
+INBY8Lj4Mc8[6gZ`XVHfzL0
+R1
+R0
+Z14 w1496308112
+Z15 8C:/Users/xiaoshen/Desktop/homework/tutorial1/Single_Cycle_CPU/Mux.v
+Z16 FC:/Users/xiaoshen/Desktop/homework/tutorial1/Single_Cycle_CPU/Mux.v
+L0 1
+R2
+r1
+!s85 0
+31
+Z17 !s108 1497166259.561000
+Z18 !s107 C:/Users/xiaoshen/Desktop/homework/tutorial1/Single_Cycle_CPU/Mux.v|
+Z19 !s90 -reportprogress|300|-work|work|C:/Users/xiaoshen/Desktop/homework/tutorial1/Single_Cycle_CPU/Mux.v|
+!i113 0
+R3
+n@mux_2_@to_1
+vMux_2_To_1_Width
+R5
+!i10b 1
+!s100 QBgdzkeJLPfgPGBJm5jM21
+I><M:KiCOL8P2gR]i3R=II3
+R1
+R0
+R14
+R15
+R16
+L0 10
+R2
+r1
+!s85 0
+31
+R17
+R18
+R19
+!i113 0
+R3
+n@mux_2_@to_1_@width
+vMux_4_To_1
+R5
+!i10b 1
+!s100 >hn<DWIn]@2e6O=796TYQ1
+IEmJOo4fcNT3=zMLL]VLj;2
+R1
+R0
+R14
+R15
+R16
+R9
+R2
+r1
+!s85 0
+31
+R17
+R18
+R19
+!i113 0
+R3
+n@mux_4_@to_1
+vNPC
+R5
+!i10b 1
+!s100 ^=3DLIBMh1Jl2[GVczF7l1
+I^FQQlH7Z;CncXfY[IedUW2
+R1
+R0
+w1495384538
+8C:/Users/xiaoshen/Desktop/homework/tutorial1/Single_Cycle_CPU/NPC.v
+FC:/Users/xiaoshen/Desktop/homework/tutorial1/Single_Cycle_CPU/NPC.v
+L0 3
+R2
+r1
+!s85 0
+31
+!s108 1497166259.774000
+!s107 C:/Users/xiaoshen/Desktop/homework/tutorial1/Single_Cycle_CPU/NPC.v|
+!s90 -reportprogress|300|-work|work|C:/Users/xiaoshen/Desktop/homework/tutorial1/Single_Cycle_CPU/NPC.v|
+!i113 0
+R3
+n@n@p@c
+vPC
+R5
+!i10b 1
+!s100 Y0`7BLhIVajQ?i9KcBWnB0
+IL1=d]ZJ?Q5N[EJ0=7^4;]0
+R1
+R0
+w1495382544
+8C:/Users/xiaoshen/Desktop/homework/tutorial1/Single_Cycle_CPU/PC.v
+FC:/Users/xiaoshen/Desktop/homework/tutorial1/Single_Cycle_CPU/PC.v
+L0 4
+R2
+r1
+!s85 0
+31
+!s108 1497166259.931000
+!s107 C:/Users/xiaoshen/Desktop/homework/tutorial1/Single_Cycle_CPU/PC.v|
+!s90 -reportprogress|300|-work|work|C:/Users/xiaoshen/Desktop/homework/tutorial1/Single_Cycle_CPU/PC.v|
+!i113 0
+R3
+n@p@c
+vRegfile
+Z20 !s110 1497166260
+!i10b 1
+!s100 :k`ih2zgQG>a?K<<ZbaDA3
+I@2Z<cI3?7Y;XQO9LbGl]c0
+R1
+R0
+w1496309040
+8C:/Users/xiaoshen/Desktop/homework/tutorial1/Single_Cycle_CPU/Regfile.v
+FC:/Users/xiaoshen/Desktop/homework/tutorial1/Single_Cycle_CPU/Regfile.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1497166260.109000
+!s107 C:/Users/xiaoshen/Desktop/homework/tutorial1/Single_Cycle_CPU/Regfile.v|
+!s90 -reportprogress|30

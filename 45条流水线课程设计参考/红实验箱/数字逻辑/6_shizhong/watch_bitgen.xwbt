@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\Users\shizhong\watch.ncd
+OUTFILE=D:\Users\shizhong\watch.bit
+FAMILY=Spartan6
+PART=xc6slx150-3fgg484
+WORKINGDIR=D:\Users\shizhong
+LICENSE=ISE
+USER_INFO=__0_0_0

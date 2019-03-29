@@ -1,0 +1,19 @@
+module PC(clk,rst,din,dout);
+	input clk,rst;
+	input[31:0] din;
+	output [31:0] dout;
+	reg [31:0] dout;
+	initial begin
+		dout =  32'h3000;
+	end
+
+	always @(negedge clk) begin
+		if (rst) begin
+			dout <= 32'b0;
+		end
+		else begin
+			dout <= din;
+		end
+	end
+endmodule
+

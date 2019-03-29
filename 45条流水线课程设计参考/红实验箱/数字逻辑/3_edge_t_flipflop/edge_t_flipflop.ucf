@@ -1,0 +1,6 @@
+NET "clk"       LOC = "A11";#FPGA_CLK_IN2, 33MHz
+NET "clk" CLOCK_DEDICATED_ROUTE=FALSE;
+
+NET "sw1_t"     LOC = "T2"; # FPGA_SW0
+#NET "sw3_reset" LOC = "T1"; # FPGA_SW1
+NET "led8_Q"    LOC = "G8"; # FPGA_LEDG

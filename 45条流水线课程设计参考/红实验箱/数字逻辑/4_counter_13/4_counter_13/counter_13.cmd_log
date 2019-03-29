@@ -1,0 +1,31 @@
+xst -intstyle ise -ifn "D:/Users/counter_13/counter_13.xst" -ofn "D:/Users/counter_13/counter_13.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc counter_13.ucf -p xc6slx150-fgg484-3 counter_13.ngc counter_13.ngd  
+map -intstyle ise -p xc6slx150-fgg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o counter_13_map.ncd counter_13.ngd counter_13.pcf 
+xst -intstyle ise -ifn "D:/Users/counter_13/counter_13.xst" -ofn "D:/Users/counter_13/counter_13.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc counter_13.ucf -p xc6slx150-fgg484-3 counter_13.ngc counter_13.ngd  
+map -intstyle ise -p xc6slx150-fgg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o counter_13_map.ncd counter_13.ngd counter_13.pcf 
+xst -intstyle ise -ifn "D:/Users/counter_13/counter_13.xst" -ofn "D:/Users/counter_13/counter_13.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc counter_13.ucf -p xc6slx150-fgg484-3 counter_13.ngc counter_13.ngd  
+map -intstyle ise -p xc6slx150-fgg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o counter_13_map.ncd counter_13.ngd counter_13.pcf 
+xst -intstyle ise -ifn "D:/Users/counter_13/counter_13.xst" -ofn "D:/Users/counter_13/counter_13.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc counter_13.ucf -p xc6slx150-fgg484-3 counter_13.ngc counter_13.ngd  
+map -intstyle ise -p xc6slx150-fgg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o counter_13_map.ncd counter_13.ngd counter_13.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc counter_13.ucf -p xc6slx150-fgg484-3 counter_13.ngc counter_13.ngd  
+map -intstyle ise -p xc6slx150-fgg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o counter_13_map.ncd counter_13.ngd counter_13.pcf 
+par -w -intstyle ise -ol high -mt off counter_13_map.ncd counter_13.ncd counter_13.pcf 
+xst -intstyle ise -ifn "D:/Users/counter_13/counter_13.xst" -ofn "D:/Users/counter_13/counter_13.syr" 
+xst -intstyle ise -ifn "D:/Users/counter_13/counter_13.xst" -ofn "D:/Users/counter_13/counter_13.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc counter_13.ucf -p xc6slx150-fgg484-3 counter_13.ngc counter_13.ngd  
+map -intstyle ise -p xc6slx150-fgg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o counter_13_map.ncd counter_13.ngd counter_13.pcf 
+par -w -intstyle ise -ol high -mt off counter_13_map.ncd counter_13.ncd counter_13.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml counter_13.twx counter_13.ncd -o counter_13.twr counter_13.pcf -ucf counter_13.ucf 
+bitgen -intstyle ise -f counter_13.ut counter_13.ncd 
+xst -intstyle ise -ifn "F:/4_counter_13/counter_13.xst" -ofn "F:/4_counter_13/counter_13.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc counter_13.ucf -p xc6slx150-fgg484-3 counter_13.ngc counter_13.ngd  
+map -intstyle ise -p xc6slx150-fgg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o counter_13_map.ncd counter_13.ngd counter_13.pcf 
+xst -intstyle ise -ifn "F:/4_counter_13/counter_13.xst" -ofn "F:/4_counter_13/counter_13.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc counter_13.ucf -p xc6slx150-fgg484-3 counter_13.ngc counter_13.ngd  
+map -intstyle ise -p xc6slx150-fgg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o counter_13_map.ncd counter_13.ngd counter_13.pcf 
+par -w -intstyle ise -ol high -mt off counter_13_map.ncd counter_13.ncd counter_13.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml counter_13.twx counter_13.ncd -o counter_13.twr counter_13.pcf -ucf counter_13.ucf 
+bitgen -intstyle ise -f counter_13.ut counter_13.ncd 

@@ -1,0 +1,18 @@
+//! **************************************************************************
+// Written by: Map P.40xd on Tue Jan 12 21:25:44 2016
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "LED10_Y6" LOCATE = SITE "H10" LEVEL 1;
+COMP "LED11_Y5" LOCATE = SITE "D11" LEVEL 1;
+COMP "LED12_Y4" LOCATE = SITE "D10" LEVEL 1;
+COMP "LED9_Y7" LOCATE = SITE "G9" LEVEL 1;
+COMP "LED13_Y3" LOCATE = SITE "C10" LEVEL 1;
+COMP "Sw1_A0" LOCATE = SITE "T2" LEVEL 1;
+COMP "Sw2_A1" LOCATE = SITE "T1" LEVEL 1;
+COMP "LED1_Y2" LOCATE = SITE "F9" LEVEL 1;
+COMP "Sw3_A2" LOCATE = SITE "R1" LEVEL 1;
+COMP "LED2_Y1" LOCATE = SITE "B8" LEVEL 1;
+COMP "LED3_Y0" LOCATE = SITE "A8" LEVEL 1;
+SCHEMATIC END;
+

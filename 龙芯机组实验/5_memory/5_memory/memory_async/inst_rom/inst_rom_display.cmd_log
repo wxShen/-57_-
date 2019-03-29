@@ -1,0 +1,23 @@
+xst -intstyle ise -ifn "F:/LS_CPU_LAB/5_memory/memory_async/inst_rom/inst_rom_display.xst" -ofn "F:/LS_CPU_LAB/5_memory/memory_async/inst_rom/inst_rom_display.syr" 
+xst -intstyle ise -ifn "F:/LS_CPU_LAB/5_memory/memory_async/inst_rom/inst_rom_display.xst" -ofn "F:/LS_CPU_LAB/5_memory/memory_async/inst_rom/inst_rom_display.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc inst_rom.ucf -p xc6slx150-fgg484-3 inst_rom_display.ngc inst_rom_display.ngd  
+map -intstyle ise -p xc6slx150-fgg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o inst_rom_display_map.ncd inst_rom_display.ngd inst_rom_display.pcf 
+par -w -intstyle ise -ol high -mt off inst_rom_display_map.ncd inst_rom_display.ncd inst_rom_display.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml inst_rom_display.twx inst_rom_display.ncd -o inst_rom_display.twr inst_rom_display.pcf -ucf inst_rom.ucf 
+bitgen -intstyle ise -f inst_rom_display.ut inst_rom_display.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc inst_rom.ucf -p xc6slx150-fgg484-3 inst_rom_display.ngc inst_rom_display.ngd  
+map -intstyle ise -p xc6slx150-fgg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o inst_rom_display_map.ncd inst_rom_display.ngd inst_rom_display.pcf 
+par -w -intstyle ise -ol high -mt off inst_rom_display_map.ncd inst_rom_display.ncd inst_rom_display.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml inst_rom_display.twx inst_rom_display.ncd -o inst_rom_display.twr inst_rom_display.pcf -ucf inst_rom.ucf 
+bitgen -intstyle ise -f inst_rom_display.ut inst_rom_display.ncd 
+xst -intstyle ise -ifn "F:/LS_CPU_LAB/5_memory/memory_async/inst_rom/inst_rom_display.xst" -ofn "F:/LS_CPU_LAB/5_memory/memory_async/inst_rom/inst_rom_display.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc inst_rom.ucf -p xc6slx150-fgg484-3 inst_rom_display.ngc inst_rom_display.ngd  
+map -intstyle ise -p xc6slx150-fgg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o inst_rom_display_map.ncd inst_rom_display.ngd inst_rom_display.pcf 
+par -w -intstyle ise -ol high -mt off inst_rom_display_map.ncd inst_rom_display.ncd inst_rom_display.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml inst_rom_display.twx inst_rom_display.ncd -o inst_rom_display.twr inst_rom_display.pcf -ucf inst_rom.ucf 
+bitgen -intstyle ise -f inst_rom_display.ut inst_rom_display.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc inst_rom.ucf -p xc6slx150-fgg484-3 inst_rom_display.ngc inst_rom_display.ngd  
+map -intstyle ise -p xc6slx150-fgg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o inst_rom_display_map.ncd inst_rom_display.ngd inst_rom_display.pcf 
+par -w -intstyle ise -ol high -mt off inst_rom_display_map.ncd inst_rom_display.ncd inst_rom_display.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml inst_rom_display.twx inst_rom_display.ncd -o inst_rom_display.twr inst_rom_display.pcf -ucf inst_rom.ucf 
+bitgen -intstyle ise -f inst_rom_display.ut inst_rom_display.ncd 

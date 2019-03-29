@@ -1,0 +1,14 @@
+module dmem( clk, writeEN, address, writedata, readata);
+	input clk,we;
+	input [31:0] address, writedata;
+	output [31:0] readata;
+	reg[31:0] dRAM[1023:0];
+
+	assign rd = dRAM[a[11:2]]; 
+	
+	always @(posedge clk)
+		if(writeEN)
+			dRAM[a[11:2]] <= writedata;
+
+endmodule
+

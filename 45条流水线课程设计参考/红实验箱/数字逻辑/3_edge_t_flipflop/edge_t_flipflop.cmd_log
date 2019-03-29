@@ -1,0 +1,27 @@
+xst -intstyle ise -ifn "D:/Users/edge_t_flipflop/edge_t_flipflop.xst" -ofn "D:/Users/edge_t_flipflop/edge_t_flipflop.syr" 
+xst -intstyle ise -ifn "D:/Users/edge_t_flipflop/edge_t_flipflop.xst" -ofn "D:/Users/edge_t_flipflop/edge_t_flipflop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc edge_t_flipflop.ucf -p xc6slx150-fgg484-3 edge_t_flipflop.ngc edge_t_flipflop.ngd  
+map -intstyle ise -p xc6slx150-fgg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o edge_t_flipflop_map.ncd edge_t_flipflop.ngd edge_t_flipflop.pcf 
+par -w -intstyle ise -ol high -mt off edge_t_flipflop_map.ncd edge_t_flipflop.ncd edge_t_flipflop.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml edge_t_flipflop.twx edge_t_flipflop.ncd -o edge_t_flipflop.twr edge_t_flipflop.pcf -ucf edge_t_flipflop.ucf 
+xst -intstyle ise -ifn "D:/Users/edge_t_flipflop/edge_t_flipflop.xst" -ofn "D:/Users/edge_t_flipflop/edge_t_flipflop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc edge_t_flipflop.ucf -p xc6slx150-fgg484-3 edge_t_flipflop.ngc edge_t_flipflop.ngd  
+map -intstyle ise -p xc6slx150-fgg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o edge_t_flipflop_map.ncd edge_t_flipflop.ngd edge_t_flipflop.pcf 
+par -w -intstyle ise -ol high -mt off edge_t_flipflop_map.ncd edge_t_flipflop.ncd edge_t_flipflop.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml edge_t_flipflop.twx edge_t_flipflop.ncd -o edge_t_flipflop.twr edge_t_flipflop.pcf -ucf edge_t_flipflop.ucf 
+bitgen -intstyle ise -f edge_t_flipflop.ut edge_t_flipflop.ncd 
+xst -intstyle ise -ifn "D:/Users/edge_t_flipflop/edge_t_flipflop.xst" -ofn "D:/Users/edge_t_flipflop/edge_t_flipflop.syr" 
+xst -intstyle ise -ifn "D:/Users/edge_t_flipflop/edge_t_flipflop.xst" -ofn "D:/Users/edge_t_flipflop/edge_t_flipflop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc edge_t_flipflop.ucf -p xc6slx150-fgg484-3 edge_t_flipflop.ngc edge_t_flipflop.ngd  
+map -intstyle ise -p xc6slx150-fgg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o edge_t_flipflop_map.ncd edge_t_flipflop.ngd edge_t_flipflop.pcf 
+par -w -intstyle ise -ol high -mt off edge_t_flipflop_map.ncd edge_t_flipflop.ncd edge_t_flipflop.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml edge_t_flipflop.twx edge_t_flipflop.ncd -o edge_t_flipflop.twr edge_t_flipflop.pcf -ucf edge_t_flipflop.ucf 
+bitgen -intstyle ise -f edge_t_flipflop.ut edge_t_flipflop.ncd 
+xst -intstyle ise -ifn "D:/Users/edge_t_flipflop/edge_t_flipflop.xst" -ofn "D:/Users/edge_t_flipflop/edge_t_flipflop.syr" 
+xst -intstyle ise -ifn "D:/Users/edge_t_flipflop/edge_t_flipflop.xst" -ofn "D:/Users/edge_t_flipflop/edge_t_flipflop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc edge_t_flipflop.ucf -p xc6slx150-fgg484-3 edge_t_flipflop.ngc edge_t_flipflop.ngd  
+map -intstyle ise -p xc6slx150-fgg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o edge_t_flipflop_map.ncd edge_t_flipflop.ngd edge_t_flipflop.pcf 
+par -w -intstyle ise -ol high -mt off edge_t_flipflop_map.ncd edge_t_flipflop.ncd edge_t_flipflop.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml edge_t_flipflop.twx edge_t_flipflop.ncd -o edge_t_flipflop.twr edge_t_flipflop.pcf -ucf edge_t_flipflop.ucf 
+bitgen -intstyle ise -f edge_t_flipflop.ut edge_t_flipflop.ncd 
+bitgen -intstyle ise -f edge_t_flipflop.ut edge_t_flipflop.ncd 

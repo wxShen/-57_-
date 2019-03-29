@@ -1,0 +1,12 @@
+xst -intstyle ise -ifn "D:/Users/shizhong/watch.xst" -ofn "D:/Users/shizhong/watch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc watch.ucf -p xc6slx150-fgg484-3 watch.ngc watch.ngd  
+map -intstyle ise -p xc6slx150-fgg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o watch_map.ncd watch.ngd watch.pcf 
+par -w -intstyle ise -ol high -mt off watch_map.ncd watch.ncd watch.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml watch.twx watch.ncd -o watch.twr watch.pcf -ucf watch.ucf 
+xst -intstyle ise -ifn "D:/Users/shizhong/watch.xst" -ofn "D:/Users/shizhong/watch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc watch.ucf -p xc6slx150-fgg484-3 watch.ngc watch.ngd  
+map -intstyle ise -p xc6slx150-fgg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o watch_map.ncd watch.ngd watch.pcf 
+par -w -intstyle ise -ol high -mt off watch_map.ncd watch.ncd watch.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml watch.twx watch.ncd -o watch.twr watch.pcf -ucf watch.ucf 
+bitgen -intstyle ise -f watch.ut watch.ncd 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim watch.ngc watch_synthesis.v 

@@ -1,0 +1,39 @@
+//! **************************************************************************
+// Written by: Map P.40xd on Mon Jan 11 19:27:48 2016
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "clk" LOCATE = SITE "A11" LEVEL 1;
+PIN clk_pin<0> = BEL "clk" PINNAME PAD;
+PIN "clk_pin<0>" CLOCK_DEDICATED_ROUTE = FALSE;
+COMP "num1_scan_select<0>" LOCATE = SITE "C4" LEVEL 1;
+COMP "num1_scan_select<1>" LOCATE = SITE "F5" LEVEL 1;
+COMP "key_row2" LOCATE = SITE "Y1" LEVEL 1;
+COMP "key_row3" LOCATE = SITE "V2" LEVEL 1;
+COMP "key_row4" LOCATE = SITE "W1" LEVEL 1;
+COMP "num1_seg7<0>" LOCATE = SITE "F3" LEVEL 1;
+COMP "num1_seg7<1>" LOCATE = SITE "C3" LEVEL 1;
+COMP "num1_seg7<2>" LOCATE = SITE "E6" LEVEL 1;
+COMP "num1_seg7<3>" LOCATE = SITE "D5" LEVEL 1;
+COMP "num1_seg7<4>" LOCATE = SITE "E5" LEVEL 1;
+COMP "num1_seg7<5>" LOCATE = SITE "E4" LEVEL 1;
+COMP "num1_seg7<6>" LOCATE = SITE "D3" LEVEL 1;
+COMP "num0_scan_select<0>" LOCATE = SITE "G3" LEVEL 1;
+COMP "set" LOCATE = SITE "T2" LEVEL 1;
+COMP "num0_scan_select<1>" LOCATE = SITE "L4" LEVEL 1;
+COMP "num0_scan_select<2>" LOCATE = SITE "M6" LEVEL 1;
+COMP "num0_scan_select<3>" LOCATE = SITE "M5" LEVEL 1;
+COMP "reset" LOCATE = SITE "U3" LEVEL 1;
+PIN reset_pin<0> = BEL "reset" PINNAME PAD;
+PIN "reset_pin<0>" CLOCK_DEDICATED_ROUTE = FALSE;
+COMP "num0_seg7<0>" LOCATE = SITE "M8" LEVEL 1;
+COMP "num0_seg7<1>" LOCATE = SITE "H3" LEVEL 1;
+COMP "key_col1" LOCATE = SITE "T4" LEVEL 1;
+COMP "num0_seg7<2>" LOCATE = SITE "G6" LEVEL 1;
+COMP "key_col2" LOCATE = SITE "V3" LEVEL 1;
+COMP "num0_seg7<3>" LOCATE = SITE "G4" LEVEL 1;
+COMP "num0_seg7<4>" LOCATE = SITE "H4" LEVEL 1;
+COMP "num0_seg7<5>" LOCATE = SITE "K6" LEVEL 1;
+COMP "num0_seg7<6>" LOCATE = SITE "J6" LEVEL 1;
+SCHEMATIC END;
+

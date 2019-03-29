@@ -1,0 +1,14 @@
+xst -intstyle ise -ifn "D:/Users/pulse_jk_flipflop/pulse_jk_flipflop.xst" -ofn "D:/Users/pulse_jk_flipflop/pulse_jk_flipflop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx150-fgg484-3 pulse_jk_flipflop.ngc pulse_jk_flipflop.ngd  
+map -intstyle ise -p xc6slx150-fgg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o pulse_jk_flipflop_map.ncd pulse_jk_flipflop.ngd pulse_jk_flipflop.pcf 
+map -intstyle ise -p xc6slx150-fgg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o pulse_jk_flipflop_map.ncd pulse_jk_flipflop.ngd pulse_jk_flipflop.pcf 
+par -w -intstyle ise -ol high -mt off pulse_jk_flipflop_map.ncd pulse_jk_flipflop.ncd pulse_jk_flipflop.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml pulse_jk_flipflop.twx pulse_jk_flipflop.ncd -o pulse_jk_flipflop.twr pulse_jk_flipflop.pcf -ucf pulse_jk_flipflop.ucf 
+bitgen -intstyle ise -f pulse_jk_flipflop.ut pulse_jk_flipflop.ncd 
+xst -intstyle ise -ifn "D:/Users/pulse_jk_flipflop/pulse_jk_flipflop.xst" -ofn "D:/Users/pulse_jk_flipflop/pulse_jk_flipflop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pulse_jk_flipflop.ucf -p xc6slx150-fgg484-3 pulse_jk_flipflop.ngc pulse_jk_flipflop.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pulse_jk_flipflop.ucf -p xc6slx150-fgg484-3 pulse_jk_flipflop.ngc pulse_jk_flipflop.ngd  
+map -intstyle ise -p xc6slx150-fgg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o pulse_jk_flipflop_map.ncd pulse_jk_flipflop.ngd pulse_jk_flipflop.pcf 
+par -w -intstyle ise -ol high -mt off pulse_jk_flipflop_map.ncd pulse_jk_flipflop.ncd pulse_jk_flipflop.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml pulse_jk_flipflop.twx pulse_jk_flipflop.ncd -o pulse_jk_flipflop.twr pulse_jk_flipflop.pcf -ucf pulse_jk_flipflop.ucf 
+bitgen -intstyle ise -f pulse_jk_flipflop.ut pulse_jk_flipflop.ncd 

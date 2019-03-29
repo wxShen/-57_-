@@ -1,0 +1,45 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "F:/LS_CPU_LAB/7_multi_cycle_cpu/tb_isim_beh.exe" -prj "F:/LS_CPU_LAB/7_multi_cycle_cpu/tb_beh.prj" "work.tb" "work.glbl" 
+ISim O.61xd (signature 0x1cce1bb2)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file \"F:/LS_CPU_LAB/7_multi_cycle_cpu/adder.v\" into library work
+Analyzing Verilog file \"F:/LS_CPU_LAB/7_multi_cycle_cpu/alu.v\" into library work
+Analyzing Verilog file \"F:/LS_CPU_LAB/7_multi_cycle_cpu/wb.v\" into library work
+Analyzing Verilog file \"F:/LS_CPU_LAB/7_multi_cycle_cpu/regfile.v\" into library work
+Analyzing Verilog file \"F:/LS_CPU_LAB/7_multi_cycle_cpu/mem.v\" into library work
+Analyzing Verilog file \"F:/LS_CPU_LAB/7_multi_cycle_cpu/inst_rom.v\" into library work
+Analyzing Verilog file \"F:/LS_CPU_LAB/7_multi_cycle_cpu/fetch.v\" into library work
+Analyzing Verilog file \"F:/LS_CPU_LAB/7_multi_cycle_cpu/exe.v\" into library work
+Analyzing Verilog file \"F:/LS_CPU_LAB/7_multi_cycle_cpu/decode.v\" into library work
+Analyzing Verilog file \"F:/LS_CPU_LAB/7_multi_cycle_cpu/data_ram.v\" into library work
+Analyzing Verilog file \"F:/LS_CPU_LAB/7_multi_cycle_cpu/multi_cycle_cpu.v\" into library work
+Analyzing Verilog file \"F:/LS_CPU_LAB/7_multi_cycle_cpu/tb.v\" into library work
+Analyzing Verilog file \"D:/Xilinx/13.2/ISE_DS/ISE//verilog/src/glbl.v\" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module fetch
+Compiling module decode
+Compiling module adder
+Compiling module alu
+Compiling module exe
+Compiling module mem
+Compiling module wb
+Compiling module BLK_MEM_GEN_V6_1_output_stage(C_...
+Compiling module BLK_MEM_GEN_V6_1_softecc_output_...
+Compiling module BLK_MEM_GEN_V6_1_mem_module(C_CO...
+Compiling module BLK_MEM_GEN_V6_1(C_FAMILY="spart...
+Compiling module inst_rom
+Compiling module regfile
+Compiling module BLK_MEM_GEN_V6_1_mem_module(C_CO...
+Compiling module BLK_MEM_GEN_V6_1(C_FAMILY="spart...
+Compiling module data_ram
+Compiling module multi_cycle_cpu
+Compiling module tb
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 11 sub-compilation(s) to finish...
+Compiled 19 Verilog Units
+Built simulation executable F:/LS_CPU_LAB/7_multi_cycle_cpu/tb_isim_beh.exe
+Fuse Memory Usage: 23472 KB
+Fuse CPU Usage: 670 ms

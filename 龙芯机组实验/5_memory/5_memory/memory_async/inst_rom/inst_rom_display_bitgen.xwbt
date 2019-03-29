@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=F:\LS_CPU_LAB\5_memory\memory_async\inst_rom\inst_rom_display.ncd
+OUTFILE=F:\LS_CPU_LAB\5_memory\memory_async\inst_rom\inst_rom_display.bit
+FAMILY=Spartan6
+PART=xc6slx150-3fgg484
+WORKINGDIR=F:\LS_CPU_LAB\5_memory\memory_async\inst_rom
+LICENSE=ISE
+USER_INFO=135256_15690819_173552794_661

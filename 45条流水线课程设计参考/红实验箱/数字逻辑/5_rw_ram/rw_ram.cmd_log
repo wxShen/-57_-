@@ -1,0 +1,50 @@
+xst -intstyle ise -ifn "D:/Users/rw_ram/rw_ram.xst" -ofn "D:/Users/rw_ram/rw_ram.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc rw_ram.ucf -p xc6slx150-fgg484-3 rw_ram.ngc rw_ram.ngd  
+map -intstyle ise -p xc6slx150-fgg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o rw_ram_map.ncd rw_ram.ngd rw_ram.pcf 
+par -w -intstyle ise -ol high -mt off rw_ram_map.ncd rw_ram.ncd rw_ram.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml rw_ram.twx rw_ram.ncd -o rw_ram.twr rw_ram.pcf -ucf rw_ram.ucf 
+bitgen -intstyle ise -f rw_ram.ut rw_ram.ncd 
+xst -intstyle ise -ifn "D:/Users/rw_ram/rw_ram.xst" -ofn "D:/Users/rw_ram/rw_ram.syr" 
+xst -intstyle ise -ifn "D:/Users/rw_ram/rw_ram.xst" -ofn "D:/Users/rw_ram/rw_ram.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc rw_ram.ucf -p xc6slx150-fgg484-3 rw_ram.ngc rw_ram.ngd  
+map -intstyle ise -p xc6slx150-fgg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o rw_ram_map.ncd rw_ram.ngd rw_ram.pcf 
+par -w -intstyle ise -ol high -mt off rw_ram_map.ncd rw_ram.ncd rw_ram.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml rw_ram.twx rw_ram.ncd -o rw_ram.twr rw_ram.pcf -ucf rw_ram.ucf 
+bitgen -intstyle ise -f rw_ram.ut rw_ram.ncd 
+xst -intstyle ise -ifn "D:/Users/rw_ram/rw_ram.xst" -ofn "D:/Users/rw_ram/rw_ram.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc rw_ram.ucf -p xc6slx150-fgg484-3 rw_ram.ngc rw_ram.ngd  
+map -intstyle ise -p xc6slx150-fgg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o rw_ram_map.ncd rw_ram.ngd rw_ram.pcf 
+par -w -intstyle ise -ol high -mt off rw_ram_map.ncd rw_ram.ncd rw_ram.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml rw_ram.twx rw_ram.ncd -o rw_ram.twr rw_ram.pcf -ucf rw_ram.ucf 
+bitgen -intstyle ise -f rw_ram.ut rw_ram.ncd 
+xst -intstyle ise -ifn "D:/Users/rw_ram/rw_ram.xst" -ofn "D:/Users/rw_ram/rw_ram.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc rw_ram.ucf -p xc6slx150-fgg484-3 rw_ram.ngc rw_ram.ngd  
+map -intstyle ise -p xc6slx150-fgg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o rw_ram_map.ncd rw_ram.ngd rw_ram.pcf 
+par -w -intstyle ise -ol high -mt off rw_ram_map.ncd rw_ram.ncd rw_ram.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml rw_ram.twx rw_ram.ncd -o rw_ram.twr rw_ram.pcf -ucf rw_ram.ucf 
+bitgen -intstyle ise -f rw_ram.ut rw_ram.ncd 
+xst -intstyle ise -ifn "D:/Users/rw_ram/rw_ram.xst" -ofn "D:/Users/rw_ram/rw_ram.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc rw_ram.ucf -p xc6slx150-fgg484-3 rw_ram.ngc rw_ram.ngd  
+map -intstyle ise -p xc6slx150-fgg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o rw_ram_map.ncd rw_ram.ngd rw_ram.pcf 
+par -w -intstyle ise -ol high -mt off rw_ram_map.ncd rw_ram.ncd rw_ram.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml rw_ram.twx rw_ram.ncd -o rw_ram.twr rw_ram.pcf -ucf rw_ram.ucf 
+bitgen -intstyle ise -f rw_ram.ut rw_ram.ncd 
+xst -intstyle ise -ifn "D:/Users/rw_ram/rw_ram.xst" -ofn "D:/Users/rw_ram/rw_ram.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc rw_ram.ucf -p xc6slx150-fgg484-3 rw_ram.ngc rw_ram.ngd  
+map -intstyle ise -p xc6slx150-fgg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o rw_ram_map.ncd rw_ram.ngd rw_ram.pcf 
+par -w -intstyle ise -ol high -mt off rw_ram_map.ncd rw_ram.ncd rw_ram.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml rw_ram.twx rw_ram.ncd -o rw_ram.twr rw_ram.pcf -ucf rw_ram.ucf 
+bitgen -intstyle ise -f rw_ram.ut rw_ram.ncd 
+xst -intstyle ise -ifn "D:/Users/rw_ram/rw_ram.xst" -ofn "D:/Users/rw_ram/rw_ram.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc rw_ram.ucf -p xc6slx150-fgg484-3 rw_ram.ngc rw_ram.ngd  
+map -intstyle ise -p xc6slx150-fgg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o rw_ram_map.ncd rw_ram.ngd rw_ram.pcf 
+par -w -intstyle ise -ol high -mt off rw_ram_map.ncd rw_ram.ncd rw_ram.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml rw_ram.twx rw_ram.ncd -o rw_ram.twr rw_ram.pcf -ucf rw_ram.ucf 
+bitgen -intstyle ise -f rw_ram.ut rw_ram.ncd 
+xst -intstyle ise -ifn "D:/Users/rw_ram/rw_ram.xst" -ofn "D:/Users/rw_ram/rw_ram.syr" 
+xst -intstyle ise -ifn "D:/Users/rw_ram/rw_ram.xst" -ofn "D:/Users/rw_ram/rw_ram.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc rw_ram.ucf -p xc6slx150-fgg484-3 rw_ram.ngc rw_ram.ngd  
+map -intstyle ise -p xc6slx150-fgg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o rw_ram_map.ncd rw_ram.ngd rw_ram.pcf 
+par -w -intstyle ise -ol high -mt off rw_ram_map.ncd rw_ram.ncd rw_ram.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml rw_ram.twx rw_ram.ncd -o rw_ram.twr rw_ram.pcf -ucf rw_ram.ucf 
+bitgen -intstyle ise -f rw_ram.ut rw_ram.ncd 

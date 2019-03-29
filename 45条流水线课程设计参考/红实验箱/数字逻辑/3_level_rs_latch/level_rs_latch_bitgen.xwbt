@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\Users\level_rs_latch\level_rs_latch.ncd
+OUTFILE=D:\Users\level_rs_latch\level_rs_latch.bit
+FAMILY=Spartan6
+PART=xc6slx150-3fgg484
+WORKINGDIR=D:\Users\level_rs_latch
+LICENSE=ISE
+USER_INFO=__0_0_0

@@ -1,0 +1,566 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/xiaoshen/Desktop/homework/tutorial1/assembly_line_CPU
+vAdder
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 C[Q@g140HMiFANMX`b8Nh2
+I?_PlA@]P9KGhc54>^>oAK0
+R0
+w1496669520
+8C:/Users/xiaoshen/Desktop/homework/tutorial1/assembly_line_CPU/Adder.v
+FC:/Users/xiaoshen/Desktop/homework/tutorial1/assembly_line_CPU/Adder.v
+L0 2
+Z2 OL;L;10.4;61
+!s108 1498567074.036000
+!s107 C:/Users/xiaoshen/Desktop/homework/tutorial1/assembly_line_CPU/Adder.v|
+!s90 -reportprogress|300|-work|work|C:/Users/xiaoshen/Desktop/homework/tutorial1/assembly_line_CPU/Adder.v|
+!i113 0
+Z3 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+n@adder
+vALU
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 IKb5Raoo]e;P30BM82lK90
+IZAHYK]mWB_>Z27[X=9eZZ2
+R0
+w1497274569
+8C:/Users/xiaoshen/Desktop/homework/tutorial1/assembly_line_CPU/ALU.v
+FC:/Users/xiaoshen/Desktop/homework/tutorial1/assembly_line_CPU/ALU.v
+L0 2
+R2
+!s108 1498567074.134000
+!s107 C:/Users/xiaoshen/Desktop/homework/tutorial1/assembly_line_CPU/ALU.v|
+!s90 -reportprogress|300|-work|work|C:/Users/xiaoshen/Desktop/homework/tutorial1/assembly_line_CPU/ALU.v|
+!i113 0
+R3
+n@a@l@u
+vCtrl
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 e3@A4i7Af@C07PkVc0F8`2
+IP=7CM]S_0gkjCgjeU>DEf3
+R0
+w1497945154
+8C:/Users/xiaoshen/Desktop/homework/tutorial1/assembly_line_CPU/Ctrl.v
+FC:/Users/xiaoshen/Desktop/homework/tutorial1/assembly_line_CPU/Ctrl.v
+L0 1
+R2
+!s108 1498567074.207000
+!s107 C:/Users/xiaoshen/Desktop/homework/tutorial1/assembly_line_CPU/Ctrl.v|
+!s90 -reportprogress|300|-work|work|C:/Users/xiaoshen/Desktop/homework/tutorial1/assembly_line_CPU/Ctrl.v|
+!i113 0
+R3
+n@ctrl
+vDatapath
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 ]23X1hSV6=?>FLdQ59e1n0
+IlDoXa]N2MBcNI;m0T9Q7h1
+R0
+w1498562295
+8C:/Users/xiaoshen/Desktop/homework/tutorial1/assembly_line_CPU/Datapath.v
+FC:/Users/xiaoshen/Desktop/homework/tutorial1/assembly_line_CPU/Datapath.v
+L0 1
+R2
+!s108 1498567074.279000
+!s107 C:/Users/xiaoshen/Desktop/homework/tutorial1/assembly_line_CPU/Datapath.v|
+!s90 -reportprogress|300|-work|work|C:/Users/xiaoshen/Desktop/homework/tutorial1/assembly_line_CPU/Datapath.v|
+!i113 0
+R3
+n@datapath
+vDecode
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 hYZk@dR]amTFF6j6H^FL<1
+ITD3:d^dZSj>clfLcgF5e[2
+R0
+w1497950176
+8C:/Users/xiaoshen/Desktop/homework/tutorial1/assembly_line_CPU/Decode.v
+FC:/Users/xiaoshen/Desktop/homework/tutorial1/assembly_line_CPU/Decode.v
+L0 1
+R2
+!s108 1498567074.353000
+!s107 C:/Users/xiaoshen/Desktop/homework/tutorial1/assembly_line_CPU/Decode.v|
+!s90 -reportprogress|300|-work|work|C:/Users/xiaoshen/Desktop/homework/tutorial1/assembly_line_CPU/Decode.v|
+!i113 0
+R3
+n@decode
+vdm_4k
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 G60S_BklE;AE7fE_[gg;R0
+II83643@8KLXbPz_C_3[zW2
+R0
+w1498151997
+8C:/Users/xiaoshen/Desktop/homework/tutorial1/assembly_line_CPU/dm.v
+FC:/Users/xiaoshen/Desktop/homework/tutorial1/assembly_line_CPU/dm.v
+L0 1
+R2
+!s108 1498567074.433000
+!s107 C:/Users/xiaoshen/Desktop/homework/tutorial1/assembly_line_CPU/dm.v|
+!s90 -reportprogress|300|-work|work|C:/Users/xiaoshen/Desktop/homework/tutorial1/assembly_line_CPU/dm.v|
+!i113 0
+R3
+vEx_Mem_reg
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 biGhjm13BeVaZPQS6DQJ81
+Ilm80VMVhdEBIEEK1KonNK2
+R0
+w1498125211
+8C:/Users/xiaoshen/Desktop/homework/tutorial1/assembly_line_CPU/Ex_Mem_reg.v
+FC:/Users/xiaoshen/Desktop/homework/tutorial1/assembly_line_CPU/Ex_Mem_reg.v
+L0 1
+R2
+!s108 1498567074.506000
+!s107 C:/Users/xiaoshen/Desktop/homework/tutorial1/assembly_line_CPU/Ex_Mem_reg.v|
+!s90 -reportprogress|300|-work|work|C:/Users/xiaoshen/Desktop/homework/tutorial1/assembly_line_CPU/Ex_Mem_reg.v|
+!i113 0
+R3
+n@ex_@mem_reg
+vExecUnit
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 ^@=CHaJob2b47jXl8485]1
+I<k^oIPI;GlZ52=`i7f:AN2
+R0
+w1498025059
+8C:/Users/xiaoshen/Desktop/homework/tutorial1/assembly_line_CPU/ExecUnit.v
+FC:/Users/xiaoshen/Desktop/homework/tutorial1/assembly_line_CPU/ExecUnit.v
+L0 1
+R2
+!s108 1498567074.581000
+!s107 C:/Users/xiaoshen/Desktop/homework/tutorial1/assembly_line_CPU/ExecUnit.v|
+!s90 -reportprogress|300|-work|work|C:/Users/xiaoshen/Desktop/homework/tutorial1/assembly_line_CPU/ExecUnit.v|
+!i113 0
+R3
+n@exec@unit
+vExt
+Z4 !s110 1498567074
+!i10b 1
+!s100 :P`??EzcgQVnU6<XjzB9m0
+IMomo15zReDK[^RTiF>dBV3
+R1
+R0
+Z5 w1496305436
+Z6 8C:/Users/xiaoshen/Desktop/homework/tutorial1/assembly_line_CPU/Ext.v
+Z7 FC:/Users/xiaoshen/Desktop/homework/tutorial1/assembly_line_CPU/Ext.v
+Z8 L0 20
+R2
+r1
+!s85 0
+31
+Z9 !s108 1498567074.654000
+Z10 !s107 C:/Users/xiaoshen/Desktop/homework/tutorial1/assembly_line_CPU/Ext.v|
+Z11 !s90 -reportprogress|300|-work|work|C:/Users/xiaoshen/Desktop/homework/tutorial1/assembly_line_CPU/Ext.v|
+!i113 0
+R3
+n@ext
+vext
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 YUJ<10TG<E82DffS60I_Z0
+I93RE2G>aV62Sa:Z[I>b6P2
+R0
+R5
+R6
+R7
+L0 52
+R2
+R9
+R10
+R11
+!i113 0
+R3
+vFrowardingUnit
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 3zifGag[oDNj@`lFK7=]`0
+IHB7fiK=WVJJTQcSA2DM2V2
+R0
+w1498143591
+8C:/Users/xiaoshen/Desktop/homework/tutorial1/assembly_line_CPU/FrowardingUnit.v
+FC:/Users/xiaoshen/Desktop/homework/tutorial1/assembly_line_CPU/FrowardingUnit.v
+L0 1
+R2
+!s108 1498567074.740000
+!s107 C:/Users/xiaoshen/Desktop/homework/tutorial1/assembly_line_CPU/FrowardingUnit.v|
+!s90 -reportprogress|300|-work|work|C:/Users/xiaoshen/Desktop/homework/tutorial1/assembly_line_CPU/FrowardingUnit.v|
+!i113 0
+R3
+n@frowarding@unit
+vID_EX_reg
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 7TN@TbRn_NP0I=:T:ed<h3
+Im8CG>=i^9]EF0U=Sz3BoL3
+R0
+w1498151985
+8C:/Users/xiaoshen/Desktop/homework/tutorial1/assembly_line_CPU/ID_EX_reg.v
+FC:/Users/xiaoshen/Desktop/homework/tutorial1/assembly_line_CPU/ID_EX_reg.v
+L0 1
+R2
+!s108 1498567074.811000
+!s107 C:/Users/xiaoshen/Desktop/homework/tutorial1/assembly_line_CPU/ID_EX_reg.v|
+!s90 -reportprogress|300|-work|work|C:/Users/xiaoshen/Desktop/homework/tutorial1/assembly_line_CPU/ID_EX_reg.v|
+!i113 0
+R3
+n@i@d_@e@x_reg
+vIF_ID_reg
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 Tfe7QXhH0NM7iP]TnE8Q`0
+If;LdR1Y>nL0LcC>F>8gEd0
+R0
+w1498124986
+8C:/Users/xiaoshen/Desktop/homework/tutorial1/assembly_line_CPU/IF_ID_reg.v
+FC:/Users/xiaoshen/Desktop/homework/tutorial1/assembly_line_CPU/IF_ID_reg.v
+L0 2
+R2
+!s108 1498567074.882000
+!s107 C:/Users/xiaoshen/Desktop/homework/tutorial1/assembly_line_CPU/IF_ID_reg.v|
+!s90 -reportprogress|300|-work|work|C:/Users/xiaoshen/Desktop/homework/tutorial1/assembly_line_CPU/IF_ID_reg.v|
+!i113 0
+R3
+n@i@f_@i@d_reg
+vim_4k
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 GEPWK897c]o7<^7ECT0Y_2
+I57Y;X>POc;i2`<=X0C]mV0
+R0
+w1495386653
+8C:/Users/xiaoshen/Desktop/homework/tutorial1/assembly_line_CPU/im.v
+FC:/Users/xiaoshen/Desktop/homework/tutorial1/assembly_line_CPU/im.v
+L0 1
+R2
+!s108 1498567074.950000
+!s107 C:/Users/xiaoshen/Desktop/homework/tutorial1/assembly_line_CPU/im.v|
+!s90 -reportprogress|300|-work|work|C:/Users/xiaoshen/Desktop/homework/tutorial1/assembly_line_CPU/im.v|
+!i113 0
+R3
+vIUnit
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 SGXb9PodUeh]?=dOJ2A`;3
+IY9O?1VnT]`G@D`lOlG<@V0
+R0
+w1498019735
+8C:/Users/xiaoshen/Desktop/homework/tutorial1/assembly_line_CPU/IUnit.v
+FC:/Users/xiaoshen/Desktop/homework/tutorial1/assembly_line_CPU/IUnit.v
+L0 1
+R2
+!s108 1498567075.016000
+!s107 C:/Users/xiaoshen/Desktop/homework/tutorial1/assembly_line_CPU/IUnit.v|
+!s90 -reportprogress|300|-work|work|C:/Users/xiaoshen/Desktop/homework/tutorial1/assembly_line_CPU/IUnit.v|
+!i113 0
+R3
+n@i@unit
+vMem_Wr_reg
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 9]TczeOG=k7_O?^bZ1V2Z0
+IITm;Fco?<2R]G^[JXnD2G2
+R0
+w1498022539
+8C:/Users/xiaoshen/Desktop/homework/tutorial1/assembly_line_CPU/Mem_Wr_reg.v
+FC:/Users/xiaoshen/Desktop/homework/tutorial1/assembly_line_CPU/Mem_Wr_reg.v
+L0 1
+R2
+!s108 1498567075.086000
+!s107 C:/Users/xiaoshen/Desktop/homework/tutorial1/assembly_line_CPU/Mem_Wr_reg.v|
+!s90 -reportprogress|300|-work|work|C:/Users/xiaoshen/Desktop/homework/tutorial1/assembly_line_CPU/Mem_Wr_reg.v|
+!i113 0
+R3
+n@mem_@wr_reg
+vMux_2_To_1
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 ?V`_z7cLc9f^9O7XQJYRQ3
+InY3<0a2l6[X2Y0fXi76M02
+R0
+Z12 w1498558649
+Z13 8C:/Users/xiaoshen/Desktop/homework/tutorial1/assembly_line_CPU/Mux.v
+Z14 FC:/Users/xiaoshen/Desktop/homework/tutorial1/assembly_line_CPU/Mux.v
+L0 1
+R2
+Z15 !s108 1498567075.162000
+Z16 !s107 C:/Users/xiaoshen/Desktop/homework/tutorial1/assembly_line_CPU/Mux.v|
+Z17 !s90 -reportprogress|300|-work|work|C:/Users/xiaoshen/Desktop/homework/tutorial1/assembly_line_CPU/Mux.v|
+!i113 0
+R3
+n@mux_2_@to_1
+vMux_2_To_1_Width
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 QBgdzkeJLPfgPGBJm5jM21
+IA82gBZklPSF74e_i4UO5N3
+R0
+R12
+R13
+R14
+L0 10
+R2
+R15
+R16
+R17
+!i113 0
+R3
+n@mux_2_@to_1_@width
+vMux_4_To_1
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 >hn<DWIn]@2e6O=796TYQ1
+I=eQYM8@c`0^jmV9G1<hH<3
+R0
+R12
+R13
+R14
+R8
+R2
+R15
+R16
+R17
+!i113 0
+R3
+n@mux_4_@to_1
+vNPC
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 0]jRmk31YB7G`?a]O0`6g0
+IZZEL07c^C4SY6ED[m?GjG2
+R0
+w1498023353
+8C:/Users/xiaoshen/Desktop/homework/tutorial1/assembly_line_CPU/NPC.v
+FC:/Users/xiaoshen/Desktop/homework/tutorial1/assembly_line_CPU/NPC.v
+L0 2
+R2
+!s108 1498567075.240000
+!s107 C:/Users/xiaoshen/Desktop/homework/tutorial1/assembly_line_CPU/NPC.v|
+!s90 -reportprogress|300|-work|work|C:/Users/xiaoshen/Desktop/homework/tutorial1/assembly_line_CPU/NPC.v|
+!i113 0
+R3
+n@n@p@c
+vPC
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 CmR][9]gIjJgR5VB]@1cI0
+IQkN57I1EXnT9j2m0kbHdi0
+R0
+w1497978996
+8C:/Users/xiaoshen/Desktop/homework/tutorial1/assembly_line_CPU/PC.v
+FC:/Users/xiaoshen/Desktop/homework/tutorial1/assembly_line_CPU/PC.v
+L0 4
+R2
+!s108 1498567075.309000
+!s107 C:/Users/xiaoshen/Desktop/homework/tutorial1/assembly_line_CPU/PC.v|
+!s90 -reportprogress|300|-work|work|C:/Users/xiaoshen/Desktop/homework/tutorial1/assembly_line_CPU/PC.v|
+!i113 0
+R3
+n@p@c
+vpipctrlHD_Unit
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 UMA<oWUf2Z[6k:L=3`E`S1
+IWKN=HBQbT7^m9kj]K`mND0
+R0
+R12
+8C:/Users/xiaoshen/Desktop/homework/tutorial1/assembly_line_CPU/pipctrlHD_Unit.v
+FC:/Users/xiaoshen/Desktop/homework/tutorial1/assembly_line_CPU/pipctrlHD_Unit.v
+L0 1
+R2
+!s108 1498567075.422000
+!s107 C:/Users/xiaoshen/Desktop/homework/tutorial1/assembly_line_CPU/pipctrlHD_Unit.v|
+!s90 -reportprogress|300|-work|work|C:/Users/xiaoshen/Desktop/homework/tutorial1/assembly_line_CPU/pipctrlHD_Unit.v|
+!i113 0
+R3
+npipctrl@h@d_@unit
+vRegfile
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 95G4Mf9RYdL3z7Q>amR:C2
+IlzGJOn5kH6FiNTi<6ShNj3
+R0
+w1498558575
+8C:/Users/xiaoshen/Desktop/homework/tutorial1/assembly_line_CPU/Regfile.v
+FC:/Users/xiaoshen/Desktop/homework/tutorial1/assembly_line_CPU/Regfile.v
+L0 1
+R2
+!s108 1498567075.496000
+!s107 C:/Users/xiaoshen/Desktop/homework/tutorial1/assembly_line_CPU/Regfile.v|
+!s90 -reportprogress|300|-work|work|C:/Users/xiaoshen/Desktop/homework/tutorial1/assembly_line_CPU/Regfile.v|
+!i113 0
+R3
+n@regfile
+vSign_Ext
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 6_4nFDLZ8?916M@4dRVAn1
+I4n8@CGmYC[l56Y_ZPfOIC3
+R0
+R5
+R6
+R7
+L0 2
+R2
+R9
+R10
+R11
+!i113 0
+R3
+n@sign_@ext
+vsign_extend
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 OY^L2W]N>Wl20ji_`zj2X0
+I:D:jD@DTW]P7Y=Pef>AQC0
+R0
+R5
+R6
+R7
+L0 36
+R2
+R9
+R10
+R11
+!i113 0
+R3
+vtestbench
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 nWTAMPMo<ncdSQ@7RK>F`2
+I^kBZaVicCb_VJ;Eh;z7R51
+R0
+w1497980024
+8C:/Users/xiaoshen/Desktop/homework/tutorial1/assembly_line_CPU/testbench.v
+FC:/Users/xiaoshen/Desktop/homework/tutorial1/assembly_line_CPU/testbench.v
+L0 1
+R2
+!s108 1498567075.562000
+!s107 C:/Users/xiaoshen/Desktop/homework/tutorial1/assembly_line_CPU/testbench.v|
+!s90 -reportprogress|300|-work|work|C:/Users/xiaoshen/Desktop/homework/tutorial1/assembly_line_CPU/testbench.v|
+!i113 0
+R3
+vZero_Ext
+R4
+!i10b 1
+!s100 O[d=J?ce>4;EJa@SRF]i;1
+I<4acdPJlb9N^;[8F=3c[e1
+R1
+R0
+R5
+R6
+R7
+L0 11
+R2
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R3
+n@zero_@ext
+vzero_extend
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 i<`@<`5n?`=z0oQR<n4]n2
+IA_6HVCNd8Cmcn2Qf;mRKJ2
+R0
+R5
+R6
+R7
+L0 44
+R2
+R9
+R10
+R11
+!i113 0
+R3

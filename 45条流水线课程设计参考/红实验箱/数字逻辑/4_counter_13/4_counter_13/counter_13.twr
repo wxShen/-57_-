@@ -1,0 +1,78 @@
+--------------------------------------------------------------------------------
+Release 14.3 Trace  (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+D:\Xilinx\14.3\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 3
+-n 3 -fastpaths -xml counter_13.twx counter_13.ncd -o counter_13.twr
+counter_13.pcf -ucf counter_13.ucf
+
+Design file:              counter_13.ncd
+Physical constraint file: counter_13.pcf
+Device,package,speed:     xc6slx150,fgg484,C,-3 (PRODUCTION 1.23 2012-10-12)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock button_clk
+------------+------------+------------+------------+------------+------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
+------------+------------+------------+------------+------------+------------------+--------+
+sw6_reset   |    1.593(R)|      SLOW  |    1.891(R)|      SLOW  |button_clk_BUFGP  |   0.000|
+------------+------------+------------+------------+------------+------------------+--------+
+
+Clock button_clk to Pad
+-------------------+-----------------+------------+-----------------+------------+------------------+--------+
+                   |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination        |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+-------------------+-----------------+------------+-----------------+------------+------------------+--------+
+led8_C             |        12.518(R)|      SLOW  |         7.070(R)|      FAST  |button_clk_BUFGP  |   0.000|
+num1_scan_select<0>|        11.586(R)|      SLOW  |         6.271(R)|      FAST  |button_clk_BUFGP  |   0.000|
+num1_seg7<0>       |        14.921(R)|      SLOW  |         8.266(R)|      FAST  |button_clk_BUFGP  |   0.000|
+num1_seg7<1>       |        14.980(R)|      SLOW  |         8.300(R)|      FAST  |button_clk_BUFGP  |   0.000|
+num1_seg7<2>       |        15.666(R)|      SLOW  |         8.581(R)|      FAST  |button_clk_BUFGP  |   0.000|
+num1_seg7<3>       |        14.090(R)|      SLOW  |         7.778(R)|      FAST  |button_clk_BUFGP  |   0.000|
+num1_seg7<4>       |        15.412(R)|      SLOW  |         8.535(R)|      FAST  |button_clk_BUFGP  |   0.000|
+num1_seg7<5>       |        14.043(R)|      SLOW  |         7.708(R)|      FAST  |button_clk_BUFGP  |   0.000|
+num1_seg7<6>       |        15.382(R)|      SLOW  |         8.396(R)|      FAST  |button_clk_BUFGP  |   0.000|
+-------------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock to Setup on destination clock button_clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+button_clk     |    3.139|         |         |         |
+---------------+---------+---------+---------+---------+
+
+
+Analysis completed Mon Mar 14 16:08:03 2016 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 373 MB
+
+
+

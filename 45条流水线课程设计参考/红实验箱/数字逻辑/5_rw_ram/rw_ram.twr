@@ -1,0 +1,120 @@
+--------------------------------------------------------------------------------
+Release 14.3 Trace  (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+f:\Xilinx\14.3\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 3
+-n 3 -fastpaths -xml rw_ram.twx rw_ram.ncd -o rw_ram.twr rw_ram.pcf -ucf
+rw_ram.ucf
+
+Design file:              rw_ram.ncd
+Physical constraint file: rw_ram.pcf
+Device,package,speed:     xc6slx150,fgg484,C,-3 (PRODUCTION 1.23 2012-10-12)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock row1_clk
+------------+------------+------------+------------+------------+------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
+------------+------------+------------+------------+------------+------------------+--------+
+data_in<0>  |   -5.118(R)|      FAST  |    9.361(R)|      SLOW  |row1_clk_BUFGP    |   0.000|
+data_in<1>  |   -4.791(R)|      FAST  |    9.096(R)|      SLOW  |row1_clk_BUFGP    |   0.000|
+data_in<2>  |   -5.036(R)|      FAST  |    9.519(R)|      SLOW  |row1_clk_BUFGP    |   0.000|
+data_in<3>  |   -4.918(R)|      FAST  |    9.256(R)|      SLOW  |row1_clk_BUFGP    |   0.000|
+u9sw5_r_en  |   -4.097(R)|      FAST  |    8.133(R)|      SLOW  |row1_clk_BUFGP    |   0.000|
+u9sw6_ram_en|   -4.177(R)|      FAST  |    8.310(R)|      SLOW  |row1_clk_BUFGP    |   0.000|
+u10_addr<0> |   -4.377(R)|      FAST  |    8.817(R)|      SLOW  |row1_clk_BUFGP    |   0.000|
+u10_addr<1> |   -4.592(R)|      FAST  |    8.958(R)|      SLOW  |row1_clk_BUFGP    |   0.000|
+------------+------------+------------+------------+------------+------------------+--------+
+
+Clock row1_clk to Pad
+---------------+-----------------+------------+-----------------+------------+------------------+--------+
+               |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination    |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+---------------+-----------------+------------+-----------------+------------+------------------+--------+
+data_out_led<0>|        22.491(R)|      SLOW  |        13.259(R)|      FAST  |row1_clk_BUFGP    |   0.000|
+data_out_led<1>|        22.630(R)|      SLOW  |        13.340(R)|      FAST  |row1_clk_BUFGP    |   0.000|
+data_out_led<2>|        22.746(R)|      SLOW  |        13.415(R)|      FAST  |row1_clk_BUFGP    |   0.000|
+data_out_led<3>|        26.369(R)|      SLOW  |        15.650(R)|      FAST  |row1_clk_BUFGP    |   0.000|
+num1_seg7<0>   |        18.046(R)|      SLOW  |        10.206(R)|      FAST  |row1_clk_BUFGP    |   0.000|
+num1_seg7<1>   |        18.266(R)|      SLOW  |        10.365(R)|      FAST  |row1_clk_BUFGP    |   0.000|
+num1_seg7<2>   |        22.187(R)|      SLOW  |        12.800(R)|      FAST  |row1_clk_BUFGP    |   0.000|
+num1_seg7<3>   |        19.076(R)|      SLOW  |        10.954(R)|      FAST  |row1_clk_BUFGP    |   0.000|
+num1_seg7<4>   |        22.225(R)|      SLOW  |        12.891(R)|      FAST  |row1_clk_BUFGP    |   0.000|
+num1_seg7<5>   |        19.061(R)|      SLOW  |        10.855(R)|      FAST  |row1_clk_BUFGP    |   0.000|
+num1_seg7<6>   |        22.071(R)|      SLOW  |        12.789(R)|      FAST  |row1_clk_BUFGP    |   0.000|
+---------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+data_in<0>     |num1_seg7<0>   |    8.517|
+data_in<0>     |num1_seg7<1>   |    9.139|
+data_in<0>     |num1_seg7<2>   |   12.600|
+data_in<0>     |num1_seg7<3>   |    9.555|
+data_in<0>     |num1_seg7<4>   |   12.962|
+data_in<0>     |num1_seg7<5>   |    9.857|
+data_in<0>     |num1_seg7<6>   |   12.123|
+data_in<1>     |num1_seg7<0>   |    8.769|
+data_in<1>     |num1_seg7<1>   |    9.391|
+data_in<1>     |num1_seg7<2>   |   12.895|
+data_in<1>     |num1_seg7<3>   |    9.979|
+data_in<1>     |num1_seg7<4>   |   13.257|
+data_in<1>     |num1_seg7<5>   |   10.281|
+data_in<1>     |num1_seg7<6>   |   12.393|
+data_in<2>     |num1_seg7<0>   |    8.074|
+data_in<2>     |num1_seg7<1>   |    8.696|
+data_in<2>     |num1_seg7<2>   |   12.453|
+data_in<2>     |num1_seg7<3>   |    9.510|
+data_in<2>     |num1_seg7<4>   |   12.815|
+data_in<2>     |num1_seg7<5>   |    9.812|
+data_in<2>     |num1_seg7<6>   |   11.975|
+data_in<3>     |num1_seg7<0>   |    8.896|
+data_in<3>     |num1_seg7<1>   |    9.518|
+data_in<3>     |num1_seg7<2>   |   13.074|
+data_in<3>     |num1_seg7<3>   |    9.992|
+data_in<3>     |num1_seg7<4>   |   13.436|
+data_in<3>     |num1_seg7<5>   |   10.294|
+data_in<3>     |num1_seg7<6>   |   12.538|
+u9sw5_r_en     |num1_seg7<0>   |    8.696|
+u9sw5_r_en     |num1_seg7<1>   |    8.751|
+u9sw5_r_en     |num1_seg7<2>   |   12.590|
+u9sw5_r_en     |num1_seg7<3>   |    9.026|
+u9sw5_r_en     |num1_seg7<4>   |   12.318|
+u9sw5_r_en     |num1_seg7<5>   |    8.996|
+u9sw5_r_en     |num1_seg7<6>   |   12.383|
+---------------+---------------+---------+
+
+
+Analysis completed Thu Jan 14 18:04:23 2016 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 396 MB
+
+
+

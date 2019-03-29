@@ -1,0 +1,22 @@
+//! **************************************************************************
+// Written by: Map P.40xd on Mon Mar 14 16:07:24 2016
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "button_clk" LOCATE = SITE "U3" LEVEL 1;
+PIN button_clk_pin<0> = BEL "button_clk" PINNAME PAD;
+PIN "button_clk_pin<0>" CLOCK_DEDICATED_ROUTE = FALSE;
+COMP "num1_scan_select<0>" LOCATE = SITE "C4" LEVEL 1;
+COMP "num1_scan_select<1>" LOCATE = SITE "F5" LEVEL 1;
+COMP "led8_C" LOCATE = SITE "G8" LEVEL 1;
+COMP "num1_seg7<0>" LOCATE = SITE "F3" LEVEL 1;
+COMP "num1_seg7<1>" LOCATE = SITE "C3" LEVEL 1;
+COMP "sw6_reset" LOCATE = SITE "N1" LEVEL 1;
+COMP "num1_seg7<2>" LOCATE = SITE "E6" LEVEL 1;
+COMP "num1_seg7<3>" LOCATE = SITE "D5" LEVEL 1;
+COMP "num1_seg7<4>" LOCATE = SITE "E5" LEVEL 1;
+COMP "num1_seg7<5>" LOCATE = SITE "E4" LEVEL 1;
+COMP "num1_seg7<6>" LOCATE = SITE "D3" LEVEL 1;
+COMP "num1_seg7<7>" LOCATE = SITE "E3" LEVEL 1;
+SCHEMATIC END;
+

@@ -1,0 +1,36 @@
+//! **************************************************************************
+// Written by: Map P.40xd on Thu Jan 14 18:02:54 2016
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "num1_scan_select<0>" LOCATE = SITE "C4" LEVEL 1;
+COMP "num1_scan_select<1>" LOCATE = SITE "F5" LEVEL 1;
+COMP "data_out_led<0>" LOCATE = SITE "A8" LEVEL 1;
+COMP "data_out_led<1>" LOCATE = SITE "B8" LEVEL 1;
+COMP "data_out_led<2>" LOCATE = SITE "F9" LEVEL 1;
+COMP "data_out_led<3>" LOCATE = SITE "C10" LEVEL 1;
+COMP "num1_seg7<0>" LOCATE = SITE "F3" LEVEL 1;
+COMP "num1_seg7<1>" LOCATE = SITE "C3" LEVEL 1;
+COMP "num1_seg7<2>" LOCATE = SITE "E6" LEVEL 1;
+COMP "num1_seg7<3>" LOCATE = SITE "D5" LEVEL 1;
+COMP "num1_seg7<4>" LOCATE = SITE "E5" LEVEL 1;
+COMP "num1_seg7<5>" LOCATE = SITE "E4" LEVEL 1;
+COMP "u9sw5_r_en" LOCATE = SITE "P1" LEVEL 1;
+COMP "num1_seg7<6>" LOCATE = SITE "D3" LEVEL 1;
+COMP "num1_seg7<7>" LOCATE = SITE "E3" LEVEL 1;
+COMP "u9sw6_ram_en" LOCATE = SITE "N1" LEVEL 1;
+COMP "u10_addr<0>" LOCATE = SITE "M2" LEVEL 1;
+COMP "data_in<0>" LOCATE = SITE "L3" LEVEL 1;
+COMP "u10_addr<1>" LOCATE = SITE "M1" LEVEL 1;
+COMP "col1_4<0>" LOCATE = SITE "W3" LEVEL 1;
+COMP "data_in<1>" LOCATE = SITE "L1" LEVEL 1;
+COMP "col1_4<1>" LOCATE = SITE "U4" LEVEL 1;
+COMP "data_in<2>" LOCATE = SITE "K1" LEVEL 1;
+COMP "col1_4<2>" LOCATE = SITE "V3" LEVEL 1;
+COMP "data_in<3>" LOCATE = SITE "K2" LEVEL 1;
+COMP "col1_4<3>" LOCATE = SITE "T4" LEVEL 1;
+COMP "row1_clk" LOCATE = SITE "Y2" LEVEL 1;
+PIN row1_clk_pin<0> = BEL "row1_clk" PINNAME PAD;
+PIN "row1_clk_pin<0>" CLOCK_DEDICATED_ROUTE = FALSE;
+SCHEMATIC END;
+

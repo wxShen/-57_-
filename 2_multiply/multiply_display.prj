@@ -1,0 +1,3 @@
+verilog work "multiply.v"
+verilog work "lcd_module.v"
+verilog work "multiply_display.v"

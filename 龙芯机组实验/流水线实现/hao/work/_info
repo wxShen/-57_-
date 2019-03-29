@@ -1,0 +1,695 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/modeltech64_10.4/examples
+T_opt
+!s110 1492947468
+VZ6<YLFM[jdYkG]]PL5MjC1
+04 7 4 work signext fast 0
+=1-847beb4a3c1c-58fc920c-307-31c8
+Z1 o-quiet -auto_acc_if_foreign -work work
+n@_opt
+Z2 OL;O;10.4;61
+R0
+T_opt1
+!s110 1493734873
+V8U`lz[MTRGUklegf@<:J03
+04 9 4 work testbench fast 0
+=1-847beb4a3c1c-590895d9-273-3630
+R1
+n@_opt1
+R2
+R0
+vaddu
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 BZz<C31Je:j3DM^U^eHk20
+IjCGQ2IIDgZJoYEb04;3Y=2
+Z4 dC:/Users/clive/Desktop/Clive
+Z5 w1493816605
+Z6 8C:/Users/clive/Desktop/Clive/alu.v
+Z7 FC:/Users/clive/Desktop/Clive/alu.v
+L0 37
+Z8 OL;L;10.4;61
+Z9 !s108 1495369003.774000
+Z10 !s107 mux2.v|C:/Users/clive/Desktop/Clive/alu.v|
+Z11 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/clive/Desktop/Clive/alu.v|
+!i113 0
+Z12 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vALU
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 Q;c:nH9]Fjn=M:<A]@7I70
+I2ID?L9@80abLi:aaigZim1
+R4
+R5
+R6
+R7
+L0 2
+R8
+R9
+R10
+R11
+!i113 0
+R12
+n@a@l@u
+vALUctr
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 BSCQBiClz<mFG__J6g>]W3
+IjEi8^=:>i^ZiGXC45J<<o1
+R4
+w1493894135
+8C:/Users/clive/Desktop/Clive/ALUctr.v
+FC:/Users/clive/Desktop/Clive/ALUctr.v
+L0 2
+R8
+!s108 1495369003.946000
+!s107 mux2.v|C:/Users/clive/Desktop/Clive/ALUctr.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/clive/Desktop/Clive/ALUctr.v|
+!i113 0
+R12
+n@a@l@uctr
+vctrl
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 CZYjZ;f4aW74nh6zkoZJ?1
+I4LHO^k5^PGO]hc09onCHA2
+R4
+w1493914538
+8C:/Users/clive/Desktop/Clive/ctrl.v
+FC:/Users/clive/Desktop/Clive/ctrl.v
+L0 1
+R8
+!s108 1495369004.092000
+!s107 C:/Users/clive/Desktop/Clive/ctrl.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/clive/Desktop/Clive/ctrl.v|
+!i113 0
+R12
+vdatapath
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 e<kf2i?Bk^XDl`T:amWF01
+I=2cG[3_dg>nHmYBzIcz2L0
+R4
+w1495005185
+Z13 8C:/Users/clive/Desktop/Clive/mips.v
+Z14 FC:/Users/clive/Desktop/Clive/mips.v
+L0 1
+R8
+!s108 1495005806.470000
+Z15 !s107 C:/Users/clive/Desktop/Clive/mips.v|
+Z16 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/clive/Desktop/Clive/mips.v|
+!i113 0
+R12
+vdm_4k
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 AALkbhKFdVKI:eWVM@eO[0
+IB4GoebO;WhV0A[@lQLRQ]3
+R4
+w1493912067
+8C:/Users/clive/Desktop/Clive/dm.v
+FC:/Users/clive/Desktop/Clive/dm.v
+L0 1
+R8
+!s108 1495369004.251000
+!s107 C:/Users/clive/Desktop/Clive/dm.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/clive/Desktop/Clive/dm.v|
+!i113 0
+R12
+vEX
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 EK_@Rm7Mc;L@STczm_PNo3
+IFII]E4;F6KiV:O8:mi@iU2
+R4
+Z17 w1495356096
+Z18 8C:/Users/clive/Desktop/Clive/EX.v
+Z19 FC:/Users/clive/Desktop/Clive/EX.v
+L0 1
+R8
+Z20 !s108 1495369005.557000
+Z21 !s107 C:/Users/clive/Desktop/Clive/EX.v|
+Z22 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/clive/Desktop/Clive/EX.v|
+!i113 0
+R12
+n@e@x
+vEX_MEM
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 i84=3RW8VzPP`hD2o=F`O2
+IT[E63LXQ2YA;[fZeID3G[3
+R4
+w1495341344
+8C:/Users/clive/Desktop/Clive/EX_MEM.v
+FC:/Users/clive/Desktop/Clive/EX_MEM.v
+L0 1
+R8
+!s108 1495369005.695000
+!s107 C:/Users/clive/Desktop/Clive/EX_MEM.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/clive/Desktop/Clive/EX_MEM.v|
+!i113 0
+R12
+n@e@x_@m@e@m
+vExecUnit
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 h6Xg[aO<R0GLbRR];nG5@3
+IScQE9RmOgK:=4e@_@X7lb0
+R4
+R17
+R18
+R19
+L0 20
+R8
+R20
+R21
+R22
+!i113 0
+R12
+n@exec@unit
+vForwardUnit
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 EYF5EnE^<F@5Oo]?9oHGG2
+I0de8b3EAj>>`ZGAVWO1HB0
+R4
+w1495377465
+8C:/Users/clive/Desktop/Clive/ForwardingUnit.v
+FC:/Users/clive/Desktop/Clive/ForwardingUnit.v
+L0 1
+R8
+!s108 1495377471.539000
+!s107 C:/Users/clive/Desktop/Clive/ForwardingUnit.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/clive/Desktop/Clive/ForwardingUnit.v|
+!i113 0
+R12
+n@forward@unit
+vID
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 44;<e<eYoFj7EUmFn]ObA0
+IF:bLSNXcYkFH<TdLKcPb=2
+R4
+w1495373280
+8C:/Users/clive/Desktop/Clive/ID.v
+FC:/Users/clive/Desktop/Clive/ID.v
+L0 1
+R8
+!s108 1495373794.106000
+!s107 C:/Users/clive/Desktop/Clive/ID.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/clive/Desktop/Clive/ID.v|
+!i113 0
+R12
+n@i@d
+vID_EX
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 ]=eR=32AFm>1Z0X16:^hQ3
+I7>ekah]@?a;ebQJ1B9QC[2
+R4
+w1495344170
+8C:/Users/clive/Desktop/Clive/ID_EX.v
+FC:/Users/clive/Desktop/Clive/ID_EX.v
+L0 1
+R8
+!s108 1495369005.422000
+!s107 C:/Users/clive/Desktop/Clive/ID_EX.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/clive/Desktop/Clive/ID_EX.v|
+!i113 0
+R12
+n@i@d_@e@x
+vIF
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 92oaU=@f;?CIN7mkHlC:33
+IW>=kZP092;RBgKjU?`zjS3
+R4
+Z23 w1495342046
+Z24 8C:/Users/clive/Desktop/Clive/IF.v
+Z25 FC:/Users/clive/Desktop/Clive/IF.v
+L0 1
+R8
+Z26 !s108 1495369006.230000
+Z27 !s107 C:/Users/clive/Desktop/Clive/IF.v|
+Z28 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/clive/Desktop/Clive/IF.v|
+!i113 0
+R12
+n@i@f
+vIF_ID
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 8hX5g]kHOcN6F7l]?mG@G1
+ISee>DDY;C4jjWkA3YmjLP2
+R4
+w1495366370
+8C:/Users/clive/Desktop/Clive/IF_ID.v
+FC:/Users/clive/Desktop/Clive/IF_ID.v
+L0 1
+R8
+!s108 1495369005.171000
+!s107 C:/Users/clive/Desktop/Clive/IF_ID.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/clive/Desktop/Clive/IF_ID.v|
+!i113 0
+R12
+n@i@f_@i@d
+vim_4k
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 _3ekjV3Hi491e2P6eeIbH0
+I4;9oI3ELYTSFj[Nj=5Vo<1
+R4
+w1493733274
+8C:/Users/clive/Desktop/Clive/im.v
+FC:/Users/clive/Desktop/Clive/im.v
+L0 1
+R8
+!s108 1495369004.521000
+!s107 C:/Users/clive/Desktop/Clive/im.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/clive/Desktop/Clive/im.v|
+!i113 0
+R12
+vimem
+!s110 1493274660
+!i10b 1
+!s100 0a6TLTbOK>Th<fF=`=Il]2
+I:_i9J@XBb1_58P^M:0P_?0
+R3
+R0
+w1493208202
+8C:/modeltech64_10.4/examples/im.v
+FC:/modeltech64_10.4/examples/im.v
+L0 1
+R8
+r1
+!s85 0
+31
+!s108 1493274660.025000
+!s107 C:/modeltech64_10.4/examples/im.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/modeltech64_10.4/examples/im.v|
+!i113 0
+R12
+vIUnit
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 NY7YjCAkJ5IX<Se=F?DOR1
+I2gRgjY8@Q984L^GH4@Z@80
+R4
+R23
+R24
+R25
+L0 12
+R8
+R26
+R27
+R28
+!i113 0
+R12
+n@i@unit
+viunit
+!s110 1494933884
+!i10b 1
+!s100 CY[3=KoZUOV5eNNjYmzV<3
+Ic18JDS=Lh[Z_3;aH6LP?T2
+R3
+R4
+w1494933881
+8C:/Users/clive/Desktop/Clive/iunit.v
+FC:/Users/clive/Desktop/Clive/iunit.v
+L0 1
+R8
+r1
+!s85 0
+31
+!s108 1494933884.716000
+!s107 C:/Users/clive/Desktop/Clive/iunit.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/clive/Desktop/Clive/iunit.v|
+!i113 0
+R12
+vMEM
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 MefOU=Ygkh`]6RmHbSVOa2
+I_D:oG9f18@b?2?h?d;:_j3
+R4
+w1495352392
+8C:/Users/clive/Desktop/Clive/MEM.v
+FC:/Users/clive/Desktop/Clive/MEM.v
+L0 1
+R8
+!s108 1495369005.829000
+!s107 C:/Users/clive/Desktop/Clive/MEM.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/clive/Desktop/Clive/MEM.v|
+!i113 0
+R12
+n@m@e@m
+vMEM_WR
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 H]RbN8eam2^5eeYBnRCH[1
+IA]FTkB=IRX<h2_k;DiNhh0
+R4
+w1495339171
+8C:/Users/clive/Desktop/Clive/MEM_WR.v
+FC:/Users/clive/Desktop/Clive/MEM_WR.v
+L0 1
+R8
+!s108 1495369005.965000
+!s107 C:/Users/clive/Desktop/Clive/MEM_WR.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/clive/Desktop/Clive/MEM_WR.v|
+!i113 0
+R12
+n@m@e@m_@w@r
+vmips
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 TThNL0WSjYNR;gPQE:=H81
+Im=DBEa]^mRW3j^bdGB`BV2
+R4
+w1495369197
+R13
+R14
+L0 1
+R8
+!s108 1495369208.508000
+R15
+R16
+!i113 0
+R12
+vmux2
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 fBg7AgU7GVglH@0W<GLb[0
+IJn6jT;o[[d9BUZ:fKPYFJ3
+R4
+Z29 w1495263250
+Z30 8C:/Users/clive/Desktop/Clive/mux2.v
+Z31 FC:/Users/clive/Desktop/Clive/mux2.v
+L0 1
+R8
+Z32 !s108 1495369004.658000
+Z33 !s107 C:/Users/clive/Desktop/Clive/mux2.v|
+Z34 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/clive/Desktop/Clive/mux2.v|
+!i113 0
+R12
+vmux3
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 ;F24c^[N^W_GZim>dACbD1
+I2GmINK@l=7@KeTjGM7>DX2
+R4
+R29
+R30
+R31
+L0 9
+R8
+R32
+R33
+R34
+!i113 0
+R12
+vmux4
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 AL`3]YeG`aP63WlLjn4[k3
+IC>?L3CNhFm;OH]=Yz3IhH0
+R4
+R29
+R30
+R31
+L0 23
+R8
+R32
+R33
+R34
+!i113 0
+R12
+vNPC
+!s110 1495005804
+!i10b 1
+!s100 [2NN7ZhiT`nLSVcAhR;jU1
+IG>Pd]z?oMLZ_6PI28mZU@1
+R3
+R4
+w1493812515
+8C:/Users/clive/Desktop/Clive/NPC.v
+FC:/Users/clive/Desktop/Clive/NPC.v
+L0 2
+R8
+r1
+!s85 0
+31
+!s108 1495005804.720000
+!s107 mux2.v|C:/Users/clive/Desktop/Clive/NPC.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/clive/Desktop/Clive/NPC.v|
+!i113 0
+R12
+n@n@p@c
+vori
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 OEh07T0=Ec7b^BR_Qbi^S2
+IhN`?jCjzK2LM3gFMCzjFA2
+R4
+R5
+R6
+R7
+L0 51
+R8
+R9
+R10
+R11
+!i113 0
+R12
+vPC
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 ]5R^`P2HZR@ZihS>VTHAo2
+I@I2OI3;=n^VzH_>e=?BR]1
+R4
+w1495279232
+8C:/Users/clive/Desktop/Clive/pc.v
+FC:/Users/clive/Desktop/Clive/pc.v
+L0 1
+R8
+!s108 1495369004.832000
+!s107 C:/Users/clive/Desktop/Clive/pc.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/clive/Desktop/Clive/pc.v|
+!i113 0
+R12
+n@p@c
+vpipeCtrl
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 KGo1U8=OK3zcfKf=alXeJ3
+I9hRe[QPe5i`am0XHSU^bf3
+R4
+w1495368867
+8C:/Users/clive/Desktop/Clive/hazard_detection_unit.v
+FC:/Users/clive/Desktop/Clive/hazard_detection_unit.v
+L0 1
+R8
+!s108 1495369006.684000
+!s107 C:/Users/clive/Desktop/Clive/hazard_detection_unit.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/clive/Desktop/Clive/hazard_detection_unit.v|
+!i113 0
+R12
+npipe@ctrl
+vregfile
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 1cCh0<[:WGnSofO_R]E<F1
+IQhi4U0B3nUH39cXLTgLQ63
+R4
+w1493910997
+8C:/Users/clive/Desktop/Clive/regfile.v
+FC:/Users/clive/Desktop/Clive/regfile.v
+L0 1
+R8
+!s108 1495369005.030000
+!s107 C:/Users/clive/Desktop/Clive/regfile.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/clive/Desktop/Clive/regfile.v|
+!i113 0
+R12
+vsignext
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 gb62hJ]SOfMc?AV?;i5G93
+IXNmP?5T40S_G2LgKTea1@2
+R4
+R5
+R6
+R7
+L0 29
+R8
+R9
+R10
+R11
+!i113 0
+R12
+vSignExt
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 YPWJE?^N9OOK9G<Ckn[X<2
+I]j?FMLJ3gmL1kd?LjoP7@2
+R4
+w1493296970
+8C:/Users/clive/Desktop/Clive/extop.v
+FC:/Users/clive/Desktop/Clive/extop.v
+L0 1
+R8
+!s108 1495369004.388000
+!s107 C:/Users/clive/Desktop/Clive/extop.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/clive/Desktop/Clive/extop.v|
+!i113 0
+R12
+n@sign@ext
+vslt
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 E<kFSOaGBVncolUJoH3_B2
+IIE>fHl<[RbBgR3le`=T<A3
+R4
+R5
+R6
+R7
+L0 57
+R8
+R9
+R10
+R11
+!i113 0
+R12
+vtestbench
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 K=@KUmZ=@>Va0KVZ2Q^=?1
+I^CHB[<lOi]Jcd2hU_C3Fn3
+R4
+w1495006012
+8C:/Users/clive/Desktop/Clive/testbench.v
+FC:/Users/clive/Desktop/Clive/testbench.v
+L0 1
+R8
+!s108 1495369003.643000
+!s107 C:/Users/clive/Desktop/Clive/testbench.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/clive/Desktop/Clive/testbench.v|
+!i113 0
+R12
+vWR
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 8kk[ONRi[U6Ja5JGE^YiW0
+IJ4BzFDRAT6DlZiQ_9`i>>3
+R4
+w1495371901
+8C:/Users/clive/Desktop/Clive/WR.v
+FC:/Users/clive/Desktop/Clive/WR.v
+L0 1
+R8
+!s108 1495371906.756000
+!s107 C:/Users/clive/Desktop/Clive/WR.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/clive/Desktop/Clive/WR.v|
+!i113 0
+R12
+n@w@r

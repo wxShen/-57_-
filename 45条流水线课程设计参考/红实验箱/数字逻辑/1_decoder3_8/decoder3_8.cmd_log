@@ -1,0 +1,12 @@
+xst -intstyle ise -ifn "D:/Users/decoder3_8/decoder3_8.xst" -ofn "D:/Users/decoder3_8/decoder3_8.syr" 
+xst -intstyle ise -ifn "D:/Users/decoder3_8/decoder3_8.xst" -ofn "D:/Users/decoder3_8/decoder3_8.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim decoder3_8.ngc decoder3_8_synthesis.v 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc decoder3_8.ucf -p xc6slx150-fgg484-3 decoder3_8.ngc decoder3_8.ngd  
+map -intstyle ise -p xc6slx150-fgg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o decoder3_8_map.ncd decoder3_8.ngd decoder3_8.pcf 
+xst -intstyle ise -ifn "D:/Users/decoder3_8/decoder3_8.xst" -ofn "D:/Users/decoder3_8/decoder3_8.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim decoder3_8.ngc decoder3_8_synthesis.v 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc decoder3_8.ucf -p xc6slx150-fgg484-3 decoder3_8.ngc decoder3_8.ngd  
+map -intstyle ise -p xc6slx150-fgg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o decoder3_8_map.ncd decoder3_8.ngd decoder3_8.pcf 
+par -w -intstyle ise -ol high -mt off decoder3_8_map.ncd decoder3_8.ncd decoder3_8.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml decoder3_8.twx decoder3_8.ncd -o decoder3_8.twr decoder3_8.pcf -ucf decoder3_8.ucf 
+bitgen -intstyle ise -f decoder3_8.ut decoder3_8.ncd 

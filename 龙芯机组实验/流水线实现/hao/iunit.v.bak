@@ -1,0 +1,10 @@
+module iunit(clk,rst,din,dout,instr);
+
+input clk,rst;
+input[31:0] din;
+output [31:0] dout,instr;
+PC(clk,rst,din,dout);
+im_4k(dout,instr);
+assign dout = din +4;
+
+endmodule

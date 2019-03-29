@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\Users\decoder3_8\decoder3_8.ncd
+OUTFILE=D:\Users\decoder3_8\decoder3_8.bit
+FAMILY=Spartan6
+PART=xc6slx150-3fgg484
+WORKINGDIR=D:\Users\decoder3_8
+LICENSE=ISE
+USER_INFO=__0_0_0

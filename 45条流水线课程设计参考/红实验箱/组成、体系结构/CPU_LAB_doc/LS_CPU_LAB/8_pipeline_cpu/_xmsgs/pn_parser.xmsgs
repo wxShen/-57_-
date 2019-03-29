@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated   -->
+<!--     by the Xilinx ISE software.  Any direct editing or        -->
+<!--     changes made to this file may result in unpredictable     -->
+<!--     behavior or data corruption.  It is strongly advised that -->
+<!--     users do not edit the contents of this file.              -->
+<!--                                                               -->
+<!-- Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.    -->
+
+<messages>
+<msg type="info" file="ProjectMgmt" num="1769" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;F:/LS_CPU_LAB/8_pipeline_cpu/adder.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1769" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;F:/LS_CPU_LAB/8_pipeline_cpu/alu.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1769" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;F:/LS_CPU_LAB/8_pipeline_cpu/data_ram.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1769" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;F:/LS_CPU_LAB/8_pipeline_cpu/decode.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1769" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;F:/LS_CPU_LAB/8_pipeline_cpu/exe.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1769" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;F:/LS_CPU_LAB/8_pipeline_cpu/fetch.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1769" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;F:/LS_CPU_LAB/8_pipeline_cpu/inst_rom.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1769" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;F:/LS_CPU_LAB/8_pipeline_cpu/lcd_module.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1769" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;F:/LS_CPU_LAB/8_pipeline_cpu/mem.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1769" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;F:/LS_CPU_LAB/8_pipeline_cpu/multiply.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1769" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;F:/LS_CPU_LAB/8_pipeline_cpu/pipeline_cpu.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1769" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;F:/LS_CPU_LAB/8_pipeline_cpu/pipeline_cpu_display.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1769" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;F:/LS_CPU_LAB/8_pipeline_cpu/regfile.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1769" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;F:/LS_CPU_LAB/8_pipeline_cpu/tb.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1769" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;F:/LS_CPU_LAB/8_pipeline_cpu/wb.v\&quot; into library work</arg>
+</msg>
+
+</messages>
+

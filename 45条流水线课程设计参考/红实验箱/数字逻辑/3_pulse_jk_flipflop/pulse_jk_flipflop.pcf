@@ -1,0 +1,11 @@
+//! **************************************************************************
+// Written by: Map P.40xd on Wed Jan 13 16:36:00 2016
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "led8_Q" LOCATE = SITE "G8" LEVEL 1;
+COMP "sw3_CLK" LOCATE = SITE "R1" LEVEL 1;
+COMP "sw1_K" LOCATE = SITE "T2" LEVEL 1;
+COMP "sw2_J" LOCATE = SITE "T1" LEVEL 1;
+SCHEMATIC END;
+

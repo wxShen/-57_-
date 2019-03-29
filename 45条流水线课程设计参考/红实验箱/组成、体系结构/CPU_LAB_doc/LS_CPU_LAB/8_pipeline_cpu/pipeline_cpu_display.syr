@@ -1,0 +1,974 @@
+Release 13.2 - xst O.61xd (nt64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.14 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.14 secs
+ 
+--> Reading design: pipeline_cpu_display.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "pipeline_cpu_display.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "pipeline_cpu_display"
+Output Format                      : NGC
+Target Device                      : xc6slx150-3-fgg484
+
+---- Source Options
+Top Module Name                    : pipeline_cpu_display
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : YES
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file \"F:\LS_CPU_LAB\8_pipeline_cpu\adder.v\" into library work
+Parsing module <adder>.
+Analyzing Verilog file \"F:\LS_CPU_LAB\8_pipeline_cpu\multiply.v\" into library work
+Parsing module <multiply>.
+Analyzing Verilog file \"F:\LS_CPU_LAB\8_pipeline_cpu\alu.v\" into library work
+Parsing module <alu>.
+Analyzing Verilog file \"F:\LS_CPU_LAB\8_pipeline_cpu\wb.v\" into library work
+Parsing module <wb>.
+Analyzing Verilog file \"F:\LS_CPU_LAB\8_pipeline_cpu\regfile.v\" into library work
+Parsing module <regfile>.
+Analyzing Verilog file \"F:\LS_CPU_LAB\8_pipeline_cpu\mem.v\" into library work
+Parsing module <mem>.
+Analyzing Verilog file \"F:\LS_CPU_LAB\8_pipeline_cpu\inst_rom.v\" into library work
+Parsing module <inst_rom>.
+Analyzing Verilog file \"F:\LS_CPU_LAB\8_pipeline_cpu\fetch.v\" into library work
+Parsing module <fetch>.
+Analyzing Verilog file \"F:\LS_CPU_LAB\8_pipeline_cpu\exe.v\" into library work
+Parsing module <exe>.
+Analyzing Verilog file \"F:\LS_CPU_LAB\8_pipeline_cpu\decode.v\" into library work
+Parsing module <decode>.
+Analyzing Verilog file \"F:\LS_CPU_LAB\8_pipeline_cpu\data_ram.v\" into library work
+Parsing module <data_ram>.
+Analyzing Verilog file \"F:\LS_CPU_LAB\8_pipeline_cpu\pipeline_cpu.v\" into library work
+Parsing module <pipeline_cpu>.
+Analyzing Verilog file \"F:\LS_CPU_LAB\8_pipeline_cpu\lcd_module.v\" into library work
+Parsing module <lcd_module>.
+Analyzing Verilog file \"F:\LS_CPU_LAB\8_pipeline_cpu\pipeline_cpu_display.v\" into library work
+Parsing module <pipeline_cpu_display>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <pipeline_cpu_display>.
+
+Elaborating module <pipeline_cpu>.
+
+Elaborating module <fetch>.
+
+Elaborating module <decode>.
+
+Elaborating module <exe>.
+
+Elaborating module <alu>.
+
+Elaborating module <adder>.
+
+Elaborating module <multiply>.
+
+Elaborating module <mem>.
+
+Elaborating module <wb>.
+
+Elaborating module <inst_rom>.
+WARNING:HDLCompiler:1499 - "F:\LS_CPU_LAB\8_pipeline_cpu\inst_rom.v" Line 39: Empty module <inst_rom> remains a black box.
+
+Elaborating module <regfile>.
+
+Elaborating module <data_ram>.
+WARNING:HDLCompiler:1499 - "F:\LS_CPU_LAB\8_pipeline_cpu\data_ram.v" Line 39: Empty module <data_ram> remains a black box.
+
+Elaborating module <lcd_module>.
+WARNING:HDLCompiler:413 - "F:\LS_CPU_LAB\8_pipeline_cpu\pipeline_cpu_display.v" Line 121: Result of 6-bit expression is truncated to fit in 5-bit target.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <pipeline_cpu_display>.
+    Related source file is "f:/ls_cpu_lab/8_pipeline_cpu/pipeline_cpu_display.v".
+    Found 32-bit register for signal <mem_addr>.
+    Found 1-bit register for signal <display_valid>.
+    Found 40-bit register for signal <display_name>.
+    Found 32-bit register for signal <display_value>.
+    Found 1-bit register for signal <cpu_clk>.
+    Found 5-bit subtractor for signal <rf_addr> created at line 37.
+    Found 16x40-bit Read Only RAM for signal <_n0079>
+    Found 32-bit 15-to-1 multiplexer for signal <_n0103> created at line 140.
+    Found 6-bit comparator greater for signal <GND_1_o_display_number[5]_LessThan_8_o> created at line 130
+    Found 6-bit comparator greater for signal <display_number[5]_PWR_1_o_LessThan_9_o> created at line 130
+    Summary:
+	inferred   1 RAM(s).
+	inferred   1 Adder/Subtractor(s).
+	inferred 106 D-type flip-flop(s).
+	inferred   2 Comparator(s).
+	inferred   3 Multiplexer(s).
+Unit <pipeline_cpu_display> synthesized.
+
+Synthesizing Unit <pipeline_cpu>.
+    Related source file is "f:/ls_cpu_lab/8_pipeline_cpu/pipeline_cpu.v".
+WARNING:Xst:647 - Input <mem_addr<31:10>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <mem_addr<1:0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 1-bit register for signal <ID_valid>.
+    Found 1-bit register for signal <EXE_valid>.
+    Found 1-bit register for signal <MEM_valid>.
+    Found 1-bit register for signal <WB_valid>.
+    Found 64-bit register for signal <IF_ID_bus_r>.
+    Found 167-bit register for signal <ID_EXE_bus_r>.
+    Found 154-bit register for signal <EXE_MEM_bus_r>.
+    Found 118-bit register for signal <MEM_WB_bus_r>.
+    Found 1-bit register for signal <IF_valid>.
+    Summary:
+	inferred 508 D-type flip-flop(s).
+Unit <pipeline_cpu> synthesized.
+
+Synthesizing Unit <fetch>.
+    Related source file is "f:/ls_cpu_lab/8_pipeline_cpu/fetch.v".
+    Found 1-bit register for signal <IF_over>.
+    Found 32-bit register for signal <pc>.
+    Found 30-bit adder for signal <seq_pc<31:2>> created at line 44.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  33 D-type flip-flop(s).
+	inferred   3 Multiplexer(s).
+Unit <fetch> synthesized.
+
+Synthesizing Unit <decode>.
+    Related source file is "f:/ls_cpu_lab/8_pipeline_cpu/decode.v".
+    Found 32-bit adder for signal <bd_pc> created at line 200.
+    Found 30-bit adder for signal <br_target<31:2>> created at line 225.
+    Found 32-bit comparator equal for signal <rs_equql_rt> created at line 213
+    Found 5-bit comparator equal for signal <rs[4]_EXE_wdest[4]_equal_98_o> created at line 243
+    Found 5-bit comparator equal for signal <rs[4]_MEM_wdest[4]_equal_99_o> created at line 243
+    Found 5-bit comparator equal for signal <rs[4]_WB_wdest[4]_equal_100_o> created at line 243
+    Found 5-bit comparator equal for signal <rt[4]_EXE_wdest[4]_equal_102_o> created at line 245
+    Found 5-bit comparator equal for signal <rt[4]_MEM_wdest[4]_equal_103_o> created at line 245
+    Found 5-bit comparator equal for signal <rt[4]_WB_wdest[4]_equal_104_o> created at line 245
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+	inferred   7 Comparator(s).
+	inferred  10 Multiplexer(s).
+Unit <decode> synthesized.
+
+Synthesizing Unit <exe>.
+    Related source file is "f:/ls_cpu_lab/8_pipeline_cpu/exe.v".
+    Summary:
+	inferred   4 Multiplexer(s).
+Unit <exe> synthesized.
+
+Synthesizing Unit <alu>.
+    Related source file is "f:/ls_cpu_lab/8_pipeline_cpu/alu.v".
+    Summary:
+	inferred  45 Multiplexer(s).
+Unit <alu> synthesized.
+
+Synthesizing Unit <adder>.
+    Related source file is "f:/ls_cpu_lab/8_pipeline_cpu/adder.v".
+    Found 33-bit adder for signal <n0011> created at line 15.
+    Found 33-bit adder for signal <n0004> created at line 15.
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+Unit <adder> synthesized.
+
+Synthesizing Unit <multiply>.
+    Related source file is "f:/ls_cpu_lab/8_pipeline_cpu/multiply.v".
+    Found 64-bit register for signal <multiplicand>.
+    Found 32-bit register for signal <multiplier>.
+    Found 64-bit register for signal <product_temp>.
+    Found 1-bit register for signal <product_sign>.
+    Found 1-bit register for signal <mult_valid>.
+    Found 32-bit adder for signal <mult_op1[31]_GND_8_o_add_3_OUT> created at line 39.
+    Found 32-bit adder for signal <mult_op2[31]_GND_8_o_add_6_OUT> created at line 40.
+    Found 64-bit adder for signal <product_temp[63]_partial_product[63]_add_18_OUT> created at line 80.
+    Found 64-bit adder for signal <product_temp[63]_GND_8_o_add_24_OUT> created at line 98.
+    Summary:
+	inferred   4 Adder/Subtractor(s).
+	inferred 162 D-type flip-flop(s).
+	inferred   6 Multiplexer(s).
+Unit <multiply> synthesized.
+
+Synthesizing Unit <mem>.
+    Related source file is "f:/ls_cpu_lab/8_pipeline_cpu/mem.v".
+    Found 1-bit register for signal <MEM_valid_r>.
+    Found 32-bit 4-to-1 multiplexer for signal <dm_wdata> created at line 107.
+    Found 1-bit 4-to-1 multiplexer for signal <load_sign> created at line 117.
+    Found 8-bit 4-to-1 multiplexer for signal <load_result<7:0>> created at line 118.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+	inferred   8 Multiplexer(s).
+Unit <mem> synthesized.
+
+Synthesizing Unit <wb>.
+    Related source file is "f:/ls_cpu_lab/8_pipeline_cpu/wb.v".
+    Found 32-bit register for signal <lo>.
+    Found 1-bit register for signal <status_exl_r>.
+    Found 5-bit register for signal <cause_exc_code_r>.
+    Found 32-bit register for signal <epc_r>.
+    Found 32-bit register for signal <hi>.
+    Summary:
+	inferred 102 D-type flip-flop(s).
+	inferred   8 Multiplexer(s).
+Unit <wb> synthesized.
+
+Synthesizing Unit <regfile>.
+    Related source file is "f:/ls_cpu_lab/8_pipeline_cpu/regfile.v".
+    Found 1024-bit register for signal <n0046[1023:0]>.
+    Found 32-bit 32-to-1 multiplexer for signal <rdata1> created at line 38.
+    Found 32-bit 32-to-1 multiplexer for signal <rdata2> created at line 76.
+    Found 32-bit 32-to-1 multiplexer for signal <test_data> created at line 114.
+    Summary:
+	inferred 1024 D-type flip-flop(s).
+	inferred  35 Multiplexer(s).
+Unit <regfile> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 1
+ 16x40-bit single-port Read Only RAM                   : 1
+# Adders/Subtractors                                   : 10
+ 30-bit adder                                          : 2
+ 32-bit adder                                          : 3
+ 33-bit adder                                          : 2
+ 5-bit subtractor                                      : 1
+ 64-bit adder                                          : 2
+# Registers                                            : 28
+ 1-bit register                                        : 12
+ 1024-bit register                                     : 1
+ 118-bit register                                      : 1
+ 154-bit register                                      : 1
+ 167-bit register                                      : 1
+ 32-bit register                                       : 7
+ 40-bit register                                       : 1
+ 5-bit register                                        : 1
+ 64-bit register                                       : 3
+# Comparators                                          : 9
+ 32-bit comparator equal                               : 1
+ 5-bit comparator equal                                : 6
+ 6-bit comparator greater                              : 2
+# Multiplexers                                         : 122
+ 1-bit 2-to-1 multiplexer                              : 32
+ 1-bit 4-to-1 multiplexer                              : 1
+ 24-bit 2-to-1 multiplexer                             : 1
+ 32-bit 15-to-1 multiplexer                            : 1
+ 32-bit 2-to-1 multiplexer                             : 72
+ 32-bit 32-to-1 multiplexer                            : 3
+ 32-bit 4-to-1 multiplexer                             : 1
+ 4-bit 2-to-1 multiplexer                              : 2
+ 40-bit 2-to-1 multiplexer                             : 1
+ 5-bit 2-to-1 multiplexer                              : 3
+ 64-bit 2-to-1 multiplexer                             : 4
+ 8-bit 4-to-1 multiplexer                              : 1
+# Xors                                                 : 3
+ 1-bit xor2                                            : 2
+ 32-bit xor2                                           : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Reading core <lcd_module.ngc>.
+Reading core <lcd_rom.ngc>.
+Reading core <inst_rom.ngc>.
+Reading core <data_ram.ngc>.
+Loading core <lcd_rom> for timing and area information for instance <lcd_rom_module>.
+Loading core <lcd_module> for timing and area information for instance <lcd_module>.
+Loading core <inst_rom> for timing and area information for instance <inst_rom_module>.
+Loading core <data_ram> for timing and area information for instance <data_ram_module>.
+INFO:Xst:2261 - The FF/Latch <cause_exc_code_r_0> in Unit <WB_module> is equivalent to the following 3 FFs/Latches, which will be removed : <cause_exc_code_r_1> <cause_exc_code_r_2> <cause_exc_code_r_4> 
+WARNING:Xst:1710 - FF/Latch <cause_exc_code_r_0> (without init value) has a constant value of 0 in block <WB_module>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <cause_exc_code_r_3> (without init value) has a constant value of 1 in block <WB_module>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:2404 -  FFs/Latches <cause_exc_code_r<4:4>> (without init value) have a constant value of 0 in block <wb>.
+
+Synthesizing (advanced) Unit <multiply>.
+The following registers are absorbed into accumulator <product_temp>: 1 register on signal <product_temp>.
+Unit <multiply> synthesized (advanced).
+
+Synthesizing (advanced) Unit <pipeline_cpu_display>.
+INFO:Xst:3231 - The small RAM <Mram__n0079> will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 16-word x 40-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <display_number<3:0>> |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+Unit <pipeline_cpu_display> synthesized (advanced).
+WARNING:Xst:2677 - Node <rf_0_0> of sequential type is unconnected in block <regfile>.
+WARNING:Xst:2677 - Node <rf_0_1> of sequential type is unconnected in block <regfile>.
+WARNING:Xst:2677 - Node <rf_0_2> of sequential type is unconnected in block <regfile>.
+WARNING:Xst:2677 - Node <rf_0_3> of sequential type is unconnected in block <regfile>.
+WARNING:Xst:2677 - Node <rf_0_4> of sequential type is unconnected in block <regfile>.
+WARNING:Xst:2677 - Node <rf_0_5> of sequential type is unconnected in block <regfile>.
+WARNING:Xst:2677 - Node <rf_0_6> of sequential type is unconnected in block <regfile>.
+WARNING:Xst:2677 - Node <rf_0_7> of sequential type is unconnected in block <regfile>.
+WARNING:Xst:2677 - Node <rf_0_8> of sequential type is unconnected in block <regfile>.
+WARNING:Xst:2677 - Node <rf_0_9> of sequential type is unconnected in block <regfile>.
+WARNING:Xst:2677 - Node <rf_0_10> of sequential type is unconnected in block <regfile>.
+WARNING:Xst:2677 - Node <rf_0_11> of sequential type is unconnected in block <regfile>.
+WARNING:Xst:2677 - Node <rf_0_12> of sequential type is unconnected in block <regfile>.
+WARNING:Xst:2677 - Node <rf_0_13> of sequential type is unconnected in block <regfile>.
+WARNING:Xst:2677 - Node <rf_0_14> of sequential type is unconnected in block <regfile>.
+WARNING:Xst:2677 - Node <rf_0_15> of sequential type is unconnected in block <regfile>.
+WARNING:Xst:2677 - Node <rf_0_16> of sequential type is unconnected in block <regfile>.
+WARNING:Xst:2677 - Node <rf_0_17> of sequential type is unconnected in block <regfile>.
+WARNING:Xst:2677 - Node <rf_0_18> of sequential type is unconnected in block <regfile>.
+WARNING:Xst:2677 - Node <rf_0_19> of sequential type is unconnected in block <regfile>.
+WARNING:Xst:2677 - Node <rf_0_20> of sequential type is unconnected in block <regfile>.
+WARNING:Xst:2677 - Node <rf_0_21> of sequential type is unconnected in block <regfile>.
+WARNING:Xst:2677 - Node <rf_0_22> of sequential type is unconnected in block <regfile>.
+WARNING:Xst:2677 - Node <rf_0_23> of sequential type is unconnected in block <regfile>.
+WARNING:Xst:2677 - Node <rf_0_24> of sequential type is unconnected in block <regfile>.
+WARNING:Xst:2677 - Node <rf_0_25> of sequential type is unconnected in block <regfile>.
+WARNING:Xst:2677 - Node <rf_0_26> of sequential type is unconnected in block <regfile>.
+WARNING:Xst:2677 - Node <rf_0_27> of sequential type is unconnected in block <regfile>.
+WARNING:Xst:2677 - Node <rf_0_28> of sequential type is unconnected in block <regfile>.
+WARNING:Xst:2677 - Node <rf_0_29> of sequential type is unconnected in block <regfile>.
+WARNING:Xst:2677 - Node <rf_0_30> of sequential type is unconnected in block <regfile>.
+WARNING:Xst:2677 - Node <rf_0_31> of sequential type is unconnected in block <regfile>.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 1
+ 16x40-bit single-port distributed Read Only RAM       : 1
+# Adders/Subtractors                                   : 8
+ 30-bit adder                                          : 2
+ 32-bit adder                                          : 3
+ 33-bit adder carry in                                 : 1
+ 5-bit subtractor                                      : 1
+ 64-bit adder                                          : 1
+# Accumulators                                         : 1
+ 64-bit up accumulator                                 : 1
+# Registers                                            : 1839
+ Flip-Flops                                            : 1839
+# Comparators                                          : 9
+ 32-bit comparator equal                               : 1
+ 5-bit comparator equal                                : 6
+ 6-bit comparator greater                              : 2
+# Multiplexers                                         : 308
+ 1-bit 15-to-1 multiplexer                             : 32
+ 1-bit 2-to-1 multiplexer                              : 192
+ 1-bit 4-to-1 multiplexer                              : 1
+ 24-bit 2-to-1 multiplexer                             : 1
+ 32-bit 2-to-1 multiplexer                             : 68
+ 32-bit 32-to-1 multiplexer                            : 3
+ 32-bit 4-to-1 multiplexer                             : 1
+ 4-bit 2-to-1 multiplexer                              : 2
+ 40-bit 2-to-1 multiplexer                             : 1
+ 5-bit 2-to-1 multiplexer                              : 3
+ 64-bit 2-to-1 multiplexer                             : 3
+ 8-bit 4-to-1 multiplexer                              : 1
+# Xors                                                 : 3
+ 1-bit xor2                                            : 2
+ 32-bit xor2                                           : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1710 - FF/Latch <cause_exc_code_r_0> (without init value) has a constant value of 0 in block <wb>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <cause_exc_code_r_1> (without init value) has a constant value of 0 in block <wb>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <cause_exc_code_r_2> (without init value) has a constant value of 0 in block <wb>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <cause_exc_code_r_3> (without init value) has a constant value of 1 in block <wb>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <display_name_7> (without init value) has a constant value of 0 in block <pipeline_cpu_display>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <display_name_9> (without init value) has a constant value of 0 in block <pipeline_cpu_display>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <display_name_15> (without init value) has a constant value of 0 in block <pipeline_cpu_display>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <display_name_23> (without init value) has a constant value of 0 in block <pipeline_cpu_display>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <display_name_31> (without init value) has a constant value of 0 in block <pipeline_cpu_display>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <display_name_39> (without init value) has a constant value of 0 in block <pipeline_cpu_display>. This FF/Latch will be trimmed during the optimization process.
+INFO:Xst:2261 - The FF/Latch <display_name_33> in Unit <pipeline_cpu_display> is equivalent to the following FF/Latch, which will be removed : <display_name_36> 
+INFO:Xst:2261 - The FF/Latch <display_name_27> in Unit <pipeline_cpu_display> is equivalent to the following FF/Latch, which will be removed : <display_name_28> 
+INFO:Xst:2261 - The FF/Latch <display_name_6> in Unit <pipeline_cpu_display> is equivalent to the following FF/Latch, which will be removed : <display_name_14> 
+INFO:Xst:2261 - The FF/Latch <display_name_22> in Unit <pipeline_cpu_display> is equivalent to the following 2 FFs/Latches, which will be removed : <display_name_30> <display_name_38> 
+INFO:Xst:2261 - The FF/Latch <display_name_21> in Unit <pipeline_cpu_display> is equivalent to the following 2 FFs/Latches, which will be removed : <display_name_29> <display_name_37> 
+INFO:Xst:2261 - The FF/Latch <display_name_5> in Unit <pipeline_cpu_display> is equivalent to the following FF/Latch, which will be removed : <display_name_13> 
+
+Optimizing unit <pipeline_cpu_display> ...
+
+Optimizing unit <pipeline_cpu> ...
+
+Optimizing unit <regfile> ...
+
+Optimizing unit <fetch> ...
+
+Optimizing unit <exe> ...
+
+Optimizing unit <multiply> ...
+
+Optimizing unit <alu> ...
+
+Optimizing unit <mem> ...
+
+Optimizing unit <wb> ...
+
+Optimizing unit <decode> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block pipeline_cpu_display, actual ratio is 5.
+INFO:Xst:2260 - The FF/Latch <lcd_init_module/display_x_l_2> in Unit <lcd_module> is equivalent to the following FF/Latch : <lcd_init_module/display_x_l_2_1> 
+INFO:Xst:2260 - The FF/Latch <lcd_init_module/display_y_1> in Unit <lcd_module> is equivalent to the following FF/Latch : <lcd_init_module/display_y_1_1> 
+INFO:Xst:2260 - The FF/Latch <lcd_init_module/display_y_3> in Unit <lcd_module> is equivalent to the following FF/Latch : <lcd_init_module/display_y_3_1> 
+INFO:Xst:2260 - The FF/Latch <lcd_init_module/display_x_l_2> in Unit <lcd_module> is equivalent to the following FF/Latch : <lcd_init_module/display_x_l_2_1> 
+INFO:Xst:2260 - The FF/Latch <lcd_init_module/display_y_1> in Unit <lcd_module> is equivalent to the following FF/Latch : <lcd_init_module/display_y_1_1> 
+INFO:Xst:2260 - The FF/Latch <lcd_init_module/display_y_3> in Unit <lcd_module> is equivalent to the following FF/Latch : <lcd_init_module/display_y_3_1> 
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 1885
+ Flip-Flops                                            : 1885
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : pipeline_cpu_display.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 5335
+#      GND                         : 5
+#      INV                         : 153
+#      LUT1                        : 124
+#      LUT2                        : 136
+#      LUT3                        : 1430
+#      LUT4                        : 224
+#      LUT5                        : 581
+#      LUT6                        : 1768
+#      MUXCY                       : 381
+#      MUXF7                       : 145
+#      VCC                         : 5
+#      XORCY                       : 383
+# FlipFlops/Latches                : 2148
+#      FD                          : 31
+#      FDE                         : 1780
+#      FDR                         : 135
+#      FDRE                        : 195
+#      FDS                         : 7
+# RAMS                             : 4
+#      RAMB16BWER                  : 3
+#      RAMB8BWER                   : 1
+# Clock Buffers                    : 3
+#      BUFG                        : 2
+#      BUFGP                       : 1
+# IO Buffers                       : 28
+#      IBUF                        : 2
+#      IOBUF                       : 2
+#      OBUF                        : 24
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx150fgg484-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:            2147  out of  184304     1%  
+ Number of Slice LUTs:                 4416  out of  92152     4%  
+    Number used as Logic:              4416  out of  92152     4%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:   4910
+   Number with an unused Flip Flop:    2763  out of   4910    56%  
+   Number with an unused LUT:           494  out of   4910    10%  
+   Number of fully used LUT-FF pairs:  1653  out of   4910    33%  
+   Number of unique control sets:        70
+
+IO Utilization: 
+ Number of IOs:                          29
+ Number of bonded IOBs:                  29  out of    338     8%  
+    IOB Flip Flops/Latches:               1
+
+Specific Feature Utilization:
+ Number of Block RAM/FIFO:                4  out of    268     1%  
+    Number using Block RAM only:          4
+ Number of BUFG/BUFGCTRLs:                3  out of     16    18%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)                                                                                                                              | Load  |
+-----------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------+-------+
+clk                                | BUFGP                                                                                                                                              | 248   |
+cpu_clk                            | BUFG                                                                                                                                               | 1795  |
+lcd_module/double_clk              | BUFG                                                                                                                                               | 109   |
+lcd_module/lcd_rom_module/N1       | NONE(lcd_module/lcd_rom_module/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/s6_init.ram/SP.SIMPLE_PRIM18.ram)| 2     |
+-----------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 12.777ns (Maximum Frequency: 78.263MHz)
+   Minimum input arrival time before clock: 4.822ns
+   Maximum output required time after clock: 8.866ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'lcd_module/double_clk'
+  Clock period: 12.777ns (frequency: 78.263MHz)
+  Total number of paths / destination ports: 17895 / 140
+-------------------------------------------------------------------------
+Offset:              12.777ns (Levels of Logic = 11)
+  Source:            lcd_module/lcd_draw_module/draw_block_number_1 (FF)
+  Destination:       lcd_module/lcd_rom_module/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/s6_init.ram/SP.SIMPLE_PRIM18.ram (RAM)
+  Source Clock:      lcd_module/double_clk rising
+  Destination Clock: clk rising
+
+  Data Path: lcd_module/lcd_draw_module/draw_block_number_1 to lcd_module/lcd_rom_module/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/s6_init.ram/SP.SIMPLE_PRIM18.ram
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q             427   0.447   2.187  lcd_draw_module/draw_block_number_1 (display_number<1>)
+     LUT6:I4->O           43   0.203   1.677  lcd_draw_module/out1 (lcd_draw_module/draw_block_number[5]_reduce_or_38_o)
+     LUT6:I3->O            2   0.205   0.981  lcd_draw_module/Mmux_draw_char161 (lcd_draw_module/Mmux_draw_char16)
+     LUT6:I0->O            1   0.203   0.000  lcd_draw_module/Mmux_draw_char164_G (N248)
+     MUXF7:I1->O           2   0.140   0.617  lcd_draw_module/Mmux_draw_char164 (lcd_draw_module/Mmux_draw_char163)
+     LUT5:I4->O            6   0.205   0.992  lcd_draw_module/Mmux_draw_char168 (lcd_draw_module/Madd_GND_3_o_PWR_3_o_add_128_OUT_lut<3>)
+     LUT5:I1->O            1   0.203   0.684  lcd_draw_module/GND_3_o_draw_char[7]_AND_36_o_SW0 (N10)
+     LUT4:I2->O            3   0.203   0.755  lcd_draw_module/GND_3_o_draw_char[7]_AND_36_o (lcd_draw_module/GND_3_o_draw_char[7]_AND_36_o)
+     LUT5:I3->O            3   0.203   0.651  lcd_draw_module/Mmux_draw_rom_pc1621 (lcd_draw_module/Mmux_draw_rom_pc162)
+     LUT6:I5->O            2   0.205   0.845  lcd_draw_module/Mmux_draw_rom_pc2021 (lcd_draw_module/Mmux_draw_rom_pc202)
+     LUT6:I3->O            2   0.205   0.616  Mmux_rom_addr99 (rom_addr<8>)
+     begin scope: 'lcd_module/lcd_rom_module:addra<8>'
+     RAMB16BWER:ADDRA12        0.350          U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_init.ram/SP.SIMPLE_PRIM18.ram
+    ----------------------------------------
+    Total                     12.777ns (2.772ns logic, 10.005ns route)
+                                       (21.7% logic, 78.3% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'cpu_clk'
+  Clock period: 4.739ns (frequency: 211.035MHz)
+  Total number of paths / destination ports: 1300 / 32
+-------------------------------------------------------------------------
+Offset:              4.739ns (Levels of Logic = 4)
+  Source:            cpu/data_ram_module/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_noinit.ram/TRUE_DP.PRIM18.ram (RAM)
+  Destination:       display_value_0 (FF)
+  Source Clock:      cpu_clk rising
+  Destination Clock: clk rising
+
+  Data Path: cpu/data_ram_module/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_noinit.ram/TRUE_DP.PRIM18.ram to display_value_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     RAMB16BWER:CLKB->DOB0    1   1.850   0.808  U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_noinit.ram/TRUE_DP.PRIM18.ram (doutb<0>)
+     end scope: 'cpu/data_ram_module:doutb<0>'
+     LUT5:I2->O            1   0.205   0.684  mux_71 (mux_71)
+     LUT6:I4->O            1   0.203   0.684  Mmux_display_number[5]_rf_data[31]_mux_25_OUT11 (Mmux_display_number[5]_rf_data[31]_mux_25_OUT1)
+     LUT3:I1->O            1   0.203   0.000  Mmux_display_number[5]_rf_data[31]_mux_25_OUT12 (display_number[5]_rf_data[31]_mux_25_OUT<0>)
+     FDR:D                     0.102          display_value_0
+    ----------------------------------------
+    Total                      4.739ns (2.563ns logic, 2.176ns route)
+                                       (54.1% logic, 45.9% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 7.409ns (frequency: 134.966MHz)
+  Total number of paths / destination ports: 1155 / 73
+-------------------------------------------------------------------------
+Offset:              7.409ns (Levels of Logic = 6)
+  Source:            lcd_module/lcd_rom_module/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_init.ram/SP.SIMPLE_PRIM18.ram (RAM)
+  Destination:       lcd_module/lcd_draw_module/draw_data_6 (FF)
+  Source Clock:      clk rising
+  Destination Clock: lcd_module/double_clk rising
+
+  Data Path: lcd_module/lcd_rom_module/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_init.ram/SP.SIMPLE_PRIM18.ram to lcd_module/lcd_draw_module/draw_data_6
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     RAMB16BWER:CLKA->DOA7    3   1.850   1.015  U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_init.ram/SP.SIMPLE_PRIM18.ram (douta<7>)
+     end scope: 'lcd_module/lcd_rom_module:douta<7>'
+     LUT6:I0->O            2   0.203   0.845  lcd_draw_module/Mmux_GND_3_o_X_3_o_Mux_163_o_10 (lcd_draw_module/Mmux_GND_3_o_X_3_o_Mux_147_o_10)
+     LUT6:I3->O            1   0.205   0.808  lcd_draw_module/td_count_x[8]_PWR_3_o_LessThan_88_o12 (lcd_draw_module/td_count_x[8]_PWR_3_o_LessThan_88_o11)
+     LUT6:I3->O           14   0.205   1.186  lcd_draw_module/td_count_x[8]_PWR_3_o_LessThan_88_o113 (lcd_draw_module/td_count_x[8]_PWR_3_o_LessThan_88_o_mmx_out)
+     LUT6:I3->O            1   0.205   0.580  lcd_draw_module/Mmux_draw_data[15]_GND_3_o_mux_196_OUT134 (lcd_draw_module/draw_data[15]_GND_3_o_mux_196_OUT<6>)
+     LUT5:I4->O            1   0.205   0.000  lcd_draw_module/draw_data_6_rstpot (lcd_draw_module/draw_data_6_rstpot)
+     FD:D                      0.102          lcd_draw_module/draw_data_6
+    ----------------------------------------
+    Total                      7.409ns (2.975ns logic, 4.434ns route)
+                                       (40.2% logic, 59.8% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 1.413ns (frequency: 707.589MHz)
+  Total number of paths / destination ports: 8 / 8
+-------------------------------------------------------------------------
+Offset:              1.413ns (Levels of Logic = 1)
+  Source:            mem_addr_9 (FF)
+  Destination:       cpu/data_ram_module/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_noinit.ram/TRUE_DP.PRIM18.ram (RAM)
+  Source Clock:      clk rising
+  Destination Clock: cpu_clk rising
+
+  Data Path: mem_addr_9 to cpu/data_ram_module/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_noinit.ram/TRUE_DP.PRIM18.ram
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q             2   0.447   0.616  mem_addr_9 (mem_addr_9)
+     begin scope: 'cpu/data_ram_module:addrb<7>'
+     RAMB16BWER:ADDRB12        0.350          U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_noinit.ram/TRUE_DP.PRIM18.ram
+    ----------------------------------------
+    Total                      1.413ns (0.797ns logic, 0.616ns route)
+                                       (56.4% logic, 43.6% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 9.536ns (frequency: 104.866MHz)
+  Total number of paths / destination ports: 7520 / 446
+-------------------------------------------------------------------------
+Delay:               9.536ns (Levels of Logic = 10)
+  Source:            display_value_7 (FF)
+  Destination:       lcd_module/lcd_rom_module/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/s6_init.ram/SP.SIMPLE_PRIM18.ram (RAM)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: display_value_7 to lcd_module/lcd_rom_module/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/s6_init.ram/SP.SIMPLE_PRIM18.ram
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              1   0.447   0.827  display_value_7 (display_value_7)
+     begin scope: 'lcd_module:display_value<7>'
+     LUT6:I2->O            2   0.203   0.981  lcd_draw_module/Mmux_draw_char161 (lcd_draw_module/Mmux_draw_char16)
+     LUT6:I0->O            1   0.203   0.000  lcd_draw_module/Mmux_draw_char164_G (N248)
+     MUXF7:I1->O           2   0.140   0.617  lcd_draw_module/Mmux_draw_char164 (lcd_draw_module/Mmux_draw_char163)
+     LUT5:I4->O            6   0.205   0.992  lcd_draw_module/Mmux_draw_char168 (lcd_draw_module/Madd_GND_3_o_PWR_3_o_add_128_OUT_lut<3>)
+     LUT5:I1->O            1   0.203   0.684  lcd_draw_module/GND_3_o_draw_char[7]_AND_36_o_SW0 (N10)
+     LUT4:I2->O            3   0.203   0.755  lcd_draw_module/GND_3_o_draw_char[7]_AND_36_o (lcd_draw_module/GND_3_o_draw_char[7]_AND_36_o)
+     LUT5:I3->O            3   0.203   0.651  lcd_draw_module/Mmux_draw_rom_pc1621 (lcd_draw_module/Mmux_draw_rom_pc162)
+     LUT6:I5->O            2   0.205   0.845  lcd_draw_module/Mmux_draw_rom_pc2021 (lcd_draw_module/Mmux_draw_rom_pc202)
+     LUT6:I3->O            2   0.205   0.616  Mmux_rom_addr99 (rom_addr<8>)
+     begin scope: 'lcd_module/lcd_rom_module:addra<8>'
+     RAMB16BWER:ADDRA12        0.350          U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_init.ram/SP.SIMPLE_PRIM18.ram
+    ----------------------------------------
+    Total                      9.536ns (2.567ns logic, 6.969ns route)
+                                       (26.9% logic, 73.1% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'cpu_clk'
+  Clock period: 10.439ns (frequency: 95.791MHz)
+  Total number of paths / destination ports: 416207 / 3705
+-------------------------------------------------------------------------
+Delay:               10.439ns (Levels of Logic = 7)
+  Source:            cpu/IF_ID_bus_r_17 (FF)
+  Destination:       cpu/IF_module/pc_31 (FF)
+  Source Clock:      cpu_clk rising
+  Destination Clock: cpu_clk rising
+
+  Data Path: cpu/IF_ID_bus_r_17 to cpu/IF_module/pc_31
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q            266   0.447   2.068  cpu/IF_ID_bus_r_17 (cpu/IF_ID_bus_r_17)
+     LUT4:I3->O            8   0.205   0.803  cpu/ID_module/inst_BGEZ11 (cpu/ID_module/inst_BGEZ1)
+     LUT4:I3->O            6   0.205   0.745  cpu/ID_module/inst_MFHI211 (cpu/ID_module/inst_JALR2)
+     LUT6:I5->O           34   0.205   1.321  cpu/ID_module/inst_jr1 (cpu/ID_module/inst_jr)
+     LUT6:I5->O            1   0.205   0.580  cpu/ID_module/ID_over23 (cpu/ID_module/ID_over23)
+     LUT6:I5->O            4   0.205   0.684  cpu/ID_module/ID_over25_SW0 (N160)
+     LUT3:I2->O            6   0.205   0.745  cpu/ID_module/ID_over25 (cpu/ID_over)
+     LUT6:I5->O           32   0.205   1.291  cpu/IF_module/_n0040_inv1 (cpu/IF_module/_n0040_inv)
+     FDE:CE                    0.322          cpu/IF_module/pc_0
+    ----------------------------------------
+    Total                     10.439ns (2.204ns logic, 8.235ns route)
+                                       (21.1% logic, 78.9% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'lcd_module/double_clk'
+  Clock period: 7.049ns (frequency: 141.866MHz)
+  Total number of paths / destination ports: 5808 / 238
+-------------------------------------------------------------------------
+Delay:               7.049ns (Levels of Logic = 5)
+  Source:            lcd_module/lcd_draw_module/draw_block_number_1 (FF)
+  Destination:       lcd_module/lcd_draw_module/draw_data_1 (FF)
+  Source Clock:      lcd_module/double_clk rising
+  Destination Clock: lcd_module/double_clk rising
+
+  Data Path: lcd_module/lcd_draw_module/draw_block_number_1 to lcd_module/lcd_draw_module/draw_data_1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q             427   0.447   2.187  lcd_draw_module/draw_block_number_1 (display_number<1>)
+     LUT6:I4->O           43   0.203   1.449  lcd_draw_module/out1 (lcd_draw_module/draw_block_number[5]_reduce_or_38_o)
+     LUT6:I5->O            1   0.205   0.580  lcd_draw_module/Mmux_draw_data[15]_GND_3_o_mux_196_OUT81 (lcd_draw_module/Mmux_draw_data[15]_GND_3_o_mux_196_OUT8)
+     LUT6:I5->O            1   0.205   0.580  lcd_draw_module/Mmux_draw_data[15]_GND_3_o_mux_196_OUT82 (lcd_draw_module/Mmux_draw_data[15]_GND_3_o_mux_196_OUT81)
+     LUT4:I3->O            1   0.205   0.684  lcd_draw_module/draw_data_1_glue_set_SW0 (N168)
+     LUT6:I4->O            1   0.203   0.000  lcd_draw_module/draw_data_1_rstpot (lcd_draw_module/draw_data_1_rstpot)
+     FD:D                      0.102          lcd_draw_module/draw_data_1
+    ----------------------------------------
+    Total                      7.049ns (1.570ns logic, 5.479ns route)
+                                       (22.3% logic, 77.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 70 / 70
+-------------------------------------------------------------------------
+Offset:              4.568ns (Levels of Logic = 2)
+  Source:            resetn (PAD)
+  Destination:       mem_addr_0 (FF)
+  Destination Clock: clk rising
+
+  Data Path: resetn to mem_addr_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            41   1.222   1.419  resetn_IBUF (resetn_IBUF)
+     INV:I->O             32   0.206   1.291  resetn_inv1_INV_0 (resetn_inv)
+     FDRE:R                    0.430          mem_addr_0
+    ----------------------------------------
+    Total                      4.568ns (1.858ns logic, 2.710ns route)
+                                       (40.7% logic, 59.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'cpu_clk'
+  Total number of paths / destination ports: 71 / 71
+-------------------------------------------------------------------------
+Offset:              4.822ns (Levels of Logic = 2)
+  Source:            resetn (PAD)
+  Destination:       cpu/IF_module/pc_31 (FF)
+  Destination Clock: cpu_clk rising
+
+  Data Path: resetn to cpu/IF_module/pc_31
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            41   1.222   1.784  resetn_IBUF (resetn_IBUF)
+     LUT6:I0->O           32   0.203   1.291  cpu/IF_module/_n0040_inv1 (cpu/IF_module/_n0040_inv)
+     FDE:CE                    0.322          cpu/IF_module/pc_0
+    ----------------------------------------
+    Total                      4.822ns (1.747ns logic, 3.075ns route)
+                                       (36.2% logic, 63.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'lcd_module/double_clk'
+  Total number of paths / destination ports: 332 / 18
+-------------------------------------------------------------------------
+Offset:              8.866ns (Levels of Logic = 7)
+  Source:            lcd_module/lcd_init_module/init_rom_pc_8 (FF)
+  Destination:       lcd_data_io<15> (PAD)
+  Source Clock:      lcd_module/double_clk rising
+
+  Data Path: lcd_module/lcd_init_module/init_rom_pc_8 to lcd_data_io<15>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q             3   0.447   0.995  lcd_init_module/init_rom_pc_8 (lcd_init_module/init_rom_pc<8>)
+     LUT5:I0->O            2   0.203   0.617  lcd_init_module/init_rom_pc[10]_init_rs_part_AND_24_o11 (lcd_init_module/init_rom_pc[10]_init_rs_part_AND_24_o1)
+     LUT5:I4->O           12   0.205   0.909  lcd_init_module/init_rom_pc[10]_init_rs_part_AND_25_o11 (lcd_init_module/init_rom_pc[10]_init_rs_part_AND_25_o1)
+     LUT3:I2->O            8   0.205   1.147  lcd_init_module/init_rom_pc[10]_PWR_2_o_equal_3_o<10>1 (lcd_init_module/init_rom_pc[10]_PWR_2_o_equal_3_o)
+     LUT6:I1->O            1   0.203   0.580  Mmux_lcd_data_io161 (Mmux_lcd_data_io16)
+     LUT3:I2->O            1   0.205   0.579  Mmux_lcd_data_io162 (lcd_data_io<9>)
+     end scope: 'lcd_module:lcd_data_io<9>'
+     OBUF:I->O                 2.571          lcd_data_io_9_OBUF (lcd_data_io<9>)
+    ----------------------------------------
+    Total                      8.866ns (4.039ns logic, 4.827ns route)
+                                       (45.6% logic, 54.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 50 / 23
+-------------------------------------------------------------------------
+Offset:              7.528ns (Levels of Logic = 5)
+  Source:            lcd_module/lcd_rom_module/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_init.ram/SP.SIMPLE_PRIM18.ram (RAM)
+  Destination:       lcd_data_io<7> (PAD)
+  Source Clock:      clk rising
+
+  Data Path: lcd_module/lcd_rom_module/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_init.ram/SP.SIMPLE_PRIM18.ram to lcd_data_io<7>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     RAMB16BWER:CLKA->DOA14    3   1.850   0.755  U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_init.ram/SP.SIMPLE_PRIM18.ram (douta<15>)
+     end scope: 'lcd_module/lcd_rom_module:douta<15>'
+     LUT3:I1->O            1   0.203   0.580  Mmux_lcd_data_io141 (Mmux_lcd_data_io14)
+     LUT6:I5->O            1   0.205   0.580  Mmux_lcd_data_io142 (Mmux_lcd_data_io141)
+     LUT3:I2->O            1   0.205   0.579  Mmux_lcd_data_io143 (lcd_data_io<7>)
+     end scope: 'lcd_module:lcd_data_io<7>'
+     OBUF:I->O                 2.571          lcd_data_io_7_OBUF (lcd_data_io<7>)
+    ----------------------------------------
+    Total                      7.528ns (5.034ns logic, 2.494ns route)
+                                       (66.9% logic, 33.1% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock clk
+---------------------+---------+---------+---------+---------+
+                     | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock         |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------------+---------+---------+---------+---------+
+clk                  |    9.536|         |         |         |
+cpu_clk              |    4.739|         |         |         |
+lcd_module/double_clk|   12.777|         |         |         |
+---------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock cpu_clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    1.413|         |         |         |
+cpu_clk        |   10.439|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock lcd_module/double_clk
+---------------------+---------+---------+---------+---------+
+                     | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock         |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------------+---------+---------+---------+---------+
+clk                  |    7.409|         |         |         |
+lcd_module/double_clk|    7.049|         |         |         |
+---------------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 28.00 secs
+Total CPU time to Xst completion: 28.14 secs
+ 
+--> 
+
+Total memory usage is 266668 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   50 (   0 filtered)
+Number of infos    :   15 (   0 filtered)
+

@@ -1,0 +1,35 @@
+NET "row1_clk"     LOC = "Y2";#FPGA_KEY_ROW1
+NET "row1_clk" CLOCK_DEDICATED_ROUTE=FALSE;
+NET "u9sw6_ram_en" LOC = "N1";# FPGA_SW5 
+NET "u9sw5_r_en"   LOC = "P1"; # FPGA_SW4
+#4个地址,U10单元的{sw2,sw1}{8,7}
+NET "u10_addr<1>"  LOC = "M1"; # FPGA_SW7
+NET "u10_addr<0>"  LOC = "M2"; # FPGA_SW6
+#4位数据输入U10单元的{sw6,sw5,sw4,sw3}{12,11,10,9}
+NET "data_in<3>"   LOC = "K2"; # FPGA_SW11
+NET "data_in<2>"   LOC = "K1"; # FPGA_SW10
+NET "data_in<1>"   LOC = "L1"; # FPGA_SW9
+NET "data_in<0>"   LOC = "L3"; # FPGA_SW8
+#最右边4个led：{led13,led1,led2,led3}
+NET "data_out_led<3>"  LOC = "C10"; # FPGA_LED12,led13
+NET "data_out_led<2>"  LOC = "F9"; # FPGA_LED1,led1
+NET "data_out_led<1>"  LOC = "B8"; # FPGA_LED2,led2
+NET "data_out_led<0>"  LOC = "A8"; # FPGA_LED3,led3
+
+NET "col1_4<3>" LOC = "T4";#FPGA_KEY_COL1
+NET "col1_4<2>" LOC = "V3";#FPGA_KEY_COL2
+NET "col1_4<1>" LOC = "U4";#FPGA_KEY_COL3
+NET "col1_4<0>" LOC = "W3";#FPGA_KEY_COL4
+
+//U20选择FPGA_NUM1 7段数码管的扫描位
+NET "num1_scan_select<1>" LOC = "F5";//FPGA_NUM_CSn4
+NET "num1_scan_select<0>" LOC = "C4";//FPGA_NUM_CSn5
+
+NET "num1_seg7<7>" LOC = "E3"; # FPGA_NUM1_DP
+NET "num1_seg7<6>" LOC = "D3"; # FPGA_NUM1_A
+NET "num1_seg7<5>" LOC = "E4"; # FPGA_NUM1_B
+NET "num1_seg7<4>" LOC = "E5"; # FPGA_NUM1_C
+NET "num1_seg7<3>" LOC = "D5"; # FPGA_NUM1_D
+NET "num1_seg7<2>" LOC = "E6"; # FPGA_NUM1_E
+NET "num1_seg7<1>" LOC = "C3"; # FPGA_NUM1_F
+NET "num1_seg7<0>" LOC = "F3"; # FPGA_NUM1_G	

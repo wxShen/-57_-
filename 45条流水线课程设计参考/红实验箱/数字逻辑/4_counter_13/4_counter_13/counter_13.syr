@@ -1,0 +1,389 @@
+Release 14.3 - xst P.40xd (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.19 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.19 secs
+ 
+--> Reading design: counter_13.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "counter_13.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "counter_13"
+Output Format                      : NGC
+Target Device                      : xc6slx150-3-fgg484
+
+---- Source Options
+Top Module Name                    : counter_13
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "F:\4_counter_13\counter_13.v" into library work
+Parsing module <counter_13>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <counter_13>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <counter_13>.
+    Related source file is "F:\4_counter_13\counter_13.v".
+    Found 1-bit register for signal <Q2>.
+    Found 1-bit register for signal <Q1>.
+    Found 1-bit register for signal <Q0>.
+    Found 2-bit register for signal <num1_scan_select>.
+    Found 1-bit register for signal <led8_C>.
+    Found 1-bit register for signal <Q3>.
+    Found 16x8-bit Read Only RAM for signal <num1_seg7>
+    Summary:
+	inferred   1 RAM(s).
+	inferred   7 D-type flip-flop(s).
+Unit <counter_13> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 1
+ 16x8-bit single-port Read Only RAM                    : 1
+# Registers                                            : 3
+ 1-bit register                                        : 1
+ 2-bit register                                        : 1
+ 4-bit register                                        : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+WARNING:Xst:1710 - FF/Latch <num1_scan_select_1> (without init value) has a constant value of 1 in block <counter_13>. This FF/Latch will be trimmed during the optimization process.
+
+Synthesizing (advanced) Unit <counter_13>.
+INFO:Xst:3231 - The small RAM <Mram_num1_seg7> will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 16-word x 8-bit                     |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <(Q3,Q2,Q1,Q0)> |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <num1_seg7>     |          |
+    -----------------------------------------------------------------------
+Unit <counter_13> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 1
+ 16x8-bit single-port distributed Read Only RAM        : 1
+# Registers                                            : 7
+ Flip-Flops                                            : 7
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1710 - FF/Latch <num1_scan_select_1> (without init value) has a constant value of 1 in block <counter_13>. This FF/Latch will be trimmed during the optimization process.
+
+Optimizing unit <counter_13> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block counter_13, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 6
+ Flip-Flops                                            : 6
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : counter_13.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 14
+#      GND                         : 1
+#      LUT2                        : 1
+#      LUT3                        : 1
+#      LUT4                        : 10
+#      VCC                         : 1
+# FlipFlops/Latches                : 6
+#      FDR                         : 5
+#      FDS                         : 1
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 12
+#      IBUF                        : 1
+#      OBUF                        : 11
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx150fgg484-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:               5  out of  184304     0%  
+ Number of Slice LUTs:                   12  out of  92152     0%  
+    Number used as Logic:                12  out of  92152     0%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:     12
+   Number with an unused Flip Flop:       7  out of     12    58%  
+   Number with an unused LUT:             0  out of     12     0%  
+   Number of fully used LUT-FF pairs:     5  out of     12    41%  
+   Number of unique control sets:         1
+
+IO Utilization: 
+ Number of IOs:                          13
+ Number of bonded IOBs:                  13  out of    338     3%  
+    IOB Flip Flops/Latches:               1
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     16     6%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+button_clk                         | BUFGP                  | 6     |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 1.882ns (Maximum Frequency: 531.265MHz)
+   Minimum input arrival time before clock: 2.396ns
+   Maximum output required time after clock: 4.939ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'button_clk'
+  Clock period: 1.882ns (frequency: 531.265MHz)
+  Total number of paths / destination ports: 17 / 5
+-------------------------------------------------------------------------
+Delay:               1.882ns (Levels of Logic = 1)
+  Source:            Q3 (FF)
+  Destination:       led8_C (FF)
+  Source Clock:      button_clk rising
+  Destination Clock: button_clk rising
+
+  Data Path: Q3 to led8_C
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q             11   0.447   1.130  Q3 (Q3)
+     LUT4:I0->O            1   0.203   0.000  state_num[3]_PWR_1_o_equal_2_o<3>1 (state_num[3]_PWR_1_o_equal_2_o)
+     FDR:D                     0.102          led8_C
+    ----------------------------------------
+    Total                      1.882ns (0.752ns logic, 1.130ns route)
+                                       (40.0% logic, 60.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'button_clk'
+  Total number of paths / destination ports: 6 / 6
+-------------------------------------------------------------------------
+Offset:              2.396ns (Levels of Logic = 1)
+  Source:            sw6_reset (PAD)
+  Destination:       led8_C (FF)
+  Destination Clock: button_clk rising
+
+  Data Path: sw6_reset to led8_C
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             6   1.222   0.744  sw6_reset_IBUF (sw6_reset_IBUF)
+     FDR:R                     0.430          led8_C
+    ----------------------------------------
+    Total                      2.396ns (1.652ns logic, 0.744ns route)
+                                       (69.0% logic, 31.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'button_clk'
+  Total number of paths / destination ports: 30 / 9
+-------------------------------------------------------------------------
+Offset:              4.939ns (Levels of Logic = 2)
+  Source:            Q0 (FF)
+  Destination:       num1_seg7<5> (PAD)
+  Source Clock:      button_clk rising
+
+  Data Path: Q0 to num1_seg7<5>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q             12   0.447   1.137  Q0 (Q0)
+     LUT4:I1->O            1   0.205   0.579  num1_seg7<5>1 (num1_seg7_5_OBUF)
+     OBUF:I->O                 2.571          num1_seg7_5_OBUF (num1_seg7<5>)
+    ----------------------------------------
+    Total                      4.939ns (3.223ns logic, 1.716ns route)
+                                       (65.3% logic, 34.7% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock button_clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+button_clk     |    1.882|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 7.00 secs
+Total CPU time to Xst completion: 6.54 secs
+ 
+--> 
+
+Total memory usage is 253820 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    2 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

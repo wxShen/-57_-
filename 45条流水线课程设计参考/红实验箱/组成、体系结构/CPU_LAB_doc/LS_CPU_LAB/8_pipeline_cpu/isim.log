@@ -1,0 +1,33 @@
+ISim log file
+Running: F:\LS_CPU_LAB\8_pipeline_cpu\tb_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb F:/LS_CPU_LAB/8_pipeline_cpu/tb_isim_beh.wdb 
+ISim O.61xd (signature 0x1cce1bb2)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+ Block Memory Generator CORE Generator module loading initial data...
+WARNING: at 0 ps: file inst_rom.mif could not be opened
+
+
+1465331350153982224147467232072913762988861607380484459110551152183111192004746149403861397757651932798722481622905633130827289426003030588447311599813156657                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           32629453090244366080496462182
+Stopped at time : 0 fs : File "D:/Xilinx/13.2/ISE_DS/ISE/verilog/src/glbl.v" Line 49
+# run all
+ Block Memory Generator data initialization complete.
+Block Memory Generator CORE Generator module tb.uut.inst_rom_module.inst.\native_mem_module.blk_mem_gen_v6_1_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator CORE Generator module tb.uut.data_ram_module.inst.\native_mem_module.blk_mem_gen_v6_1_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Finished circuit initialization process.
+# run all
+Stopped at time : 627745 ns : File "F:/LS_CPU_LAB/8_pipeline_cpu/decode.v" Line 235
+ISim O.61xd (signature 0x1cce1bb2)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+ Block Memory Generator CORE Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator CORE Generator module tb.uut.inst_rom_module.inst.\native_mem_module.blk_mem_gen_v6_1_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator CORE Generator module tb.uut.data_ram_module.inst.\native_mem_module.blk_mem_gen_v6_1_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Finished circuit initialization process.
+# run all
+Stopped at time : 412115 ns : File "F:/LS_CPU_LAB/8_pipeline_cpu/mem.v" Line 154

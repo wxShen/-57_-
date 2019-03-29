@@ -1,0 +1,9 @@
+NET "sw6_a1" LOC = "N1";# FPGA_SW5 
+NET "sw5_a0" LOC = "P1"; # FPGA_SW4
+
+NET "sw1_d1" LOC = "T2"; # FPGA_SW0
+NET "sw2_d2" LOC = "T1"; # FPGA_SW1
+NET "sw3_d3" LOC = "R1"; # FPGA_SW2
+NET "sw4_d4" LOC = "P2"; # FPGA_SW3
+
+NET "led8_out" LOC = "G8"; # FPGA_LEDG

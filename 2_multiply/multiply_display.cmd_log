@@ -1,0 +1,28 @@
+xst -intstyle ise -ifn "F:/LS_CPU_LAB/2_multiply/multiply_display.xst" -ofn "F:/LS_CPU_LAB/2_multiply/multiply_display.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc multiply.ucf -p xc6slx150-fgg484-3 multiply_display.ngc multiply_display.ngd  
+map -intstyle ise -p xc6slx150-fgg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o multiply_display_map.ncd multiply_display.ngd multiply_display.pcf 
+par -w -intstyle ise -ol high -mt off multiply_display_map.ncd multiply_display.ncd multiply_display.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml multiply_display.twx multiply_display.ncd -o multiply_display.twr multiply_display.pcf -ucf multiply.ucf 
+bitgen -intstyle ise -f multiply_display.ut multiply_display.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc multiply.ucf -p xc6slx150-fgg484-3 multiply_display.ngc multiply_display.ngd  
+map -intstyle ise -p xc6slx150-fgg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o multiply_display_map.ncd multiply_display.ngd multiply_display.pcf 
+par -w -intstyle ise -ol high -mt off multiply_display_map.ncd multiply_display.ncd multiply_display.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml multiply_display.twx multiply_display.ncd -o multiply_display.twr multiply_display.pcf -ucf multiply.ucf 
+bitgen -intstyle ise -f multiply_display.ut multiply_display.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc multiply.ucf -p xc6slx150-fgg484-3 multiply_display.ngc multiply_display.ngd  
+map -intstyle ise -p xc6slx150-fgg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o multiply_display_map.ncd multiply_display.ngd multiply_display.pcf 
+par -w -intstyle ise -ol high -mt off multiply_display_map.ncd multiply_display.ncd multiply_display.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml multiply_display.twx multiply_display.ncd -o multiply_display.twr multiply_display.pcf -ucf multiply.ucf 
+bitgen -intstyle ise -f multiply_display.ut multiply_display.ncd 
+xst -intstyle ise -ifn "F:/LS_CPU_LAB/2_multiply/multiply_display.xst" -ofn "F:/LS_CPU_LAB/2_multiply/multiply_display.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc multiply.ucf -p xc6slx150-fgg484-3 multiply_display.ngc multiply_display.ngd  
+map -intstyle ise -p xc6slx150-fgg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o multiply_display_map.ncd multiply_display.ngd multiply_display.pcf 
+par -w -intstyle ise -ol high -mt off multiply_display_map.ncd multiply_display.ncd multiply_display.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml multiply_display.twx multiply_display.ncd -o multiply_display.twr multiply_display.pcf -ucf multiply.ucf 
+bitgen -intstyle ise -f multiply_display.ut multiply_display.ncd 
+xst -intstyle ise -ifn "C:/Users/CHZHD/Desktop/2_multiply/multiply_display.xst" -ofn "C:/Users/CHZHD/Desktop/2_multiply/multiply_display.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc multiply.ucf -p xc6slx150-fgg484-3 multiply_display.ngc multiply_display.ngd  
+map -intstyle ise -p xc6slx150-fgg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o multiply_display_map.ncd multiply_display.ngd multiply_display.pcf 
+par -w -intstyle ise -ol high -mt off multiply_display_map.ncd multiply_display.ncd multiply_display.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml multiply_display.twx multiply_display.ncd -o multiply_display.twr multiply_display.pcf -ucf multiply.ucf 
+bitgen -intstyle ise -f multiply_display.ut multiply_display.ncd 

@@ -1,0 +1,8 @@
+Release 14.3 Drc P.40xd (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Tue Jan 12 10:08:59 2016
+
+drc -z mux4_1.ncd mux4_1.pcf
+
+DRC detected 0 errors and 0 warnings.

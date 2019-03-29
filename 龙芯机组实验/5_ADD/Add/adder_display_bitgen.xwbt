@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\CSLab\Documents\ADD\Add\adder_display.ncd
+OUTFILE=C:\Users\CSLab\Documents\ADD\Add\adder_display.bit
+FAMILY=Spartan6
+PART=xc6slx150-3fgg484
+WORKINGDIR=C:\Users\CSLab\Documents\ADD\Add
+LICENSE=ISE
+USER_INFO=135256_15690819_173552794_661

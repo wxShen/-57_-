@@ -1,0 +1,42 @@
+ISim log file
+Running: C:\Users\CHZHD\Desktop\2_multiply\testbench_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/CHZHD/Desktop/2_multiply/testbench_isim_beh.wdb 
+ISim O.61xd (signature 0x1cce1bb2)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# step
+# step
+# step
+ISim O.61xd (signature 0x1cce1bb2)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# step
+# step
+# step
+# step
+# step
+# step
+# step
+# step
+# step
+# step
+# step
+# step
+# step
+# step
+# step
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+ISim O.61xd (signature 0x1cce1bb2)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.

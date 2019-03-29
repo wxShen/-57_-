@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\Users\pulse_jk_flipflop\pulse_jk_flipflop.ncd
+OUTFILE=D:\Users\pulse_jk_flipflop\pulse_jk_flipflop.bit
+FAMILY=Spartan6
+PART=xc6slx150-3fgg484
+WORKINGDIR=D:\Users\pulse_jk_flipflop
+LICENSE=ISE
+USER_INFO=__0_0_0

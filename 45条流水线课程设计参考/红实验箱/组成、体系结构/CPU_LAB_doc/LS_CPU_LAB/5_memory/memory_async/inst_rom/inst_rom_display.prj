@@ -1,0 +1,3 @@
+verilog work "lcd_module.v"
+verilog work "inst_rom.v"
+verilog work "inst_rom_display.v"
